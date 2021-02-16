@@ -1,0 +1,30 @@
+{
+  "name": "kshw-fe",
+  "version": "1.0.0",
+  "description": "KSHW Frontend ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/candrawaskito/kshw-fe.git"
+  },
+  "keywords": [
+    "kshw",
+    "frontend",
+    "html",
+    "css"
+  ],
+  "author": "Candra Waskito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/candrawaskito/kshw-fe/issues"
+  },
+  "homepage": "https://github.com/candrawaskito/kshw-fe#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

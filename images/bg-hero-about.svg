@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="736" viewBox="0 0 1440 736">
+    <defs>
+        <linearGradient id="v520sbf2hb" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#59C2E9"/>
+            <stop offset="100%" stop-color="#2D8FCE"/>
+        </linearGradient>
+        <path id="1atowjaaja" d="M0 0H1440V736H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="a4q8nn209c" fill="#fff">
+            <use xlink:href="#1atowjaaja"/>
+        </mask>
+        <use fill="url(#v520sbf2hb)" xlink:href="#1atowjaaja"/>
+        <g opacity=".445" style="mix-blend-mode:soft-light" mask="url(#a4q8nn209c)">
+            <g>
+                <path fill="#48CBFE" d="M1578.347 136.906c-219.612-167.97-470.102-181.378-751.471-40.225-52.567 26.371-192.948 105.803-307.89 188.44C404.041 367.758 169.16 495.703 0 470.887c68.08 30.32 283.205 69.699 497.827 40.99 214.621-28.709 601.69-361.593 819.967-387.591 117.565-14.003 204.416-9.796 260.553 12.62z" transform="translate(14 143)"/>
+                <path fill="#ADADB1" d="M1419.83 143.409c-71.71 2.485-139.281 20.223-202.713 53.213-110.644 57.544-307.569 199.391-412.385 274.892 36.057 7.064 257.824-.327 460.553-151.52 72.407-53.999 123.922-112.86 154.545-176.585z" transform="translate(14 143)"/>
+            </g>
+        </g>
+    </g>
+</svg>

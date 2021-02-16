@@ -1,0 +1,61 @@
+
+/**
+Homepage
+ */
+@import "section/home/hero";
+@import "section/home/donation";
+@import "section/home/project-category";
+@import "section/home/project";
+@import "section/home/slider-donation";
+@import "section/home/zakat";
+@import "section/home/project-gallery";
+@import "section/home/country-map";
+
+/**
+About
+ */
+@import "section/about/hero";
+@import "section/about/the-mission";
+@import "section/about/team";
+@import "section/about/map";
+@import "section/about/join-us";
+
+/**
+Cart
+ */
+@import "section/cart/content";
+@import "section/cart/progress";
+@import "section/cart/donation";
+@import "section/cart/security";
+
+/**
+Project
+ */
+@import "section/project/hero";
+@import "section/project/project-carousel";
+@import "section/project/project-heading";
+@import "section/project/content";
+@import "section/project/project-detail-heading";
+@import "section/project/load-more";
+@import "section/project/project-section";
+@import "section/project/category-project";
+
+/**
+Single Project
+ */
+@import "section/single-project/heading";
+@import "section/single-project/detail";
+@import "section/single-project/gallery";
+@import "section/single-project/milestone";
+
+/**
+Search Page
+ */
+@import "section/search/hero";
+@import "section/search/content";
+
+/**
+Contact
+ */
+@import "section/contact/hero";
+@import "section/contact/content";

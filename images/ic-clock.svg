@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-clock" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M7.5,0 C3.364,0 0,3.364 0,7.5 C0,11.636 3.364,15 7.5,15 C11.636,15 15,11.636 15,7.5 C15,3.364 11.636,0 7.5,0 Z M7.5,1.25 C10.96,1.25 13.75,4.04 13.75,7.5 C13.75,10.96 10.96,13.75 7.5,13.75 C4.04,13.75 1.25,10.96 1.25,7.5 C1.25,4.04 4.04,1.25 7.5,1.25 Z M6.875,2.5 L6.875,8.125 L11.25,8.125 L11.25,6.875 L8.125,6.875 L8.125,2.5 L6.875,2.5 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

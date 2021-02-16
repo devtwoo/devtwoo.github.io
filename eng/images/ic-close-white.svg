@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic-close-white</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic-close-white" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M1.373,1.02 C1.569,0.825 1.885,0.825 2.081,1.02 L6.499,5.44 L10.919,1.02 C11.115,0.825 11.431,0.825 11.627,1.02 L11.98,1.373 C12.175,1.569 12.175,1.885 11.98,2.081 L7.56,6.5 L11.98,10.92 C12.175,11.115 12.175,11.431 11.98,11.627 L11.627,11.98 C11.431,12.175 11.115,12.175 10.919,11.98 L6.5,7.56 L2.08,11.98 C1.884,12.175 1.568,12.175 1.372,11.98 L1.019,11.627 C0.824,11.431 0.824,11.115 1.019,10.919 L5.438,6.5 L1.02,2.08 C0.825,1.885 0.825,1.569 1.02,1.373 L1.373,1.02 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

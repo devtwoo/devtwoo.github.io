@@ -1,0 +1,73 @@
+
+.form-group {
+  margin-bottom: 30px;
+
+  label {
+    font-family: $g-ff-museo-300;
+    font-size: 12px;
+    color: rgba($black, .85);
+    margin-bottom: 10px;
+    line-height: normal;
+  }
+}
+
+.form-control {
+  border-radius: 19px;
+  border: solid 1px #979797;
+  background-color: #ffffff;
+  padding-left: 26px;
+  padding-right: 26px;
+  font-family: $g-ff-museo-300;
+  font-size: 12px;
+  color: rgba(var(--black), .85);
+
+  &:focus,
+  &:active,
+  &:visited {
+    outline: none;
+    box-shadow: none;
+  }
+
+  &::placeholder {
+    font-family: $g-ff-museo-300;
+    font-size: 12px;
+    color: rgba(var(--black), .85);
+  }
+
+  &[type="text"],
+  &[type="email"],
+  &[type="number"],
+  &[type="password"]{
+    height: 38px;
+  }
+}
+
+textarea {
+  padding-top: 22px !important;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,13 @@
+.load-more {
+  &.hide {
+    display: none;
+  }
+}
+
+.js-load-more-project {
+  display: none;
+
+  &.show {
+    display: block;
+  }
+}

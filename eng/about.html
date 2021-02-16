@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Search Result | KSHW</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/alds-global.css">
+    <link rel="stylesheet" href="css/kshw.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdCq0Wt9C8LiSmxrpxoEOuGUmtdRM_Nz8&callback=initMap&libraries=&v=weekly" defer></script>
+</head>
+
+<body>
+    <!--start:header-->
+    <header id="header" class="header fixed-top tablet-hidden">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="header-top-left">
+                            <ul class="list-unstyled header-sosmed">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/ic-facebook-blue.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/ic-twitter-blue.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/ic-instagram-blue.svg">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="images/ic-globe.svg">
+                                    <span>English</span>
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="../about.html">العربيّة</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="header-top-right">
+                            <div class="cart-button">
+                                <a href="cart.html">
+                                    <img src="images/ic-cart-white.svg">
+                                    <div class="number">
+                                        1
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <div class="img-people">
+                                        <img src="images/img.jpg">
+                                    </div>
+                                    <span>John Doel</span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownUser">
+                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLoginHeader">Login</a>
+                                    <a class="dropdown-item" href="MyProfile.html">My Profiles</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="navbar">
+                <div class="container">
+                    <div class="navbar-nav">
+                        <ul class="list-unstyled">
+                            <li class="active">
+                                <a href="index.html">HOME</a>
+                            </li>
+                            <li>
+                                <a href="projects.html">PROJECTS</a>
+                            </li>
+                            <li>
+                                <a href="about.html">ABOUT US</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="index.html" class="navbar-brand">
+                        <img src="images/logo-primary@2x.png" alt="">
+                    </a>
+                    <div class="navbar-nav">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <img src="images/ic-search.svg">
+                            </div>
+                            <input type="text" class="form-control" placeholder="Search Project">
+                            <a href="#"><img src="images/ic-close-white.svg"></a>
+                            <div class="input-group-append">
+                                <a href="search.html" class="btn btn-search">SEARCH</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="header desktop-hidden">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-mobile">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo-primary@2x.png" alt="">
+            </a>
+            <div class="d-flex align-items-center">
+                <div class="cart-button">
+                    <a href="cart.html">
+                        <img src="images/ic-cart-white.svg">
+                        <div class="number">
+                            1
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown dropdown-user">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="img-people">
+                            <img src="images/img.jpg">
+                        </div>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownUser">
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLoginHeader">Login</a>
+                        <a class="dropdown-item" href="MyProfile.html">My Profiles</a>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="images/ic-hamburger.svg" alt="">
+            </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <img src="images/ic-search.svg">
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search Project">
+                    <a href="#"><img src="images/ic-close-white.svg"></a>
+                    <div class="input-group-append">
+                        <a href="search.html" class="btn btn-search">SEARCH</a>
+                    </div>
+                </div>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+                <div class="navbar-mobile-bottom d-flex justify-content-between">
+                    <ul class="list-unstyled header-sosmed d-flex">
+                        <li class="mr-5">
+                            <a href="#">
+                                <img src="images/ic-facebook-blue.svg">
+                            </a>
+                        </li>
+                        <li class="mr-5">
+                            <a href="#">
+                                <img src="images/ic-twitter-blue.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/ic-instagram-blue.svg">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="images/ic-globe.svg">
+                            <span>English</span>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">العربيّة</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--end:header-->
+
+    <!--start:modal login header-->
+    <div class="modal modal-login-header fade" id="modalLoginHeader" tabindex="-1" aria-labelledby="modalLoginHeaderLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="modal-body-left">
+                                <img src="images/logo-login@2x.png" alt="KSHW">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="modal-body-right">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                                <h4>Login To Your Account</h4>
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="emailLogin">Email Address</label>
+                                        <input type="email" class="form-control" id="emailLogin">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="passwordLogin">Password</label>
+                                        <input type="password" class="form-control" id="passwordLogin">
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-6 form-check text-left">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                                        </div>
+                                        <div class="form-group col-6 text-right">
+                                            <a href="#">Lost your password?</a>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <a href="#" class="btn btn-primary btn-block">LOG IN</a>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-primary btn-block">REGISTER</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end:modal login header-->
+
+    <!--start:Hero About-->
+    <section id="hero" class="hero hero-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12">
+                    <div class="content text-center">
+                        <h1>About Us</h1>
+                        <p>Kuwait Humanitarian Society charity was established in Kuwait. Declared under Ministerial Decree No. (72 /A) 2016 and in accordance with the provisions of Law No. 24 Year 1962 of the Ministry of Social Affairs and Labor</p>
+                        <div class="play-video">
+                            <a href="#">
+                                <img src="images/bg-play-video@2x.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:Hero About-->
+
+    <!--start:the mission-->
+    <section id="the-mission" class="the-mission">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12">
+                    <div class="heading text-center">
+                        <h4>The Mission</h4>
+                        <p>Our mission are to help people in need and generate resources through fundraising and use those funds to make an impact in the lives of people in need.</p>
+                    </div>
+                </div>
+                <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12">
+                    <div class="content">
+                        <div class="content-left">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <span>Strengthen Kuwait's role as a global center for humanity worldwide</span>
+                                    <div class="number">
+                                        1
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>Highlight the positive image of Kuwaiti humanitarian work worldwide.</span>
+                                    <div class="number">
+                                        2
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>Highlight the tolerance of Islam and the bright image of Islam's authentic human values.</span>
+                                    <div class="number">
+                                        3
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>Disseminating the intermediate curriculum that respects human dignity sensually and morally.</span>
+                                    <div class="number">
+                                        4
+                                    </div>
+                                </li>
+                                <li>
+                                    <span>Highlighting the images of Islam's care for humanity in various fields of caring for needy families and orphans.</span>
+                                    <div class="number">
+                                        5
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="content-middle">
+                            <img src="images/logo-secondary@2x.png" alt="KSHW">
+                        </div>
+                        <div class="content-right">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <div class="number">
+                                        6
+                                    </div>
+                                    <span>Turn the liquid hand into a productive hand.</span>
+                                </li>
+                                <li>
+                                    <div class="number">
+                                        7
+                                    </div>
+                                    <span>Preserving the dignity of the needy health and education and upgrading their care.</span>
+                                </li>
+                                <li>
+                                    <div class="number">
+                                        8
+                                    </div>
+                                    <span>Attention and containment of young people and upgrading their intellectual level.</span>
+                                </li>
+                                <li>
+                                    <div class="number">
+                                        9
+                                    </div>
+                                    <span>Caring for new converts on the middle curriculum.</span>
+                                </li>
+                                <li>
+                                    <div class="number">
+                                        10
+                                    </div>
+                                    <span>Conducting studies, researches, conferences and specialized courses in the development of humanitarian work and publications and media and cultural exhibitions related to the objectives of the Association.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:the mission-->
+
+    <!--start:team-->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 col-md-12">
+                    <div class="heading text-center">
+                        <h4>OUR TEAM</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="team-card">
+                            <div class="team-card-heading">
+                                <div class="picture">
+                                    <img src="images/img-people-1@2x.png" alt="Chineze Afamefuna">
+                                </div>
+                            </div>
+                            <div class="team-card-body">
+                                <div class="meta">
+                                    <h4>Chineze Afamefuna</h4>
+                                    <span>FOUNDER</span>
+                                    <div class="hr"></div>
+                                </div>
+                                <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis nulla ac neque efficitur eleifend.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="team-card">
+                            <div class="team-card-heading">
+                                <div class="picture">
+                                    <img src="images/img-people-2@2x.png" alt="Leslee Moss">
+                                </div>
+                            </div>
+                            <div class="team-card-body">
+                                <div class="meta">
+                                    <h4>Leslee Moss</h4>
+                                    <span>CO FOUNDER</span>
+                                    <div class="hr"></div>
+                                </div>
+                                <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis nulla ac neque efficitur eleifend.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="team-card">
+                            <div class="team-card-heading">
+                                <div class="picture">
+                                    <img src="images/img-people-3@2x.png" alt="Furmaan Bharyar">
+                                </div>
+                            </div>
+                            <div class="team-card-body">
+                                <div class="meta">
+                                    <h4>Furmaan Bharyar</h4>
+                                    <span>OPERATIONAL</span>
+                                    <div class="hr"></div>
+                                </div>
+                                <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis nulla ac neque efficitur eleifend.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="team-card">
+                            <div class="team-card-heading">
+                                <div class="picture">
+                                    <img src="images/img-people-4@2x.png" alt="Adhraaa Al Azimi">
+                                </div>
+                            </div>
+                            <div class="team-card-body">
+                                <div class="meta">
+                                    <h4>Adhraaa Al Azimi</h4>
+                                    <span>SUPERVISOR</span>
+                                    <div class="hr"></div>
+                                </div>
+                                <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis nulla ac neque efficitur eleifend.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:team-->
+
+    <!--start:map-->
+    <section id="map" class="map">
+        <div id="map-view"></div>
+        <div class="map-card">
+            <h4>OFFICE LOCATION</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="https://goo.gl/maps/ikXsy6CVxDLTn6ac6" target="_blank"><img src="images/ic-direction.svg"> Get Direction</a>
+        </div>
+    </section>
+    <!--end:map-->
+
+    <!--start:join us-->
+    <section id="join-us" class="join-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12">
+                    <div class="content text-center">
+                        <h2>LETS WORK TOGETHER</h2>
+                        <h5>JOIN US AS VOLUNTEER?</h5>
+                        <div class="hr"></div>
+                        <p>Vivamus eleifend lorem molestie erat sagittis cursus. Morbi sit amet leo fringilla, pretium purus ac, maximus nisl. Etiam pellentesque, mauris efficitur fermentum faucibus, erat</p>
+
+                        <a href="#" class="btn btn-secondary">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:join us-->
+
+    <!--start:footer-->
+    <footer id="footer" class="footer g-bg-dark-navy-blue">
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-12">
+                        <div>
+                            <h4 class="g-ff-museo-700 g-fs-20 g-mb-30 g-cl-white">KUWAIT SOCIETY FOR HUMANITARIAN WORK</h4>
+                            <p class="g-ff-museo-500 g-fs-12 g-lh-27 g-cl-text-gray g-mb-0">The Kuwaiti Humanitarian Society was declared by Ministerial Decree No. (72 / A) of 2016 and in accordance with the provisions of Law No. 24 of 1962 of the Ministry of Social Affairs and Labor.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1 col-md-6 col-sm-12">
+                        <div>
+                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">CONTACT US</h4>
+                            <ul class="list-unstyled g-pl-0 g-mb-0 g-ml-0">
+                                <li class="g-mb-21">
+                                    <a href="#" class="g-ff-museo-500 g-fs-14 g-cl-text-gray">hello@kshw.com</a>
+                                </li>
+                                <li>
+                                    <address class="g-ff-museo-500 g-fs-14 g-lh-36 g-cl-text-gray g-mb-21">
+                                    121 n 9th st <br>
+                                    Boise, ID 84702 <br>
+                                    Kuwait
+                                </address>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div>
+                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">GET STARTED</h4>
+                            <ul class="list-unstyled g-pl-0 g-ml-0 g-pl-0">
+                                <li class="g-mb-20">
+                                    <a href="#" class="g-ff-museo-700 g-fs-14 g-cl-text-gray-light g-tt-upp">PROJECTS</a>
+                                </li>
+                                <li class="g-mb-20">
+                                    <a href="#" class="g-ff-museo-700 g-fs-14 g-cl-text-gray-light g-tt-upp">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="g-ff-museo-700 g-fs-14 g-cl-text-gray-light g-tt-upp">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div class="g-pl-40">
+                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">FOLLOW US</h4>
+                            <ul class="list-unstyled g-ml-0 g-pl-0 g-mb-0">
+                                <li class="g-mb-25">
+                                    <a href="#"><img class="g-w-25 g-mr-24" src="images/ic-facebook.svg"> <span class="g-ff-museo-500 g-fs-14 g-cl-text-gray">Facebook</span></a>
+                                </li>
+                                <li class="g-mb-25">
+                                    <a href="#"><img class="g-w-25 g-mr-24" src="images/ic-twitter.svg"> <span class="g-ff-museo-500 g-fs-14 g-cl-text-gray">Twitter</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img class="g-w-25 g-mr-24" src="images/ic-instagram.svg"> <span class="g-ff-museo-500 g-fs-14 g-cl-text-gray">Instagram</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="footer-logo">
+                            <a href="#">
+                                <img class="g-h-68" src="images/logo-secondary@3x.png" alt="KSHW">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="g-h-100p g-d-flex g-jus-end g-items-end">
+                            <p class="g-ff-museo-500 g-fs-12 g-cl-text-gray g-mb-0">Kuwait Society for Humanitarian ©2019, All Right Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end:footer-->
+
+    <!--start:javascript-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/kshw.js"></script>
+    <!--end:javascript-->
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+
+.btn {
+  font-family: $g-ff-museo-700;
+  font-size: 12px;
+  line-height: calc(38px - 2px);
+  border-radius: 100px;
+  padding: 0 30px;
+  text-transform: uppercase;
+
+  &:focus {
+    box-shadow: none !important;
+  }
+
+  &-outline {
+    &-primary {
+      border: 1px solid var(--grapefruit);
+      color: var(--grapefruit);
+      padding-left: 50px;
+      padding-right: 50px;
+
+      &:not(:disabled):not(.disabled).active,
+      &:not(:disabled):not(.disabled):active,
+      &:hover,
+      &:focus,
+      &:visited,
+      &:active {
+        background-color: var(--grapefruit);
+        border: 1px solid var(--grapefruit);
+        opacity: .9;
+      }
+    }
+
+    &-secondary {
+      border: 1px solid var(--dodger-blue);
+      color: var(--dodger-blue);
+      padding-left: 50px;
+      padding-right: 50px;
+
+      &:not(:disabled):not(.disabled).active,
+      &:not(:disabled):not(.disabled):active,
+      &:hover,
+      &:focus,
+      &:visited,
+      &:active {
+        background-color: var(--dodger-blue);
+        border: 1px solid var(--dodger-blue);
+        opacity: .9;
+      }
+    }
+  }
+
+  &-primary {
+     color: var(--white);
+     background-color: var(--grapefruit);
+     border: 1px solid var(--grapefruit);
+
+     &:not(:disabled):not(.disabled).active,
+     &:not(:disabled):not(.disabled):active,
+     &:hover,
+     &:focus,
+     &:visited,
+     &:active {
+       background-color: var(--grapefruit);
+       border: 1px solid var(--grapefruit);
+       opacity: .9;
+     }
+   }
+
+  &-secondary {
+    color: var(--white);
+    background-color: var(--dodger-blue);
+    border: 1px solid var(--dodger-blue);
+
+    &:not(:disabled):not(.disabled).active,
+    &:not(:disabled):not(.disabled):active,
+    &:hover,
+    &:focus,
+    &:visited,
+    &:active {
+      background-color: var(--dodger-blue);
+      border: 1px solid var(--dodger-blue);
+      opacity: .9;
+    }
+  }
+
+  &-gray {
+    color: var(--white);
+    background-color: #95989c;
+    border: 1px solid #95989c;
+
+    &:not(:disabled):not(.disabled).active,
+    &:not(:disabled):not(.disabled):active,
+    &:hover,
+    &:focus,
+    &:visited,
+    &:active {
+      background-color: #95989c;
+      border: 1px solid #95989c;
+      color: var(--white);
+      opacity: .9;
+    }
+  }
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

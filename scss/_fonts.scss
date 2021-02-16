@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'DroidArabicKufi';
+  src: url('../fonts/DroidArabicKufi.woff2') format('woff2'),
+  url('../fonts/DroidArabicKufi.woff') format('woff'),
+  url('../fonts/DroidArabicKufi.svg#DroidArabicKufi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DroidArabicKufi-Bold';
+  src: url('../fonts/DroidArabicKufi-Bold.woff2') format('woff2'),
+  url('../fonts/DroidArabicKufi-Bold.woff') format('woff'),
+  url('../fonts/DroidArabicKufi-Bold.svg#DroidArabicKufi-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TanseekModernProArabic';
+  src: url('../fonts/TanseekModernProArabic-Book.woff2') format('woff2'),
+  url('../fonts/TanseekModernProArabic-Book.woff') format('woff'),
+  url('../fonts/TanseekModernProArabic-Book.svg#TanseekModernProArabic-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TanseekModernProArabic-Bold';
+  src: url('../fonts/TanseekModernProArabic-Bold.woff2') format('woff2'),
+  url('../fonts/TanseekModernProArabic-Bold.woff') format('woff'),
+  url('../fonts/TanseekModernProArabic-Bold.svg#TanseekModernProArabic-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MuseoSans-100';
+  src: url('../fonts/MuseoSans-100.woff2') format('woff2'),
+  url('../fonts/MuseoSans-100.woff') format('woff'),
+  url('../fonts/MuseoSans-100.svg#MuseoSans-100') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MuseoSans-300';
+  src: url('../fonts/MuseoSans-300.woff2') format('woff2'),
+  url('../fonts/MuseoSans-300.woff') format('woff'),
+  url('../fonts/MuseoSans-300.svg#MuseoSans-300') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MuseoSans-500';
+  src: url('../fonts/MuseoSans-500.woff2') format('woff2'),
+  url('../fonts/MuseoSans-500.woff') format('woff'),
+  url('../fonts/MuseoSans-500.svg#MuseoSans-500') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MuseoSans-700';
+  src: url('../fonts/MuseoSans-700.woff2') format('woff2'),
+  url('../fonts/MuseoSans-700.woff') format('woff'),
+  url('../fonts/MuseoSans-700.svg#MuseoSans-700') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MuseoSans-900';
+  src: url('../fonts/MuseoSans-900.woff2') format('woff2'),
+  url('../fonts/MuseoSans-900.woff') format('woff'),
+  url('../fonts/MuseoSans-900.svg#MuseoSans-900') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+$g-ff-museo-100: 'MuseoSans-100', sans-serif;
+$g-ff-museo-300: 'MuseoSans-300', sans-serif;
+$g-ff-museo-500: 'MuseoSans-500', sans-serif;
+$g-ff-museo-700: 'MuseoSans-700', sans-serif;
+$g-ff-museo-900: 'MuseoSans-900', sans-serif;
+$g-ff-tanseek: 'TanseekModernProArabic', sans-serif;
+$g-ff-tanseek-bold: 'TanseekModernProArabic-Bold', sans-serif;
+$g-ff-droid: 'DroidArabicKufi', sans-serif;
+$g-ff-droid-bold: 'DroidArabicKufi-Bold', sans-serif;
+
+.g-ff-museo-100 {
+  font-family: $g-ff-museo-100;
+}
+
+.g-ff-museo-300 {
+  font-family: $g-ff-museo-300;
+}
+
+.g-ff-museo-500 {
+  font-family: $g-ff-museo-500;
+}
+
+.g-ff-museo-700 {
+  font-family: $g-ff-museo-700;
+}
+
+.g-ff-museo-900 {
+  font-family: $g-ff-museo-900;
+}
+
+.g-ff-droid {
+  font-family: $g-ff-droid;
+}
+
+.g-ff-droid-bold {
+  font-family: $g-ff-droid-bold;
+}
+
+.g-ff-tanseek {
+  font-family: $g-ff-tanseek;
+}
+
+.g-ff-tanseek-bold {
+  font-family: $g-ff-tanseek-bold;
+}

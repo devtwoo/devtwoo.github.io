@@ -1,0 +1,193 @@
+.contact-content {
+  padding-top: 88px;
+  padding-bottom: 88px;
+
+  .hr {
+    border-bottom: 1px solid rgba(black, .85);
+    width: 82px;
+  }
+
+  &-right {
+    .contact-form {
+      position: relative;
+      margin-top: -425px;
+
+      &.g-box-shadow {
+        box-shadow: 0 24px 54px -9px rgba(111, 111, 111, 0.5);
+      }
+
+      &-heading {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: #f5f4f7;
+      }
+
+      &-body {
+        background-color: var(--white);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+      }
+    }
+  }
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .contact-content {
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+    &-left {
+      text-align: center;
+      margin-bottom: 35px;
+
+      .hr {
+        margin: 0 auto;
+      }
+
+      ul {
+        li {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 20px !important;
+
+          img {
+            margin-right: 0 !important;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+
+    &-right {
+      .contact-form {
+        margin-top: 0;
+
+        &-heading {
+          padding: 20px !important;
+        }
+
+        &-body {
+          padding: 20px !important;
+
+          form {
+            .form-group {
+              margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact-content {
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+    &-left {
+      text-align: center;
+      margin-bottom: 35px;
+
+      .hr {
+        margin: 0 auto;
+      }
+
+      ul {
+        li {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 20px !important;
+
+          img {
+            margin-right: 0 !important;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+
+    &-right {
+      .contact-form {
+        margin-top: 0;
+
+        &-heading {
+          padding: 20px !important;
+        }
+
+        &-body {
+          padding: 20px !important;
+
+          form {
+            .form-group {
+              margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact-content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    &-left {
+      text-align: center;
+      margin-bottom: 35px;
+
+      .hr {
+        margin: 0 auto;
+      }
+
+      ul {
+        li {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 20px !important;
+
+          img {
+            margin-right: 0 !important;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+
+    &-right {
+      .contact-form {
+        margin-top: 0;
+
+        &-heading {
+          padding: 30px !important;
+        }
+
+        &-body {
+          padding: 30px !important;
+
+          form {
+            .form-group {
+              margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

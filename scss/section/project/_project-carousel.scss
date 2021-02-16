@@ -1,0 +1,608 @@
+.project-carousel {
+  margin-bottom: 88px;
+
+  &-wrap {
+    display: flex;
+  }
+
+  &-left {
+    width: 80%;
+
+    .card {
+      border: none;
+      border-radius: 0;
+
+      &-img-overlay {
+        background-image: linear-gradient(to bottom, rgba(19,23,27,0), #13171b);
+        padding: 34px 130px 58px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .card-img-top {
+          .card-img-date {
+            text-align: right;
+            margin-bottom: 116px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            img {
+              width: 24px;
+              height: 24px;
+              margin-right: 19px;
+            }
+
+            span {
+              font-family: $g-ff-museo-300;
+              font-weight: 300;
+              font-size: 14px;
+              letter-spacing: .8px;
+              color: white;
+            }
+          }
+        }
+
+        .card-img-middle {
+          ul {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+
+            li {
+              margin-right: 18px;
+
+              &:last-child {
+                margin-right: 0;
+              }
+
+              a {
+                height: 28px;
+                padding: 8px;
+                background-color: rgba(white, .4);
+                border-radius: 100px;
+                color: black;
+              }
+            }
+          }
+
+          .title {
+            font-family: $g-ff-museo-300;
+            font-weight: 300;
+            font-size: 32px;
+            color: white;
+            margin-bottom: 100px;
+          }
+        }
+
+        .card-img-bottom {
+          .progress {
+            height: 5px;
+            background-color: #e1e1e1;
+            border-radius: 100px;
+            margin-bottom: 32px;
+
+            &-bar {
+              height: 7px;
+              background-color: #ccc918;
+              border-radius: 100px;
+            }
+          }
+
+          p {
+            font-family: $g-ff-museo-300;
+            font-size: 16px;
+            color: #ccc918;
+
+            strong {
+              font-family: $g-ff-museo-700;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-right {
+    width: 40%;
+
+    .card {
+      border: none;
+      border-radius: 0;
+
+      &-img-overlay {
+        background-image: linear-gradient(to bottom, rgba(19,23,27,0), #13171b);
+        padding: 24px 42px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        .card-img-date {
+          text-align: right;
+          position: absolute;
+          right: 0;
+          margin-right: 42px;
+          margin-top: 20px;
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+          }
+
+          span {
+            font-family: $g-ff-museo-300;
+            font-weight: 300;
+            font-size: 12px;
+            letter-spacing: .8px;
+            color: white;
+          }
+        }
+
+        ul {
+          display: flex;
+          align-items: center;
+          margin-bottom: 30px;
+
+          li {
+            margin-right: 18px;
+
+            &:last-child {
+              margin-right: 0;
+            }
+
+            a {
+              height: 28px;
+              padding: 8px;
+              background-color: rgba(white, .4);
+              border-radius: 100px;
+              color: black;
+            }
+          }
+        }
+
+        .title {
+          font-family: $g-ff-museo-300;
+          font-weight: 300;
+          font-size: 18px;
+          color: white;
+        }
+
+        .progress {
+          height: 5px;
+          background-color: #e1e1e1;
+          border-radius: 100px;
+          margin-top: 25px;
+          margin-bottom: 25px;
+
+          &-bar {
+            height: 7px;
+            background-color: #ccc918;
+            border-radius: 100px;
+          }
+        }
+
+        p {
+          font-family: $g-ff-museo-300;
+          font-size: 16px;
+          color: #ccc918;
+          margin-bottom: 0;
+
+          strong {
+            font-family: $g-ff-museo-700;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+
+  .owl-dots {
+    position: relative;
+    margin-top: -35px;
+    margin-left: -100px;
+
+    .owl-dot {
+      outline: none;
+      box-shadow: none;
+
+      span {
+        width: 10px !important;
+        height: 10px !important;
+        background-color: #426880 !important;
+        padding: 0;
+        outline: none;
+        box-shadow: none;
+      }
+
+      &.active {
+        span {
+          width: 13px;
+          height: 13px;
+          background-color: #2d8fce !important;
+          border: 3px solid #38b3ff;
+        }
+      }
+    }
+  }
+
+  .owl-nav {
+    position: relative;
+    margin-top: -100px !important;
+    margin-right: -220px;
+
+    [class*=owl-]:hover {
+      background-color: transparent;
+      border-radius: 0;
+      border: none;
+      padding: 0;
+    }
+
+    .owl-prev,
+    .owl-next {
+      padding: 0 !important;
+      background: transparent !important;
+      outline: none;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: transparent;
+        border-radius: 0;
+        border: none;
+        padding: 0;
+      }
+    }
+
+    .owl-prev {
+      background-color: transparent;
+      border-radius: 0;
+      border: none;
+      padding: 0;
+
+      span {
+        background-color: transparent;
+        border-radius: 0;
+        border: none;
+        padding: 0;
+        content: url("../images/ic-arrow-circle-left-gray.svg");
+      }
+    }
+
+    .owl-next {
+      span {
+        background-color: transparent;
+        border-radius: 0;
+        border: none;
+        padding: 0;
+        content: url("../images/ic-arrow-circle-right-gray.svg");
+      }
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .owl-project-carousel {
+    .project-carousel-wrap {
+      flex-direction: column;
+
+      .project-carousel-left,
+      .project-carousel-right {
+        width: 100%;
+      }
+
+      .project-carousel-left {
+        .project-carousel-card {
+          .card-img-overlay {
+            padding: 25px;
+
+            .card-img-top {
+              .card-img-date {
+                margin-bottom: 20px;
+              }
+            }
+
+            .card-img-middle {
+              ul {
+                margin-bottom: 20px;
+
+                li {
+                  a {
+                    font-size: 12px;
+                  }
+                }
+              }
+
+              .title {
+                font-size: 18px;
+              }
+            }
+
+            .card-img-bottom {
+              margin-top: 15px;
+
+              .progress {
+                margin-bottom: 10px;
+              }
+
+              p {
+                font-size: 12px;
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+
+      .project-carousel-right {
+        .project-carousel-card {
+          .card-img-overlay {
+            padding: 20px;
+
+            ul {
+              margin-bottom: 20px;
+
+              li {
+                a {
+                  font-size: 12px;
+                }
+              }
+            }
+
+            .progress {
+              margin-bottom: 10px;
+            }
+
+            p {
+              font-size: 12px;
+            }
+
+            .card-img-date {
+              margin-right: 20px;
+
+              img {
+                width: 18px;
+                height: 18px;
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .owl-nav {
+      margin-top: 10px !important;
+      margin-right: 0;
+    }
+
+    .owl-dots {
+      margin-left: 0;
+      margin-top: 0;
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .owl-project-carousel {
+    .project-carousel-wrap {
+      flex-direction: column;
+
+      .project-carousel-left,
+      .project-carousel-right {
+        width: 100%;
+      }
+
+      .project-carousel-left {
+        .project-carousel-card {
+          .card-img-overlay {
+            padding: 25px;
+
+            .card-img-top {
+              .card-img-date {
+                margin-bottom: 20px;
+              }
+            }
+
+            .card-img-middle {
+              ul {
+                margin-bottom: 20px;
+
+                li {
+                  a {
+                    font-size: 12px;
+                  }
+                }
+              }
+
+              .title {
+                font-size: 18px;
+              }
+            }
+
+            .card-img-bottom {
+              margin-top: 15px;
+
+              .progress {
+                margin-bottom: 10px;
+              }
+
+              p {
+                font-size: 12px;
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+
+      .project-carousel-right {
+        .project-carousel-card {
+          .card-img-overlay {
+            padding: 20px;
+
+            ul {
+              margin-bottom: 20px;
+
+              li {
+                a {
+                  font-size: 12px;
+                }
+              }
+            }
+
+            .progress {
+              margin-bottom: 10px;
+            }
+
+            p {
+              font-size: 12px;
+            }
+
+            .card-img-date {
+              margin-right: 20px;
+
+              img {
+                width: 18px;
+                height: 18px;
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .owl-nav {
+      margin-top: 10px !important;
+      margin-right: 0;
+    }
+
+    .owl-dots {
+      margin-left: 0;
+      margin-top: 0;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .owl-project-carousel {
+    .project-carousel-wrap {
+      flex-direction: column;
+
+      .project-carousel-left,
+      .project-carousel-right {
+        width: 100%;
+      }
+
+      .project-carousel-left {
+        .project-carousel-card {
+          .card-img-overlay {
+            padding: 25px;
+
+            .card-img-top {
+              .card-img-date {
+                margin-bottom: 20px;
+              }
+            }
+
+            .card-img-middle {
+              ul {
+                margin-bottom: 20px;
+
+                li {
+                  a {
+                    font-size: 12px;
+                  }
+                }
+              }
+
+              .title {
+                font-size: 18px;
+              }
+            }
+
+            .card-img-bottom {
+              margin-top: 15px;
+
+              .progress {
+                margin-bottom: 10px;
+              }
+
+              p {
+                font-size: 12px;
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+
+      .project-carousel-right {
+        .project-carousel-card {
+          .card-img-overlay {
+            padding: 20px;
+
+            ul {
+              margin-bottom: 20px;
+
+              li {
+                a {
+                  font-size: 12px;
+                }
+              }
+            }
+
+            .progress {
+              margin-bottom: 10px;
+            }
+
+            p {
+              font-size: 12px;
+            }
+
+            .card-img-date {
+              margin-right: 20px;
+
+              img {
+                width: 18px;
+                height: 18px;
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .project-carousel-card {
+      height: 350px;
+    }
+
+    .owl-nav {
+      margin-top: 10px !important;
+      margin-right: 0;
+    }
+
+    .owl-dots {
+      margin-left: 0;
+      margin-top: 0;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

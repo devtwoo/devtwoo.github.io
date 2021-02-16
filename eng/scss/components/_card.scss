@@ -1,0 +1,582 @@
+
+/**
+Card Project
+ */
+.project-card {
+  border-radius: 20px;
+  box-shadow: 0 7px 15px -5px rgba(199, 199, 199, 0.5);
+  border: solid 1px #e8e8e8;
+  margin-bottom: 20px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+  }
+
+  &-heading {
+    &-img {
+      width: 100%;
+      height: 200px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+    }
+
+    .project-card-meta-date {
+      background-color: rgba($black, .2);
+      height: 23px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 100px;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top: 11px;
+      margin-right: 18px;
+
+
+      img {
+        margin-right: 5px;
+      }
+
+      span {
+        font-family: $g-ff-museo-300;
+        font-weight: 300;
+        font-size: 10px;
+        color: rgba($white, .85);
+      }
+    }
+  }
+
+  &-body {
+    height: 200px;
+    min-height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &-top {
+      .project-card-meta-location {
+        display: flex;
+        align-items: center;
+        margin-bottom: 11px;
+
+        img {
+          height: 10px;
+          margin-right: 10px;
+        }
+
+        span {
+          font-family: $g-ff-museo-500;
+          font-weight: 500;
+          font-size: 10px;
+          color: #6d7278;
+        }
+      }
+
+      a {
+        font-family: $g-ff-museo-500;
+        font-weight: 500;
+        font-size: 14px;
+        color: rgba(black, .85);
+
+        &:hover {
+          color: rgba(black, .7);
+        }
+      }
+
+      p {
+        font-family: $g-ff-museo-300;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 17px;
+        color: #6d7278;
+        margin-top: 6px;
+      }
+    }
+
+    &-bottom {
+      .progress {
+        height: 2px;
+        background-color: #ededed;
+        margin-bottom: 10px;
+        border-radius: 0;
+
+        &-bar {
+          position: absolute;
+          height: 4px;
+          border-radius: 100px;
+          background-color: var(--piss-yellow);
+        }
+      }
+
+      p {
+        font-family: $g-ff-museo-300;
+        font-weight: 300;
+        font-size: 10px;
+        color: #c9c9c9;
+        margin-bottom: 0;
+
+        strong {
+          font-family: $g-ff-museo-700;
+          font-weight: bold;
+          color: rgba(black, .85);
+        }
+      }
+    }
+  }
+
+  // project card 2
+  &-2 {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 12px 0 rgba(186, 186, 186, 0.5);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: all .3s ease-in-out;
+      -webkit-transition: all .3s ease-in-out;
+    }
+
+    .card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+
+      &-overlay {
+        background-color: rgba($dark-grey-blue, .6);
+        top: unset;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 19px 38px 41px;
+
+        &-date {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          top: 20px;
+          right: 35px;
+
+          img {
+            height: 20px;
+            margin-right: 14px;
+          }
+
+          span {
+            font-family: $g-ff-museo-300;
+            font-weight: 300;
+            font-size: 14px;
+            color: var(--white);
+          }
+        }
+
+        &-tag {
+          background-color: rgba(white, .3);
+          padding: 7px 11px;
+          border-radius: 100px;
+          position: absolute;
+          left: 35px;
+          margin-top: -65px;
+          font-family: $g-ff-museo-500;
+          font-weight: 500;
+          font-size: 10px;
+          color: var(--black);
+        }
+
+        a {
+          font-family: $g-ff-museo-300;
+          font-weight: 300;
+          font-size: 24px;
+          color: rgba(white, .85);
+          line-height: normal;
+        }
+
+        .progress {
+          margin-top: 30px;
+          margin-bottom: 26px;
+          background-color: #e1e1e1;
+          height: 5px;
+          border-radius: 100px;
+
+          &-bar {
+            position: absolute;
+            border-radius: 100px;
+            height: 7px;
+            background-color: var(--piss-yellow);
+          }
+        }
+
+        p {
+          font-family: $g-ff-museo-300;
+          font-weight: 300;
+          font-size: 14px;
+          color: rgba(white, .85);
+          margin-bottom: 0;
+
+          strong {
+            font-family: $g-ff-museo-700;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+
+  // project card 3
+  &-3 {
+    border-radius: 20px;
+    box-shadow: 0 8px 12px 0 rgba(186, 186, 186, 0.5);
+    margin-bottom: 20px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: all .3s ease-in-out;
+      -webkit-transition: all .3s ease-in-out;
+    }
+
+    .card-img {
+      border-radius: 20px;
+
+      &-overlay {
+        padding: 15px 100px;
+        top: unset;
+        border-radius: 21px;
+        background-color: rgba(black, .55);
+
+        &-date {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          right: 35px;
+          top: 20px;
+
+          img {
+            height: 24px;
+            margin-right: 12px;
+          }
+
+          span {
+            font-family: $g-ff-museo-300;
+            font-weight: 300;
+            font-size: 14px;
+            color: rgba(white, .85);
+          }
+        }
+
+        &-tag {
+          position: absolute;
+          top: 20px;
+          left: 35px;
+          background-color: #44D7B6;
+          padding: 6px 9px;
+          border-radius: 100px;
+          font-family: $g-ff-museo-500;
+          font-weight: 500;
+          font-size: 10px;
+          color: var(--black);
+        }
+
+        &-center {
+          background-color: rgba(black, .7);
+          padding: 16px 50px 10px;
+          border-radius: 21px;
+          position: absolute;
+          top: 30%;
+          margin: 0 auto;
+          left: 30%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          h1 {
+            font-family: $g-ff-museo-300;
+            font-weight: 300;
+            font-size: 36px;
+            margin-bottom: 5px;
+            color: white;
+          }
+
+          .hr {
+            border-bottom: 1px solid var(--white);
+            width: 30px;
+            margin-bottom: 8px;
+          }
+
+          h4 {
+            font-family: $g-ff-museo-500;
+            font-weight: 500;
+            font-size: 14px;
+            color: var(--white);
+            margin-bottom: 0;
+          }
+        }
+
+        a {
+          font-family: $g-ff-museo-500;
+          font-weight: 500;
+          font-size: 18px;
+          color: rgba(white, .85);
+        }
+
+        p {
+          font-family: $g-ff-museo-300;
+          font-weight: 300;
+          font-size: 12px;
+          line-height: 14px;
+          color: rgba(white, .85);
+          margin-top: 13px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  // project card 4
+  &-4 {
+    border-radius: 20px;
+    box-shadow: 0 7px 15px -5px rgba(199, 199, 199, 0.5);
+    border: solid 1px #e8e8e8;
+    margin-bottom: 20px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: all .3s ease-in-out;
+      -webkit-transition: all .3s ease-in-out;
+    }
+
+    .project-card-heading {
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &-overlay {
+        position: absolute;
+        background-color: rgba(black, .4);
+        border-radius: 12px;
+        padding: 20px 33px 19px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+          font-family: $g-ff-museo-700;
+          font-weight: bold;
+          font-size: 26px;
+          color: var(--white);
+          margin-bottom: 1px;
+        }
+
+        .hr {
+          width: 30px;
+          border-bottom: 1px solid var(--white);
+          margin-bottom: 9px;
+        }
+
+        h4 {
+          font-family: $g-ff-museo-500;
+          font-weight: 500;
+          font-size: 14px;
+          color: var(--white);
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .project-card-body {
+      padding: 20px 19px 40px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+
+      .project-card-meta-tag {
+        background-color: #44D7B6;
+        padding: 6px 9px;
+        border-radius: 100px;
+        font-family: $g-ff-museo-500;
+        font-weight: 500;
+        font-size: 10px;
+        color: var(--black);
+        margin-bottom: 12px;
+      }
+
+      .project-card-meta-date {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+
+        img {
+          height: 15px;
+          margin-right: 9px;
+        }
+
+        span {
+          font-family: $g-ff-museo-300;
+          font-weight: 300;
+          font-size: 10px;
+          color: #6d7278;
+          line-height: normal;
+        }
+      }
+
+      a {
+        font-family: $g-ff-museo-500;
+        font-weight: 500;
+        font-size: 18px;
+        color: rgba(black, .85);
+      }
+
+      p {
+        font-family: $g-ff-museo-500;
+        font-weight: 500;
+        font-size: 12px;
+        color: rgba(black, .5);
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .project-card-2 {
+    height: 350px;
+  }
+
+  .project-card-3 {
+    height: 350px;
+
+    .card-img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .card-img-overlay {
+      padding: 20px;
+
+      &-tag {
+        left: 20px;
+      }
+
+      &-date {
+        right: 20px;
+      }
+
+      &-center {
+        top: 25%;
+        padding: 20px;
+
+        h1 {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .project-card-2 {
+    height: 350px;
+  }
+
+  .project-card-3 {
+    height: 350px;
+
+    .card-img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .card-img-overlay {
+      padding: 20px;
+
+      &-tag {
+        left: 20px;
+      }
+
+      &-date {
+        right: 20px;
+      }
+
+      &-center {
+        top: 25%;
+        padding: 20px;
+
+        h1 {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .project-card-3 {
+    height: 380px;
+
+    .card-img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .card-img-overlay {
+      padding: 20px;
+
+      &-tag {
+        left: 20px;
+      }
+
+      &-date {
+        right: 20px;
+      }
+
+      &-center {
+        top: 25%;
+        padding: 20px;
+
+        h1 {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

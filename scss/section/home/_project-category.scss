@@ -1,0 +1,67 @@
+.home-project-category {
+  padding-top: 124px;
+
+  .project-category-heading {
+    h3 {
+      margin-bottom: 32px;
+    }
+
+    p {
+      color: #6d7278;
+    }
+  }
+
+  .project-category-content {
+    .card {
+      cursor: pointer;
+    }
+
+    .project-construction-unselected {
+      &:hover {
+        img {
+          content: url("../images/construction-unselected-hover.svg");
+        }
+      }
+    }
+
+    .project-water {
+      &:hover {
+        img {
+          content: url("../images/water-hover.svg");
+        }
+      }
+    }
+
+    .project-quran {
+      &:hover {
+        img {
+          content: url("../images/quran-hover.svg");
+        }
+      }
+    }
+
+    .project-health-care {
+      &:hover {
+        img {
+          content: url("../images/health-care-hover.svg");
+        }
+      }
+    }
+
+    .project-orphan {
+      &:hover {
+        img {
+          content: url("../images/orphan-hover.svg");
+        }
+      }
+    }
+
+    .project-mosque-project {
+      &:hover {
+        img {
+          content: url("../images/mosque-project-hover.svg");
+        }
+      }
+    }
+  }
+}

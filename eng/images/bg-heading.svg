@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="453" viewBox="0 0 1440 453">
+    <defs>
+        <linearGradient id="prefix__b" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#59C2E9"/>
+            <stop offset="100%" stop-color="#2D8FCE"/>
+        </linearGradient>
+        <path id="prefix__a" d="M0 0H1440V453H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="prefix__c" fill="#fff">
+            <use xlink:href="#prefix__a"/>
+        </mask>
+        <use fill="url(#prefix__b)" xlink:href="#prefix__a"/>
+        <g opacity=".445" style="mix-blend-mode:soft-light" mask="url(#prefix__c)">
+            <g>
+                <path fill="#48CBFE" d="M1488.555 129.098c-207.118-158.39-443.358-171.034-708.72-37.93-49.577 24.866-181.971 99.767-290.375 177.691S159.537 467.431 0 444.031c64.208 28.59 267.094 65.723 469.505 38.652 202.412-27.072 567.461-340.97 773.32-365.486 110.877-13.204 192.787-9.237 245.73 11.9z" transform="translate(0 -23)"/>
+                <path fill="#ADADB1" d="M1339.056 135.23c-67.63 2.343-131.357 19.07-191.18 50.177-104.35 54.263-290.072 188.02-388.925 259.214 34.006 6.662 243.156-.308 434.352-142.877 68.288-50.92 116.872-106.425 145.753-166.515z" transform="translate(0 -23)"/>
+            </g>
+        </g>
+    </g>
+</svg>

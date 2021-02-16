@@ -1,0 +1,445 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cart | KSHW</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/alds-global.css">
+    <link rel="stylesheet" href="css/kshw.css">
+</head>
+
+<body>
+    <!--start:header-->
+    <header id="header" class="header fixed-top tablet-hidden">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="header-top-left">
+                            <ul class="list-unstyled header-sosmed">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/ic-facebook-blue.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/ic-twitter-blue.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/ic-instagram-blue.svg">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="images/ic-globe.svg">
+                                    <span> العربيّة</span>
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="eng/cart.html">English</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="header-top-right">
+                            <div class="cart-button">
+                                <a href="cart.html">
+                                    <img src="images/ic-cart-white.svg">
+                                    <div class="number">
+                                        1
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <div class="img-people">
+                                        <img src="images/img.jpg">
+                                    </div>
+                                    <span>John Doel</span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownUser">
+                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLoginHeader">تسجيل الدخول</a>
+                                    <a class="dropdown-item" href="MyProfile.html">المعلومات الشخصية</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="navbar">
+                <div class="container">
+                    <div class="navbar-nav">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="index.html">الرئيسية</a>
+                            </li>
+                            <li>
+                                <a href="projects.html">المشاريع</a>
+                            </li>
+                            <li>
+                                <a href="about.html">من نحن</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">تواصل معنا</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="index.html" class="navbar-brand">
+                        <img src="images/logo-primary@2x.png" alt="">
+                    </a>
+                    <div class="navbar-nav">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <img src="images/ic-search.svg">
+                            </div>
+                            <input type="text" class="form-control" placeholder="ابحث عن مشروع للتبرع">
+                            <a href="#"><img src="images/ic-close-white.svg"></a>
+                            <div class="input-group-append">
+                                <a href="search.html" class="btn btn-search">بحث</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="header desktop-hidden">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-mobile">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo-primary@2x.png" alt="">
+            </a>
+            <div class="d-flex align-items-center">
+                <div class="cart-button">
+                    <a href="cart.html">
+                        <img src="images/ic-cart-white.svg">
+                        <div class="number">
+                            1
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown dropdown-user">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="img-people">
+                            <img src="images/img.jpg">
+                        </div>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownUser">
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLoginHeader">تسجيل الدخول</a>
+                        <a class="dropdown-item" href="MyProfile.html">المعلومات الشخصية</a>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="images/ic-hamburger.svg" alt="">
+            </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <img src="images/ic-search.svg">
+                    </div>
+                    <input type="text" class="form-control" placeholder="ابحث عن مشروع للتبرع">
+                    <a href="#"><img src="images/ic-close-white.svg"></a>
+                    <div class="input-group-append">
+                        <a href="search.html" class="btn btn-search">بحث</a>
+                    </div>
+                </div>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">المشاريع</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">من نحن </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">تواصل معنا</a>
+                    </li>
+                </ul>
+                <div class="navbar-mobile-bottom d-flex justify-content-between">
+                    <ul class="list-unstyled header-sosmed d-flex">
+                        <li class="mr-5">
+                            <a href="#">
+                                <img src="images/ic-facebook-blue.svg">
+                            </a>
+                        </li>
+                        <li class="mr-5">
+                            <a href="#">
+                                <img src="images/ic-twitter-blue.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/ic-instagram-blue.svg">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="images/ic-globe.svg">
+                            <span>العربيّة</span>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="eng/cart.html">English</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--end:header-->
+
+    <!--start:modal login header-->
+    <div class="modal modal-login-header fade" id="modalLoginHeader" tabindex="-1" aria-labelledby="modalLoginHeaderLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="modal-body-left">
+                                <img src="images/logo-login@2x.png" alt="KSHW">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="modal-body-right">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                                <h4>تسجيل الدخول - إنشاء حساب جديد</h4>
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="emailLogin">البريد الإلكتروني</label>
+                                        <input type="email" class="form-control" id="emailLogin">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="passwordLogin">كلمة المرور</label>
+                                        <input type="password" class="form-control" id="passwordLogin">
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-6 form-check text-left">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">تذكر بياناتي</label>
+                                        </div>
+                                        <div class="form-group col-6 text-right">
+                                            <a href="#">هل نسيت كلمة المرور؟</a>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <a href="#" class="btn btn-primary btn-block">تسجيل الدخول</a>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-primary btn-block">سجّل</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end:modal login header-->
+
+    <!--start: cart -->
+    <section id="cart" class="cart">
+        <div class="container">
+            <div class="cart-progress">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="cart-progress-wrap">
+                            <ul class="list-unstyled">
+                                <li class="active">
+                                    <div class="number">1</div>
+                                    <span>Cart Lists</span>
+                                </li>
+                                <li>
+                                    <div class="hr"></div>
+                                </li>
+                                <li>
+                                    <div class="number">2</div>
+                                    <span>Payment Details</span>
+                                </li>
+                                <li>
+                                    <div class="hr"></div>
+                                </li>
+                                <li>
+                                    <div class="number">3</div>
+                                    <span>Confirmation & Receipt</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-donation">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3 class="title">قائمة التبرعات</h3>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="cart-donation-list">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="col-4">المشروع</th>
+                                        <th class="col-2">إجمالي مبالغ التبرعات</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <a href="#">
+                                                <img src="images/img.jpg">
+                                                <div>
+                                                    <h4>مشروع الزكاة</h4>
+                                                    <p>Description of that lorem ipsum dolor sit amet ipsum dolor sit amet</p>
+                                                </div>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <h4>KD 35.0</h4>
+                                        </td>
+                                        <td>
+                                            <a href="#" class="close"><img src="images/ic-close.svg"></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">
+                                                <img src="images/img.jpg">
+                                                <div>
+                                                    <h4>مشروع الزكاة</h4>
+                                                    <p>Description of that lorem ipsum dolor sit amet ipsum dolor sit amet</p>
+                                                </div>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <h4>KD 35.0</h4>
+                                        </td>
+                                        <td>
+                                            <a href="#" class="close"><img src="images/ic-close.svg"></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">
+                                                <img src="images/img.jpg">
+                                                <div>
+                                                    <h4>مشروع الزكاة</h4>
+                                                    <p>Description of that lorem ipsum dolor sit amet ipsum dolor sit amet</p>
+                                                </div>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <h4>KD 35.0</h4>
+                                        </td>
+                                        <td>
+                                            <a href="#" class="close"><img src="images/ic-close.svg"></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 offset-lg-1 col-md-12 col-sm-12">
+                        <div class="cart-donation-summary">
+                            <h4>الملخص</h4>
+                            <p>يتضح هنا إجمالي مبلغ التبرع الخاص بك، يرجى مراجعته مرة أخرى قبل تأكيد الدفع.</p>
+                            <div class="hr"></div>
+                            <h4 class="total-title text-right">الإجمالي</h4>
+                            <h1 class="total-price text-right"><span>KD</span> 100.2</h1>
+                            <a href="#" class="btn btn-primary btn-block" data-toggle="modal" data-target="#cartLogin">تنفيذ عملية التبرع</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-security">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="cart-security-list">
+                            <img src="images/ic-secured.svg" alt="Secured Credential">
+                            <h4>شهادات اعتماد مؤمنة</h4>
+                            <p>بياناتك في آمان لدينا، لن نقوم بمشاركة بياناتك الشخصية</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="cart-security-list">
+                            <img src="images/ic-secured-2.svg" alt="Secure checkout">
+                            <h4>تأمين تسجيل الخروج</h4>
+                            <p>بياناتك في آمان لدينا، لن نقوم بمشاركة بياناتك الشخصية</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:cart-->
+
+    <!--start:cart modal login-->
+    <div class="modal modal-cart-login fade" id="cartLogin" tabindex="-1" aria-labelledby="cartLoginLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">تسجيل الدخول - إنشاء حساب جديد</h5>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="emailAddress">البريد الإلكتروني</label>
+                            <input type="email" class="form-control" id="emailAddress">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">كلمة المرور</label>
+                            <input type="password" class="form-control" id="password">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-6 form-check text-right">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">تذكر بياناتي</label>
+                            </div>
+                            <div class="form-group col-6 text-right">
+                                <a href="#">هل نسيت كلمة المرور؟</a>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <a href="#" class="btn btn-primary btn-block">تسجيل الدخول</a>
+                        </div>
+                        <div class="form-group">
+                            <a href="#" class="btn btn-outline-primary btn-block">سجّل</a>
+                        </div>
+                        <div class="form-group">
+                            <div class="or">
+                                <span>or</span>
+                                <div class="hr"></div>
+                            </div>
+                        </div>
+                        <a href="payment.html" class="btn btn-gray btn-block">الاستمرار دون تسجيل الدخول</a>
+                    </form>
+                    <p class="notes text-center">ملاحظة : في حال عدم تسجيلك في الموقع وتزويدنا برقم هاتفك ، فإننا نعتذر عن تزويدك بتقرير تبرعك أو مشروعك</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end:cart modal login-->
+
+    <!--start:javascript-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/kshw.js"></script>
+    <!--end:javascript-->
+</body>
+
+</html>

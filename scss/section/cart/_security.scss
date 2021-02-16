@@ -1,0 +1,75 @@
+.cart {
+  &-security {
+    border-top: 3px solid #85d0ff;
+    padding-top: 66px;
+    padding-bottom: 44px;
+
+    &-list {
+      text-align: center;
+
+      img {
+        margin-bottom: 14px;
+      }
+
+      h4 {
+        font-family: $g-ff-museo-700;
+        font-weight: 700;
+        font-size: 16px;
+        color: #4a4a4a;
+        margin-bottom: 11px;
+      }
+
+      p {
+        font-family: $g-ff-museo-500;
+        font-weight: 500;
+        font-size: 12px;
+        color: #4a4a4a;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .cart {
+    &-security {
+      &-list {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .cart {
+    &-security {
+      &-list {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .cart {
+    &-security {
+      &-list {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

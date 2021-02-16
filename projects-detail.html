@@ -1,0 +1,833 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Project | KSHW</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/alds-global.css">
+    <link rel="stylesheet" href="css/kshw.css">
+</head>
+
+<body>
+    <!--start:header-->
+    <header id="header" class="header fixed-top tablet-hidden">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="header-top-left">
+                            <ul class="list-unstyled header-sosmed">
+                                <li>
+                                    <a href="#">
+                                        <img src="images/ic-facebook-blue.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/ic-twitter-blue.svg">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/ic-instagram-blue.svg">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="images/ic-globe.svg">
+                                    <span> العربيّة</span>
+                                </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="eng/projects-detail.html">English</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="header-top-right">
+                            <div class="cart-button">
+                                <a href="cart.html">
+                                    <img src="images/ic-cart-white.svg">
+                                    <div class="number">
+                                        1
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" id="dropdownUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <div class="img-people">
+                                        <img src="images/img.jpg">
+                                    </div>
+                                    <span>John Doel</span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownUser">
+                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLoginHeader">تسجيل الدخول</a>
+                                    <a class="dropdown-item" href="MyProfile.html">المعلومات الشخصية</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="navbar">
+                <div class="container">
+                    <div class="navbar-nav">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="index.html">الرئيسية</a>
+                            </li>
+                            <li>
+                                <a href="projects.html">المشاريع</a>
+                            </li>
+                            <li>
+                                <a href="about.html">من نحن </a>
+                            </li>
+                            <li>
+                                <a href="contact.html">تواصل معنا</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="index.html" class="navbar-brand">
+                        <img src="images/logo-primary@2x.png" alt="">
+                    </a>
+                    <div class="navbar-nav">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <img src="images/ic-search.svg">
+                            </div>
+                            <input type="text" class="form-control" placeholder="ابحث عن مشروع للتبرع">
+                            <a href="#"><img src="images/ic-close-white.svg"></a>
+                            <div class="input-group-append">
+                                <a href="search.html" class="btn btn-search">بحث</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="header desktop-hidden">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-mobile">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo-primary@2x.png" alt="">
+            </a>
+            <div class="d-flex align-items-center">
+                <div class="cart-button">
+                    <a href="cart.html">
+                        <img src="images/ic-cart-white.svg">
+                        <div class="number">
+                            1
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown dropdown-user">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="img-people">
+                            <img src="images/img.jpg">
+                        </div>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownUser">
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLoginHeader">تسجيل الدخول</a>
+                        <a class="dropdown-item" href="MyProfile.html">المعلومات الشخصية</a>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="images/ic-hamburger.svg" alt="">
+            </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <img src="images/ic-search.svg">
+                    </div>
+                    <input type="text" class="form-control" placeholder="ابحث عن مشروع للتبرع">
+                    <a href="#"><img src="images/ic-close-white.svg"></a>
+                    <div class="input-group-append">
+                        <a href="search.html" class="btn btn-search">بحث</a>
+                    </div>
+                </div>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">المشاريع</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">من نحن </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">تواصل معنا</a>
+                    </li>
+                </ul>
+                <div class="navbar-mobile-bottom d-flex justify-content-between">
+                    <ul class="list-unstyled header-sosmed d-flex">
+                        <li class="mr-5">
+                            <a href="#">
+                                <img src="images/ic-facebook-blue.svg">
+                            </a>
+                        </li>
+                        <li class="mr-5">
+                            <a href="#">
+                                <img src="images/ic-twitter-blue.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/ic-instagram-blue.svg">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="images/ic-globe.svg">
+                            <span>العربيّة</span>
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="eng/projects-detail.html">English</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--end:header-->
+
+    <!--start:modal login header-->
+    <div class="modal modal-login-header fade" id="modalLoginHeader" tabindex="-1" aria-labelledby="modalLoginHeaderLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="modal-body-left">
+                                <img src="images/logo-login@2x.png" alt="KSHW">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="modal-body-right">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                                <h4>تسجيل الدخول - إنشاء حساب جديد</h4>
+                                <form action="">
+                                    <div class="form-group">
+                                        <label for="emailLogin">البريد الإلكتروني</label>
+                                        <input type="email" class="form-control" id="emailLogin">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="passwordLogin">كلمة المرور</label>
+                                        <input type="password" class="form-control" id="passwordLogin">
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-6 form-check text-left">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">تذكر بياناتي</label>
+                                        </div>
+                                        <div class="form-group col-6 text-right">
+                                            <a href="#">هل نسيت كلمة المرور؟</a>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <a href="#" class="btn btn-primary btn-block">تسجيل الدخول</a>
+                                    </div>
+                                    <a href="#" class="btn btn-outline-primary btn-block">سجّل</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end:modal login header-->
+
+    <!--start:single project content-->
+    <section id="single-content" class="single-content">
+        <div class="single-content-heading">
+            <img class="img-heading" src="images/img2.jpg">
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="single-content-heading-left">
+                                <div class="single-description">
+                                    <h1 class="g-ff-museo-300 g-fw-300 g-fs-32 g-cl-white g-mb-16">قم بإدخال اسم مشروع محدد هنا ، مثال مشاريع إنشائية</h1>
+                                    <div class="hr"></div>
+                                </div>
+                                <ul class="list-unstyled single-total">
+                                    <li>
+                                        <span>إجمالي مساهمات المتبرعين</span>
+                                        <h4>1200</h4>
+                                    </li>
+                                    <li>
+                                        <span>الإجمالي المتحقق</span>
+                                        <h4>kd8,945</h4>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 offset-lg-3 col-md-12 col-sm-12">
+                            <div class="single-content-heading-right">
+                                <a href="#" class="btn btn-secondary btn-block btn-donate g-mb-30">تبرع وساهم في هذا المشروع</a>
+                                <div class="single-form">
+                                    <div class="single-form-heading text-center">
+                                        <p class="g-ff-museo-300 g-fw-300 g-cl-dodger-blue g-mb-0">اختر مبلغ التبرع</p>
+                                    </div>
+                                    <form action="">
+                                        <div class="form-group">
+                                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                <div class="form-row g-w-100p">
+                                                    <div class="col-md-4 col-sm-12 g-mb-20">
+                                                        <label class="btn btn-secondary btn-block active">
+                                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> 10
+                                                    </label>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-12 g-mb-20">
+                                                        <label class="btn btn-secondary btn-block">
+                                                        <input type="radio" name="options" id="option2" autocomplete="off"> 50
+                                                    </label>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-12 g-mb-20">
+                                                        <label class="btn btn-secondary btn-block">
+                                                        <input type="radio" name="options" id="option3" autocomplete="off"> 100
+                                                    </label>
+                                                    </div>
+                                                    <div class="col-md-4 col-sm-12">
+                                                        <label class="btn btn-secondary btn-block">
+                                                        <input type="radio" name="options" id="option4" autocomplete="off"> 200
+                                                    </label>
+                                                    </div>
+                                                    <div class="col-md-8 col-sm-12">
+                                                        <label class="btn btn-secondary btn-block">
+                                                        <input type="radio" name="options" id="option5" autocomplete="off"> مبالغ أخرى
+                                                    </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                                <label class="form-check-label g-ff-museo-500 g-fw-500 g-fs-14" for="exampleRadios1">
+                                                    أضف رسالة مع عملية التبرع
+                                            </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="form-group col g-mb-0">
+                                                <a href="cart.html" class="btn btn-outline-primary btn-block"><img src="images/ic-cart.svg"> أضف إلى السلة</a>
+                                            </div>
+                                            <div class="form-group col g-mb-0">
+                                                <a href="cart.html" class="btn btn-primary btn-block"><img src="images/ic-donate.svg"> تبرع الآن</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="single-content-detail g-mb-83">
+                <div class="single-content-bells">
+                    <img src="images/notify-on-ar.svg">
+                </div>
+                <ul class="list-unstyled single-content-meta">
+                    <li>
+                        <img src="images/ic-calendar.svg">
+                        <span>إنشاء في تاريخ 24 مارس 2019</span>
+                    </li>
+                    <li>
+                        <img src="images/ic-tag.svg">
+                        <span>حالات الطوارئ والإغاثة</span>
+                    </li>
+                </ul>
+                <div class="hr"></div>
+                <p class="g-ff-museo-300 g-fw-300 g-fs-18 g-lh-30 g-cl-black">Description or a brief project here, molestie vitae turpis a, pulvinar cursus nisi. Cras id feugiat tellus. Donec tincidunt, turpis mattis molestie eleifend, mauris enim varius turpis, vel posuere nisi dui ut erat. Nullam venenatis laoreet
+                    leo vestibulum tincidunt. Nam lacinia bibendum lacus, eget efficitur ipsum suscipit sed</p>
+                <div class="cta">
+                    <a href="#" class="btn btn-outline-secondary" data-toggle="modal" data-target=".modal-project-milestone"><img class="g-h-20 g-mr-8" src="images/ic-share.svg"> شارك هذا المشروع</a>
+                    <a href="#" class="btn btn-secondary" data-toggle="modal" data-target=".modal-see-my-contributor"><img class="g-h-20 g-mr-8" src="images/ic-contribution.svg"> شاهد مساهمتي</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <div class="single-content-gallery">
+                        <div class="heading">
+                            <h4 class="g-ff-museo-700 g-fw-700 g-fs-21 g-cl-black-08 g-lh-normal g-mb-0">معرض صور المشروع</h4>
+                            <a href="#" class="g-ff-museo-700 g-fs-18">اعرض الكل</a>
+                        </div>
+                        <div class="content">
+                            <ul class="content-gallery-list list-unstyled">
+                                <li>
+                                    <img src="images/img.jpg">
+                                </li>
+                                <li>
+                                    <img src="images/img.jpg">
+                                </li>
+                                <li>
+                                    <img src="images/img.jpg">
+                                </li>
+                                <li>
+                                    <img src="images/img.jpg">
+                                </li>
+                                <li>
+                                    <img src="images/img.jpg">
+                                </li>
+                                <li>
+                                    <img src="images/img.jpg">
+                                </li>
+                                <li>
+                                    <img src="images/img.jpg">
+                                </li>
+                                <li>
+                                    <img src="images/img.jpg">
+                                </li>
+                                <li>
+                                    <img src="images/img.jpg">
+                                </li>
+                                <li>
+                                    <img src="images/img.jpg">
+                                </li>
+                                <li>
+                                    <img src="images/img.jpg">
+                                </li>
+                                <li>
+                                    <img src="images/img.jpg">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="single-content-milestone">
+                        <div class="heading">
+                            <h4 class="g-ff-museo-700 g-fw-700 g-fs-18 g-cl-black-08 g-mb-10">معالم المشروع</h4>
+                            <p class="g-ff-museo-500 g-fw-500 g-fs-12 g-cl-black-08 g-mb-0">الوضع العام للمشروع وكيفية إنفاق الأموال فيه</p>
+                        </div>
+                        <div class="body">
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="formControlRange">بناء 200 خيمة للاجئيين</label>
+                                    <input type="range" class="form-control-range" id="formControlRange">
+                                </div>
+                                <div class="form-group">
+                                    <label for="formControlRange">500 صندوق من حليب الأطفال</label>
+                                    <input type="range" class="form-control-range" id="formControlRange">
+                                </div>
+                                <div class="form-group">
+                                    <label for="formControlRange">2000 غالون من المياه النقية</label>
+                                    <input type="range" class="form-control-range" id="formControlRange">
+                                </div>
+                                <div class="form-group">
+                                    <label for="formControlRange">500 صندوق من حليب الأطفال</label>
+                                    <input type="range" class="form-control-range" id="formControlRange">
+                                </div>
+                                <div class="form-group">
+                                    <label for="formControlRange">500 صندوق من حليب الأطفال</label>
+                                    <input type="range" class="form-control-range" id="formControlRange">
+                                </div>
+                                <a href="#" data-toggle="modal" data-target=".modal-project-milestone" class="btn btn-outline-primary btn-block">اعرض التفاصيل</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:single project content-->
+
+    <!--start:modal-->
+    <div class="modal fade modal-project-milestone" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Project Milestone Progress</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <img src="images/ic-close.svg">
+            </button>
+            </div>
+            <div class="modal-body">
+                <h4 class="g-ff-museo-500 g-fw-500 g-fs-21 g-cl-black-08 g-mb-20">Priority</h4>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="card card-priority">
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <p>Building 200 tent for refugee</p>
+                                        <div>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <p><strong>65%</strong> completed</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p>Food supply</p>
+                                        <div>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <p><strong>65%</strong> completed</p>
+                                        </div>
+                                    </li>
+                                    <li class="is-completed">
+                                        <p><img src="images/ic-checklist-complete.svg"> Clean water facility</p>
+                                        <div>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <p><strong>100%</strong> completed</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p>Temporary Mosque</p>
+                                        <div>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <p><strong>65%</strong> completed</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="card card-less">
+                            <div class="card-body">
+                                <h4>Less urgent matter</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <p>Building ABCDE</p>
+                                        <div>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <p><strong>40%</strong> completed</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <p>Food supply</p>
+                                        <div>
+                                            <div class="progress">
+                                                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+                                            <p><strong>65%</strong> completed</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="card card-overall">
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <h4>70%</h4>
+                                        <span>overall progress</span>
+                                    </li>
+                                    <li>
+                                        <h4>£10.000</h4>
+                                        <span>Raised since 29 December 2019</span>
+                                    </li>
+                                </ul>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal-see-my-contributor" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Your Contribution on this project</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <img src="images/ic-close.svg">
+            </button>
+            </div>
+            <div class="modal-body">
+                <ul class="list-unstyled list-contributor">
+                    <li>
+                        <div>
+                            <h4>24 August 2019</h4>
+                            <p>Your message : Our heart and pray are with you brothers & sisters, Stay stong!!!</p>
+                        </div>
+                        <h2>$50</h2>
+                    </li>
+                    <li>
+                        <div>
+                            <h4>24 August 2019</h4>
+                            <p>Your message : Our heart and pray are with you brothers & sisters, Stay stong!!!</p>
+                        </div>
+                        <h2>$50</h2>
+                    </li>
+                    <li>
+                        <div>
+                            <h4>24 August 2019</h4>
+                            <p>Your message : Our heart and pray are with you brothers & sisters, Stay stong!!!</p>
+                        </div>
+                        <h2>$50</h2>
+                    </li>
+                    <li>
+                        <div>
+                            <h4>24 August 2019</h4>
+                            <p>Your message : Our heart and pray are with you brothers & sisters, Stay stong!!!</p>
+                        </div>
+                        <h2>$50</h2>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <p class="g-ff-museo-500 g-fw-500 g-fs-21 g-cl-white g-mb-20">Your contribution to this project so far are</p>
+                <h4 class="g-ff-museo-300 g-fw-300 g-fs-48 g-cl-white g-mb-10">$200</h4>
+                <div class="hr"></div>
+                <p class="g-ff-museo-700 g-fw-700 g-fs-14 g-cl-white g-mb-0">Thank you for your donation</p>
+            </div>
+        </div>
+    </div>
+    <!--end:modal-->
+
+    <!--start:project Similiar-->
+    <section id="project-similiar" class="project-similiar g-pt-88 g-pb-95">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="text-center g-mb-80">
+                        <h3 class="g-ff-museo-700 g-fs-24 g-cl-black-08 g-mb-0">مشاريع مشابهة</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="project-card">
+                            <div class="project-card-heading">
+                                <a href="projects-detail.html" class="project-card-heading-img">
+                                    <img src="images/img.jpg">
+                                </a>
+                                <div class="project-card-meta-date">
+                                    <img src="images/ic-clock.svg">
+                                    <span> 13 سبتمبر 2018</span>
+                                </div>
+                            </div>
+                            <div class="project-card-body">
+                                <div class="project-card-body-top">
+                                    <div class="project-card-meta-location">
+                                        <img src="images/ic-pin.svg">
+                                        <span>مواقعنا</span>
+                                    </div>
+                                    <a href="projects-detail.html">شرح التبرع</a>
+                                    <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
+                                </div>
+                                <div class="project-card-body-bottom">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="project-card">
+                            <div class="project-card-heading">
+                                <a href="projects-detail.html" class="project-card-heading-img">
+                                    <img src="images/img.jpg">
+                                </a>
+                                <div class="project-card-meta-date">
+                                    <img src="images/ic-clock.svg">
+                                    <span> 13 سبتمبر 2018</span>
+                                </div>
+                            </div>
+                            <div class="project-card-body">
+                                <div class="project-card-body-top">
+                                    <div class="project-card-meta-location">
+                                        <img src="images/ic-pin.svg">
+                                        <span>مواقعنا</span>
+                                    </div>
+                                    <a href="projects-detail.html">شرح التبرع</a>
+                                    <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
+                                </div>
+                                <div class="project-card-body-bottom">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="project-card">
+                            <div class="project-card-heading">
+                                <a href="projects-detail.html" class="project-card-heading-img">
+                                    <img src="images/img.jpg">
+                                </a>
+                                <div class="project-card-meta-date">
+                                    <img src="images/ic-clock.svg">
+                                    <span> 13 سبتمبر 2018</span>
+                                </div>
+                            </div>
+                            <div class="project-card-body">
+                                <div class="project-card-body-top">
+                                    <div class="project-card-meta-location">
+                                        <img src="images/ic-pin.svg">
+                                        <span>مواقعنا</span>
+                                    </div>
+                                    <a href="projects-detail.html">شرح التبرع</a>
+                                    <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
+                                </div>
+                                <div class="project-card-body-bottom">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="project-card">
+                            <div class="project-card-heading">
+                                <a href="projects-detail.html" class="project-card-heading-img">
+                                    <img src="images/img.jpg">
+                                </a>
+                                <div class="project-card-meta-date">
+                                    <img src="images/ic-clock.svg">
+                                    <span> 13 سبتمبر 2018</span>
+                                </div>
+                            </div>
+                            <div class="project-card-body">
+                                <div class="project-card-body-top">
+                                    <div class="project-card-meta-location">
+                                        <img src="images/ic-pin.svg">
+                                        <span>مواقعنا</span>
+                                    </div>
+                                    <a href="projects-detail.html">شرح التبرع</a>
+                                    <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
+                                </div>
+                                <div class="project-card-body-bottom">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:project Similiar-->
+
+    <!--start:footer-->
+    <footer id="footer" class="footer g-bg-dark-navy-blue">
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-12">
+                        <div>
+                            <h4 class="g-ff-museo-700 g-fs-20 g-mb-30 g-cl-white">الجمعية الكويتية للعمل الإنساني</h4>
+                            <p class="g-ff-museo-500 g-fs-12 g-lh-27 g-cl-text-gray g-mb-0">تم إشهار الجمعية الكويتية للعمل الانساني بموجب قرار وزاري رقم (72/أ) لسنة 2016 ووفقا لأحكام القانون رقم 24 لسنة 1962 لوزارة الشئون الاجتماعية والعمل. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 offset-lg-1 col-md-6 col-sm-12">
+                        <div>
+                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">تواصل معنا</h4>
+                            <ul class="list-unstyled g-pl-0 g-mb-0 g-ml-0">
+                                <li class="g-mb-21">
+                                    <a href="#" class="g-ff-museo-500 g-fs-14 g-cl-text-gray">hello@kshw.com</a>
+                                </li>
+                                <li>
+                                    <address class="g-ff-museo-500 g-fs-14 g-lh-36 g-cl-text-gray g-mb-21">
+                            121 n 9th st <br>
+                            Boise, ID 84702 <br>
+                            Kuwait
+                        </address>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div>
+                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">ابدأ الآن</h4>
+                            <ul class="list-unstyled g-pl-0 g-ml-0 g-pl-0">
+                                <li class="g-mb-20">
+                                    <a href="#" class="g-ff-museo-500 g-fs-14 g-cl-text-gray-light g-tt-upp">المشاريع</a>
+                                </li>
+                                <li class="g-mb-20">
+                                    <a href="#" class="g-ff-museo-500 g-fs-14 g-cl-text-gray-light g-tt-upp">من نحن </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="g-ff-museo-500 g-fs-14 g-cl-text-gray-light g-tt-upp">تواصل معنا</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div class="g-pl-40">
+                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">منصات التواصل</h4>
+                            <ul class="list-unstyled g-ml-0 g-pl-0 g-mb-0">
+                                <li class="g-mb-25">
+                                    <a href="#"><img class="g-w-25 g-mr-24" src="images/ic-facebook.svg"> <span class="g-ff-museo-500 g-fs-14 g-cl-text-gray">Facebook</span></a>
+                                </li>
+                                <li class="g-mb-25">
+                                    <a href="#"><img class="g-w-25 g-mr-24" src="images/ic-twitter.svg"> <span class="g-ff-museo-500 g-fs-14 g-cl-text-gray">Twitter</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><img class="g-w-25 g-mr-24" src="images/ic-instagram.svg"> <span class="g-ff-museo-500 g-fs-14 g-cl-text-gray">Instagram</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="footer-logo">
+                            <a href="#">
+                                <img class="g-h-68" src="images/logo-secondary@3x.png" alt="KSHW">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="g-h-100p g-d-flex g-jus-end g-items-end">
+                            <p class="g-ff-museo-500 g-fs-12 g-cl-text-gray g-mb-0">الجمعية الكويتية للعمل الإنساني. جميع الحقوق محفوظة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end:footer-->
+
+    <!--start:javascript-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/kshw.js"></script>
+    <!--end:javascript-->
+</body>
+
+</html>

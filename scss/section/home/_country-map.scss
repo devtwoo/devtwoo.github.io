@@ -1,0 +1,185 @@
+
+.country-map {
+  padding-top: 89px;
+
+  .heading {
+    margin-bottom: 70px;
+
+    h2 {
+      font-family: $g-ff-museo-300;
+      font-weight: 300;
+      font-size: 36px;
+      color: rgba(black, .85);
+
+      strong {
+        font-family: $g-ff-museo-900;
+        font-weight: 900;
+      }
+    }
+  }
+
+  .is-country-detail {
+    display: none;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+
+    &.show {
+      display: block;
+      transition: all .3s ease-in-out;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+    }
+  }
+
+  .content {
+    background-image: url("../images/homepage/img-globe@2x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    padding-top: 37px;
+    min-height: 673px;
+
+    .pin {
+      content: url("../images/pin.svg");
+      height: 24px;
+    }
+
+    #jerman {
+      position: absolute;
+      margin-left: 600px;
+      margin-top: 210px;
+    }
+
+    #yunani {
+      position: absolute;
+      margin-left: 640px;
+      margin-top: 230px;
+    }
+
+    #sudan {
+      position: absolute;
+      margin-left: 670px;
+      margin-top: 310px;
+    }
+
+    #pakistan {
+      position: absolute;
+      margin-left: 720px;
+      margin-top: 280px;
+    }
+
+    #thailand {
+      position: absolute;
+      margin-left: 910px;
+      margin-top: 330px;
+    }
+
+    #selandia {
+      position: absolute;
+      margin-left: 1020px;
+      margin-top: 580px;
+    }
+
+    #australia {
+      position: absolute;
+      margin-left: 960px;
+      margin-top: 480px;
+    }
+
+    #indonesia {
+      position: absolute;
+      margin-left: 920px;
+      margin-top: 410px;
+    }
+
+    #jepang {
+      position: absolute;
+      margin-left: 1030px;
+      margin-top: 320px;
+    }
+
+    .country-detail {
+      border-radius: 10px;
+      width: 215px;
+      box-shadow: 0 7px 16px -5px rgba(199, 199, 199, 0.5);
+      background-color: rgba(255, 255, 255, 0.58);
+      margin-left: 5%;
+
+      &-heading {
+        background-color: rgba(45, 143, 204, 0.2);
+        padding-top: 22px;
+        padding-bottom: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+        img {
+          height: 68px;
+        }
+      }
+
+      &-body {
+        padding: 63px 42px 49px;
+        background-color: rgba(255, 255, 255, 0.58);
+
+        ul {
+          li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+
+            img {
+              width: 44px;
+              margin-right: 19px;
+            }
+
+            span {
+              font-family: $g-ff-museo-700;
+              font-weight: bold;
+              font-size: 16px;
+              color: $dark-grey-blue;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .country-map {
+    display: none;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .country-map {
+    display: none;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .country-map {
+    display: none;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

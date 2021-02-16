@@ -1,0 +1,222 @@
+.slider-donation {
+  background-color: #eef8ff;
+  padding-top: 95px;
+  padding-bottom: 78px;
+
+  .owl-slider-donation {
+    .owl-item {
+      .item {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .owl-dots {
+      margin-top: 40px;
+
+      .owl-dot {
+        outline: none !important;
+        box-shadow: none !important;
+
+        span {
+          width: 13px;
+          height: 13px;
+          background-color: $metallic-blue;
+          border-radius: 100%;
+          margin-left: 15px;
+          margin-right: 15px;
+          outline: none !important;
+          box-shadow: none !important;
+        }
+
+        &.active {
+          span {
+            width: 16px;
+            height: 16px;
+            background-color: #2d8fce;
+            border: 3px solid $dodger-blue;
+          }
+        }
+      }
+    }
+
+    .owl-nav {
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      margin-top: -250px;
+      width: 120%;
+      margin-left: -100px;
+
+      .owl-prev,
+      .owl-next {
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: transparent;
+          border: none;
+          border-radius: 0;
+          outline: none;
+          box-shadow: none;
+        }
+
+        span {
+          font-size: 100px;
+          color: #c8c8c8;
+        }
+      }
+
+      .owl-next {
+
+      }
+    }
+  }
+
+  &-left {
+    width: 50%;
+    padding-right: 122px;
+
+    span {
+      font-family: $g-ff-museo-700;
+      font-weight: bold;
+      font-size: 14px;
+      color: #696969;
+    }
+
+    h4 {
+      font-family: $g-ff-museo-700;
+      font-weight: bold;
+      font-size: 24px;
+      color: $black;
+      margin-bottom: 58px;
+      margin-top: 65px;
+    }
+
+    p {
+      font-family: $g-ff-museo-300;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 23px;
+      color: $black;
+      margin-bottom: 0;
+    }
+  }
+
+  &-right {
+    width: 50%;
+
+    .slider-donation-img {
+      height: 317px;
+      width: 100%;
+      border-radius: 15px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 15px;
+      }
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .slider-donation {
+    .owl-carousel {
+      .owl-item {
+        .item {
+          display: flex;
+          flex-direction: column;
+
+          .slider-donation-left {
+            width: 100% !important;
+            padding-right: 0;
+            margin-bottom: 20px;
+
+            h4 {
+              margin-top: 20px;
+              margin-bottom: 20px;
+            }
+          }
+
+          .slider-donation-right {
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slider-donation {
+    .owl-carousel {
+      .owl-item {
+        .item {
+          display: flex;
+          flex-direction: column;
+
+          .slider-donation-left {
+            width: 100% !important;
+            padding-right: 0;
+            margin-bottom: 20px;
+
+            h4 {
+              margin-top: 20px;
+              margin-bottom: 20px;
+            }
+          }
+
+          .slider-donation-right {
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slider-donation {
+    .owl-carousel {
+      .owl-item {
+        .item {
+          display: flex;
+          flex-direction: column;
+
+          .slider-donation-left {
+            width: 100% !important;
+            padding-right: 0;
+            margin-bottom: 20px;
+
+            h4 {
+              margin-top: 20px;
+              margin-bottom: 20px;
+            }
+          }
+
+          .slider-donation-right {
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

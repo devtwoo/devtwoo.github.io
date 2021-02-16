@@ -1,0 +1,143 @@
+.footer {
+  &-top {
+    border-bottom: 1px solid #464646;
+    padding-top: 97px;
+    padding-bottom: 110px;
+
+    &:after {
+      content: url(../images/ill-footer.svg);
+      position: absolute;
+      right: 0;
+      margin-top: -250px;
+    }
+  }
+
+  &-bottom {
+    padding-top: 40px;
+    padding-bottom: 45px;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .footer {
+    &-top {
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+      &:after {
+        content: none;
+      }
+
+      .row {
+        > div {
+          > div {
+            margin-bottom: 30px;
+          }
+
+          &:last-child {
+            > div {
+              padding-left: 0 !important;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+
+    &-bottom {
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      img {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .footer {
+    &-top {
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+      &:after {
+        content: none;
+      }
+
+      .row {
+        > div {
+          > div {
+            margin-bottom: 30px;
+          }
+
+          &:last-child {
+            > div {
+              padding-left: 0 !important;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+
+    &-bottom {
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      img {
+        margin-bottom: 25px;
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .footer {
+    &-top {
+
+      &:after {
+        margin-top: -400px;
+      }
+
+      .row {
+        > div {
+          &:last-child {
+            > div {
+              padding-left: 0 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .footer {
+    &-top {
+      .row {
+        > div {
+          &:last-child {
+            > div {
+              padding-left: 0 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

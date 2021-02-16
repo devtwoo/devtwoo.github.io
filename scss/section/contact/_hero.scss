@@ -1,0 +1,101 @@
+.contact-hero {
+  background-image: url("../images/bg-heading.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding-top: 118px;
+  padding-bottom: 33px;
+
+  .content {
+    &:before {
+      content: url("../images/ill-contact-header.svg");
+      position: absolute;
+      left: 0;
+      margin-left: -200px;
+      margin-top: -90px;
+    }
+
+    &-top {
+      margin-bottom: 130px;
+    }
+  }
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .contact-hero {
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+    .content {
+      text-align: center;
+
+      &:before {
+        content: none;
+      }
+
+      &-top {
+        margin-bottom: 40px;
+      }
+
+      .hero-sosmed {
+        justify-content: center !important;
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .contact-hero {
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+    .content {
+      text-align: center;
+
+      &:before {
+        content: none;
+      }
+
+      &-top {
+        margin-bottom: 40px;
+      }
+
+      .hero-sosmed {
+        justify-content: center !important;
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact-hero {
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+    .content {
+      text-align: center;
+
+      &-top {
+        margin-bottom: 40px;
+      }
+
+      .hero-sosmed {
+        justify-content: center !important;
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,647 @@
+.zakat {
+  background-color: #2d8fcc;
+  padding-top: 49px;
+  padding-bottom: 41px;
+
+  &-heading {
+    margin-bottom: 32px;
+
+    h4 {
+      font-family: $g-ff-museo-700;
+      font-weight: bold;
+      font-size: 24px;
+      color: white;
+      margin-bottom: 0;
+    }
+  }
+
+  &-left {
+    p {
+      font-family: $g-ff-museo-300;
+      font-weight: 300;
+      font-size: 14px;
+      letter-spacing: 1px;
+      color: white;
+      margin-bottom: 0;
+    }
+  }
+
+  &-right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+
+  // zakat content
+  &-content {
+    height: 560px;
+
+    &-heading {
+      background-color: #ccd2d5;
+      padding-top: 12px;
+      padding-bottom: 12px;
+
+      &-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h4 {
+          font-family: $g-ff-museo-700;
+          font-weight: bold;
+          font-size: 24px;
+          color: $metallic-blue;
+          margin-bottom: 0;
+        }
+
+        ul {
+          display: flex;
+          align-items: center;
+          margin-bottom: 0;
+
+          li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+
+            &.active {
+              .number {
+                background-color: #85d0ff;
+                border: 1px solid white;
+                color: white;
+              }
+
+              span {
+                color: rgba(0, 0, 0, .85);
+              }
+            }
+
+            .hr {
+              border-bottom: 1px solid $dodger-blue;
+              width: 190px;
+              margin-top: -10px;
+            }
+
+            .number {
+              width: 22px;
+              height: 22px;
+              border-radius: 100%;
+              border: 1px solid #95989c;
+              background-color: white;
+              font-family: $g-ff-museo-700;
+              font-weight: bold;
+              font-size: 12px;
+              color: #95989c;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-bottom: 6px;
+            }
+
+            span {
+              font-family: $g-ff-museo-700;
+              font-weight: bold;
+              font-size: 12px;
+              color: #95989c;
+            }
+          }
+        }
+
+        .close {
+          position: absolute;
+          right: 0;
+          margin-right: -15%;
+        }
+      }
+    }
+
+    &-body {
+      min-height: 400px;
+      padding-top: 40px;
+      padding-bottom: 45px;
+
+      .zakat-content-step-1-left {
+        border: 1px dashed #979797;
+        text-align: center;
+        padding-top: 27px;
+        padding-left: 27px;
+        padding-right: 27px;
+        padding-bottom: 50px;
+        border-radius: 5px;
+
+        &-top {
+          margin-bottom: 60px;
+
+          h4 {
+            font-family: $g-ff-museo-700;
+            font-weight: bold;
+            font-size: 18px;
+            color: rgba(black, .85);
+            margin-bottom: 0;
+          }
+
+          span {
+            font-family: $g-ff-museo-700;
+            font-weight: bold;
+            font-size: 10px;
+            color: rgba(32, 32, 32, 0.85);
+          }
+        }
+
+        &-middle {
+          margin-bottom: 60px;
+
+          p {
+            font-family: $g-ff-museo-500;
+            font-weight: 500;
+            font-size: 18px;
+            color: rgba(black, .85);
+            margin-bottom: 0;
+          }
+
+          h4 {
+            font-family: $g-ff-museo-700;
+            font-weight: bold;
+            font-size: 24px;
+            color: rgba(black, .85);
+            margin-bottom: 0;
+          }
+        }
+
+        &-bottom {
+          p {
+            font-family: $g-ff-museo-500;
+            font-weight: 500;
+            font-size: 18px;
+            color: rgba(black, .85);
+            margin-bottom: 0;
+          }
+
+          h4 {
+            font-family: $g-ff-museo-700;
+            font-weight: bold;
+            font-size: 24px;
+            color: rgba(black, .85);
+            margin-bottom: 0;
+          }
+        }
+
+      }
+
+      .zakat-content-step-1-middle,
+      .zakat-content-step-1-right {
+        h4 {
+          font-family: $g-ff-museo-700;
+          font-weight: bold;
+          font-size: 21px;
+          color: rgba(black, .85);
+          margin-bottom: 35px;
+        }
+
+        form {
+          .form-group {
+            margin-bottom: 40px;
+          }
+
+          label {
+            font-family: $g-ff-museo-700;
+            font-weight: bold;
+            font-size: 14px;
+            color: #6d7278;
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+      .zakat-content-step-2-left,
+      .zakat-content-step-2-right {
+        form {
+          label {
+            font-family: $g-ff-museo-700;
+            font-weight: bold;
+            font-size: 14px;
+            color: #6d7278;
+            margin-bottom: 20px;
+          }
+
+          .form-group {
+            margin-bottom: 40px;
+          }
+        }
+      }
+
+      .zakat-content-total-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+
+        .is-reset {
+          margin-left: 25px;
+        }
+
+        .zakat-content-total {
+          border: 1px solid #979797;
+          border-radius: 100px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          height: 38px;
+
+          &-left {
+            display: flex;
+            align-items: center;
+            width: 330px;
+            padding-left: 28px;
+
+            p {
+              font-family: $g-ff-museo-500;
+              font-weight: 500;
+              font-size: 14px;
+              color: #6d7278;
+              margin-right: 18px;
+              margin-bottom: 0;
+            }
+
+            h4 {
+              font-family: $g-ff-museo-700;
+              font-weight: bold;
+              font-size: 24px;
+              color: rgba(black, .85);
+              margin-bottom: 0;
+
+              span {
+                font-family: $g-ff-museo-700;
+                font-weight: bold;
+                font-size: 10px;
+                color: rgba(120, 120, 120, 0.85);
+                margin-right: .5px;
+              }
+            }
+          }
+
+          &-middle {
+            display: flex;
+            align-items: center;
+            width: 460px;
+            background-color: #cfecff;
+            border-radius: 100px;
+            margin-right: -100px;
+            padding-left: 32px;
+            height: 100%;
+
+            p {
+              font-family: $g-ff-museo-500;
+              font-weight: 500;
+              font-size: 14px;
+              color: #6d7278;
+              margin-right: 18px;
+              margin-bottom: 0;
+            }
+
+            h4 {
+              font-family: $g-ff-museo-700;
+              font-weight: bold;
+              font-size: 24px;
+              color: rgba(black, .85);
+              margin-bottom: 0;
+
+              span {
+                font-family: $g-ff-museo-700;
+                font-weight: bold;
+                font-size: 10px;
+                color: rgba(120, 120, 120, 0.85);
+                margin-right: .5px;
+              }
+            }
+          }
+
+          &-right {
+            .btn {
+              min-width: 130px;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.is-hide {
+  display: none;
+}
+
+.is-show {
+  display: block;
+}
+
+.js-zakat-step-2-button {
+  &.hide {
+    display: none;
+  }
+}
+
+.js-zakat-total {
+  display: none;
+
+  &.show {
+    display: block;
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .zakat-content {
+    height: auto;
+
+    &-heading {
+      &-wrap {
+        flex-direction: column;
+
+        h4 {
+          margin-bottom: 25px;
+        }
+
+        ul {
+          flex-direction: column;
+
+          li {
+            .hr {
+              border-bottom: unset;
+              border-right: 1px solid #38b3ff;
+              height: 15px;
+              width: 1px;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            }
+          }
+        }
+
+        .close {
+          margin-left: 0;
+          margin-right: 20px;
+        }
+      }
+    }
+
+    &-body {
+      min-height: 300px;
+      .zakat-content-step-1-left {
+        margin-bottom: 25px;
+      }
+    }
+
+    .zakat-content-total-wrap {
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+
+      .is-reset {
+        margin-left: 0;
+      }
+
+      .zakat-content-total {
+        flex-direction: column;
+        height: auto;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+
+        &-left {
+          width: 100%;
+          padding-left: 0;
+          margin-bottom: 20px;
+          text-align: center;
+          justify-content: center;
+        }
+
+        &-middle {
+          width: 100%;
+          margin-right: 0;
+          margin-bottom: 20px;
+          padding-right: 20px;
+        }
+
+        &-right {
+          width: 100%;
+          margin-bottom: 20px;
+
+          .btn {
+            width: 100%;
+          }
+        }
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+
+  .zakat {
+    &-left {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .zakat-content {
+    height: auto;
+
+    &-heading {
+      &-wrap {
+        flex-direction: column;
+
+        h4 {
+          margin-bottom: 25px;
+        }
+
+        ul {
+          flex-direction: column;
+
+          li {
+            .hr {
+              border-bottom: unset;
+              border-right: 1px solid #38b3ff;
+              height: 15px;
+              width: 1px;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            }
+          }
+        }
+
+        .close {
+          margin-left: 0;
+          margin-right: 20px;
+        }
+      }
+    }
+
+    &-body {
+      min-height: 300px;
+      .zakat-content-step-1-left {
+        margin-bottom: 25px;
+      }
+    }
+
+    .zakat-content-total-wrap {
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+
+      .is-reset {
+        margin-left: 0;
+      }
+
+      .zakat-content-total {
+        flex-direction: column;
+        height: auto;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+
+        &-left {
+          width: 100%;
+          padding-left: 0;
+          margin-bottom: 20px;
+          text-align: center;
+          justify-content: center;
+        }
+
+        &-middle {
+          width: 100%;
+          margin-right: 0;
+          margin-bottom: 20px;
+          padding-right: 20px;
+        }
+
+        &-right {
+          width: 100%;
+          margin-bottom: 20px;
+
+          .btn {
+            width: 100%;
+          }
+        }
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+
+  .zakat {
+    &-left {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .zakat-content {
+    height: auto;
+
+    &-heading {
+      &-wrap {
+        flex-direction: column;
+
+        h4 {
+          margin-bottom: 25px;
+        }
+
+        ul {
+          flex-direction: column;
+
+          li {
+            .hr {
+              border-bottom: unset;
+              border-right: 1px solid #38b3ff;
+              height: 15px;
+              width: 1px;
+              margin-top: 10px;
+              margin-bottom: 10px;
+            }
+          }
+        }
+
+        .close {
+          margin-left: 0;
+          margin-right: 20px;
+        }
+      }
+    }
+
+    &-body {
+      min-height: 300px;
+      .zakat-content-step-1-left {
+        margin-bottom: 25px;
+      }
+    }
+
+    .zakat-content-total-wrap {
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+
+      .zakat-content-total {
+        flex-direction: column;
+        height: auto;
+        border: none;
+        border-radius: 0;
+        width: 100%;
+
+        &-left {
+          width: 100%;
+          padding-left: 0;
+          margin-bottom: 20px;
+          text-align: center;
+          justify-content: center;
+        }
+
+        &-middle {
+          width: 100%;
+          margin-right: 0;
+          margin-bottom: 20px;
+          padding-right: 20px;
+        }
+
+        &-right {
+          width: 100%;
+          margin-bottom: 20px;
+
+          .btn {
+            width: 100%;
+          }
+        }
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+
+  .zakat {
+    &-left {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

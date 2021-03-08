@@ -255,14 +255,24 @@
     <section id="hero-search-result" class="hero-search-result g-pt-88 g-pb-70">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="content">
-                        <div class="input-group g-mb-34">
+                <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12">
+                    <div class="search-adv">
+                        <div class="input-group">
                             <div class="input-group-prepend">
-                                <img src="images/ic-arrow-down.svg">
+                                <img class="search_icon" src="images/search-adv.svg">
                             </div>
-                            <a href="index.html" class="btn btn-search-back">إرجاع</a>
+                            <input type="text" class="form-control" name="" placeholder="ابحث عن مشروع للتبرع">
+                            <a href="#" class="close_icon"><img src="images/x-adv.svg"></a>
+                            <div class="input-group-append">
+                                <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Projects</a>
+                                    <a class="dropdown-item" href="#">Locations</a>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="content text-center">
                         <h1 class="g-ff-museo-700 g-fs-48 g-cl-white g-lh-normal g-mb-17">نتائج البحث عن “keyword”</h1>
                         <p class="g-ff-museo-300 g-fw-300 g-fs-24 g-lh-30 g-cl-white g-mb-0">تم العثور على 4200 من النتائج
                         </p>
@@ -272,6 +282,95 @@
         </div>
     </section>
     <!--end:hero search result-->
+    <!--start:search filters-->
+    <section id="search-filter" class="search-filter g-pt-45">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                    <div class="adv-filters">
+                        <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        <a href="#" class="ico-filter"><img src="images/filters-ico.svg"></a>
+                     Filters
+                </button>
+
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                    <div class="sortby">
+                        <select class="form-control" id="sort-bys">
+                    <option>Popular</option>
+                    <option>Recents</option>
+                    <option>Most Relevant</option>
+                     <option>Finished Projects</option>
+                </select>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-md-3 mb-3">
+                                <label for="sortCategory">Category</label>
+                                <select class="form-control" id="sortCategory">
+                                <option>Show All</option>
+                                <option>Zakat</option>
+                                <option>Charity(Sadaka)</option>
+                                <option>Ramadhan Projects</option>
+                                <option>Construction</option>
+                                <option>Sponsorship</option>
+                                <option>Medical Project</option>
+                                <option>Emergency & Relief</option>
+                                <option>Awqaf</option>
+                                <option>Quran</option>
+                                <option>Water Project</option>
+                                <option>Seasonal</option>
+                                <option>Small Business</option>
+                                <option>Food / Sacrifices</option>
+                                <option>Dakwah</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="sortTime">Timeframe</label>
+                                <select class="form-control" id="sortTime">
+                                <option>All Project</option>
+                                <option>Last Week</option>
+                                <option>Last Month</option>
+                                <option>Last Year</option>
+                            </select>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="baseNisab">Location</label>
+                                <select class="form-control" id="sortLocation">
+                                <option>Around The World</option>
+                                <option>Africa</option>
+                                <option>indonesia</option>
+                                <option>Kenya</option>
+                                <option>Kuwait</option>
+                                <option>Malaysia</option>
+                                <!--Fetch this list from available location on database-->
+                                <option>etc..</option>
+                            </select>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                                <label for="baseNisab">Project Status</label>
+                                <select class="form-control" id="sortStat">
+                                <option>All</option>
+                                <option>New Projects</option>
+                                <!--Project raised stat 1% - 79% -->
+                                <option>On Progress</option>
+                                <!-- Take from total project raised goal > 80% -->
+                                <option>Almost Finished</option>
+                                <option>Finished Projects</option>
+                            </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:search filters-->
 
     <!--start:search content-->
     <section id="search-content" class="search-content g-pt-49 g-pb-62">
@@ -641,7 +740,7 @@
                             <p class="g-ff-museo-500 g-fs-12 g-lh-27 g-cl-text-gray g-mb-0">تم إشهار الجمعية الكويتية للعمل الانساني بموجب قرار وزاري رقم (72/أ) لسنة 2016 ووفقا لأحكام القانون رقم 24 لسنة 1962 لوزارة الشئون الاجتماعية والعمل. </p>
                         </div>
                     </div>
-                    <div class="col-lg-2 offset-lg-1 col-md-6 col-sm-12">
+                    <div class="col-lg-2 offset-rg-1 col-md-6 col-sm-12">
                         <div>
                             <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">تواصل معنا</h4>
                             <ul class="list-unstyled g-pl-0 g-mb-0 g-ml-0">

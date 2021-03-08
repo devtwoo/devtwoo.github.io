@@ -80,7 +80,7 @@
                 <div class="container">
                     <div class="navbar-nav">
                         <ul class="list-unstyled">
-                            <li class="active">
+                            <li>
                                 <a href="index.html">HOME</a>
                             </li>
                             <li>
@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.html">HOME</a>
                     </li>
                     <li class="nav-item">
@@ -254,7 +254,7 @@
     <!--start: cart -->
     <section id="cart" class="cart">
         <div class="container">
-            <div class="cart-progress">
+            <div class="cart-progress tablet-hidden">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="cart-progress-wrap">
@@ -290,10 +290,10 @@
                     <div class="col-lg-7 col-md-12 col-sm-12">
                         <div class="cart-donation-list">
                             <table class="table">
-                                <thead>
+                                <thead class="mobile-hidden">
                                     <tr>
                                         <th class="col-4">Project</th>
-                                        <th class="col-2">Total Donation</th>
+                                        <th class="col-2 text-center">Total Donation (KD)</th>
                                         <th></th>
                                     </tr>
                                 </thead>
@@ -309,7 +309,32 @@
                                             </a>
                                         </td>
                                         <td>
-                                            <h4>KD 35.0</h4>
+                                            <div class="number">
+                                                <span class="minus">-</span>
+                                                <input type="text" value="5" />
+                                                <span class="plus">+</span>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <a href="#" onclick="deltecart(this)" class="close"><img src="images/ic-close.svg"></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="#">
+                                                <img src="images/img.jpg">
+                                                <div>
+                                                    <h4>Zakat project xyz</h4>
+                                                    <p>Description of that lorem ipsum dolor sit amet ipsum dolor sit amet</p>
+                                                </div>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <div class="number">
+                                                <span class="minus">-</span>
+                                                <input type="text" value="20" />
+                                                <span class="plus">+</span>
+                                            </div>
                                         </td>
                                         <td>
                                             <a href="#" class="close"><img src="images/ic-close.svg"></a>
@@ -326,24 +351,11 @@
                                             </a>
                                         </td>
                                         <td>
-                                            <h4>KD 35.0</h4>
-                                        </td>
-                                        <td>
-                                            <a href="#" class="close"><img src="images/ic-close.svg"></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="#">
-                                                <img src="images/img.jpg">
-                                                <div>
-                                                    <h4>Zakat project xyz</h4>
-                                                    <p>Description of that lorem ipsum dolor sit amet ipsum dolor sit amet</p>
-                                                </div>
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <h4>KD 35.0</h4>
+                                            <div class="number">
+                                                <span class="minus">-</span>
+                                                <input type="text" value="15" />
+                                                <span class="plus">+</span>
+                                            </div>
                                         </td>
                                         <td>
                                             <a href="#" class="close"><img src="images/ic-close.svg"></a>

@@ -5,9 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Contact | KSHW</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/floating-wpp.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/alds-global.css">
     <link rel="stylesheet" href="css/kshw.css">
+    <link rel="stylesheet" href="css/floating-wpp.min.css">
 </head>
 
 <body>
@@ -251,6 +254,27 @@
     </div>
     <!--end:modal login header-->
 
+    <!--start:Floating WA-->
+    <div id="WAButton"></div>
+
+    <script type="text/javascript">
+        $(function() {
+            $('#WAButton').floatingWhatsApp({
+                phone: 'WHATSAPP-PHONE-NUMBER', //WhatsApp Business phone number
+                headerTitle: 'Chat with us on WhatsApp!', //Popup Title
+                popupMessage: 'Hello, how can we help you?', //Popup Message
+                showPopup: true, //Enables popup display
+                buttonImage: '<img src="images/wa-ico.svg" />', //Button Image
+                //headerColor: 'crimson', //Custom header color
+                //backgroundColor: 'crimson', //Custom background button color
+                position: "right" //Position: left | right
+
+            });
+        });
+    </script>
+    <!--end:Floating WA-->
+
+
     <!--start:contact hero-->
     <section id="contact-hero" class="contact-hero">
         <div class="container">
@@ -347,6 +371,7 @@
     </section>
     <!--end:contact content-->
 
+
     <!--start:footer-->
     <footer id="footer" class="footer g-bg-dark-navy-blue">
         <div class="container">
@@ -358,7 +383,7 @@
                             <p class="g-ff-museo-500 g-fs-12 g-lh-27 g-cl-text-gray g-mb-0">تم إشهار الجمعية الكويتية للعمل الانساني بموجب قرار وزاري رقم (72/أ) لسنة 2016 ووفقا لأحكام القانون رقم 24 لسنة 1962 لوزارة الشئون الاجتماعية والعمل. </p>
                         </div>
                     </div>
-                    <div class="col-lg-2 offset-lg-1 col-md-6 col-sm-12">
+                    <div class="col-lg-2 offset-rg-1 col-md-6 col-sm-12">
                         <div>
                             <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">تواصل معنا</h4>
                             <ul class="list-unstyled g-pl-0 g-mb-0 g-ml-0">
@@ -430,7 +455,6 @@
     <!--end:footer-->
 
     <!--start:javascript-->
-    <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/kshw.js"></script>

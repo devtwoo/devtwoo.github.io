@@ -105,7 +105,8 @@
 }
 
 .floating-wpp .floating-wpp-btn-send {
-    margin-left: 12px;
+    margin-right: 12px;
     font-size: 0;
-    cursor: pointer
+    cursor: pointer;
+    transform: rotate(180deg);
 }

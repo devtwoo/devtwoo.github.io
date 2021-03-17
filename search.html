@@ -5,9 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Search Result | KSHW</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/floating-wpp.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/alds-global.css">
     <link rel="stylesheet" href="css/kshw.css">
+    <link rel="stylesheet" href="css/floating-wpp.min.css">
 </head>
 
 <body>
@@ -251,6 +254,26 @@
     </div>
     <!--end:modal login header-->
 
+    <!--start:Floating WA-->
+    <div id="WAButton"></div>
+
+    <script type="text/javascript">
+        $(function() {
+            $('#WAButton').floatingWhatsApp({
+                phone: '+96597222540', //WhatsApp Business phone number
+                headerTitle: 'تواصل معنا عن طريق واتس آب', //Popup Title
+                popupMessage: 'مرحبا ، كيف يمكننا مساعدتك ؟', //Popup Message
+                showPopup: true, //Enables popup display
+                buttonImage: '<img src="images/wa-ico.svg" />', //Button Image
+                //headerColor: 'crimson', //Custom header color
+                //backgroundColor: 'crimson', //Custom background button color
+                position: "right" //Position: left | right
+
+            });
+        });
+    </script>
+    <!--end:Floating WA-->
+
     <!--start:hero search result-->
     <section id="hero-search-result" class="hero-search-result g-pt-88 g-pb-70">
         <div class="container">
@@ -264,11 +287,11 @@
                             <input type="text" class="form-control" name="" placeholder="ابحث عن مشروع للتبرع">
                             <a href="#" class="close_icon"><img src="images/x-adv.svg"></a>
                             <div class="input-group-append">
-                                <button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All</button>
+                                <!--button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All</button>
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="#">Projects</a>
                                     <a class="dropdown-item" href="#">Locations</a>
-                                </div>
+                                </div-->
                             </div>
                         </div>
                     </div>
@@ -286,11 +309,11 @@
     <section id="search-filter" class="search-filter g-pt-45">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-lg-2 col-md-4 col-sm-12">
+                <div class="col-lg-3 col-md-4 col-sm-12">
                     <div class="adv-filters">
                         <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         <a href="#" class="ico-filter"><img src="images/filters-ico.svg"></a>
-                     Filters
+                     Advance Search
                 </button>
 
                     </div>
@@ -812,7 +835,6 @@
     <!--end:footer-->
 
     <!--start:javascript-->
-    <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/kshw.js"></script>

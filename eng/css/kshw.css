@@ -2411,7 +2411,7 @@ textarea {
 }
 
 .home-project {
-    margin-top: -80px;
+    margin-top: 80px;
     padding-bottom: 100px
 }
 
@@ -4658,7 +4658,7 @@ textarea {
 }
 
 .project-carousel {
-    margin-bottom: 88px
+    margin-bottom: 0px
 }
 
 .project-carousel-wrap {
@@ -5310,8 +5310,8 @@ textarea {
 }
 
 .category {
-    background-color: rgba(224, 224, 224, 0.5);
-    padding-top: 40px;
+    /*background-color: rgba(224, 224, 224, 0.5);*/
+    padding-top: 150px;
     padding-bottom: 70px
 }
 
@@ -6279,7 +6279,7 @@ textarea {
     margin: auto;
     color: #8c8c96;
     padding-right: 35px;
-    border-right: 1px solid #8c8c96;
+    /*border-right: 1px solid #8c8c96;*/
     margin-right: 30px;
 }
 
@@ -6345,3 +6345,147 @@ textarea {
     margin: auto;
     padding-right: 10px;
 }
+
+.publication {
+    background-image: url(../images/homepage/bg-quick-donation.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 85%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.publication-table {
+    border-radius: 20px;
+    box-shadow: 0 0 14px -4px rgba(0, 0, 0, 0.5);
+    padding: 20px 101px 70px 103px;
+    background-color: #ffffff;
+}
+
+.publication-table .tablepub td {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.publication-table tbody tr td {
+    vertical-align: middle;
+    padding-top: 50px;
+}
+
+.publication-table .download-ico {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+}
+
+.publication-table .caption {
+    display: block;
+}
+
+.publication-table span {
+    font-family: "MuseoSans-500", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--dark-grey-blue);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.publication-section h4 {
+    margin-bottom: 30px;
+    font-family: "MuseoSans-700", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--dark-grey-blue);
+}
+
+.publication-section p {
+    margin-bottom: 24px;
+    font-family: "MuseoSans-300", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--dark-grey-blue);
+}
+
+.publication-section {
+    background-color: #eef8ff;
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.publication-section img {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+}
+
+
+/*temp slider css*/
+
+.carousel-item {
+    height: 685px;
+    background: #000;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-item .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 200px;
+    margin-left: 16%;
+}
+
+.carousel-item h1 {
+    font-family: "MuseoSans-700", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 13px;
+}
+
+.carousel-item h3 {
+    font-family: "MuseoSans-700", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.carousel-item h4 {
+    font-family: "MuseoSans-300", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.carousel-item p {
+    font-family: "MuseoSans-700", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.carousel-item a {
+    margin-top: 30px;
+    width: 180px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+
+/*end of tem slider css*/

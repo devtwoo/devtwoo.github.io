@@ -5,11 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Project | KSHW</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/floating-wpp.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/alds-global.css">
     <link rel="stylesheet" href="css/kshw.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/floating-wpp.min.css">
 </head>
 
 <body>
@@ -252,6 +255,26 @@
         </div>
     </div>
     <!--end:modal login header-->
+
+    <!--start:Floating WA-->
+    <div id="WAButton"></div>
+
+    <script type="text/javascript">
+        $(function() {
+            $('#WAButton').floatingWhatsApp({
+                phone: '+96597222540', //WhatsApp Business phone number
+                headerTitle: 'تواصل معنا عن طريق واتس آب', //Popup Title
+                popupMessage: 'مرحبا ، كيف يمكننا مساعدتك ؟', //Popup Message
+                showPopup: true, //Enables popup display
+                buttonImage: '<img src="images/wa-ico.svg" />', //Button Image
+                //headerColor: 'crimson', //Custom header color
+                //backgroundColor: 'crimson', //Custom background button color
+                position: "right" //Position: left | right
+
+            });
+        });
+    </script>
+    <!--end:Floating WA-->
 
     <!--start:project carousel-->
     <section dir="ltr" id="project-carousel" class="project-carousel">
@@ -644,102 +667,6 @@
     </section>
     <!--end:project carousel-->
 
-    <!--start:current project-->
-    <section id="project-current" class="project-current g-pb-88 g-pt-88">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="project-heading g-d-flex g-items-center g-jus-between g-mb-41">
-                        <h3 class="g-ff-museo-700 g-fs-21 g-tt-upp g-cl-black g-mb-0">مشروع قائم</h3>
-                        <a href="#" class="g-ff-museo-300 g-fs-14 g-cl-black-08 g-d-flex g-items-center"><span>شاهد المزيد</span> <img src="images/ic-arrow-right-circlear.svg" class="g-mr-10"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="content">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-12">
-                        <div class="card project-card-2">
-                            <img src="images/img.jpg" class="card-img">
-                            <div class="card-img-overlay-date">
-                                <img src="images/ic-clock.svg">
-                                <span> 13 سبتمبر 2018</span>
-                            </div>
-                            <div class="card-img-overlay">
-                                <div class="card-img-overlay-tag">
-                                    <span>#construction</span>
-                                </div>
-                                <a href="projects-detail.html">شرح المشروع المستمر</a>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                                <p>7 % عن مبلغ 350,000 دينار كويتي</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="project-card">
-                            <div class="project-card-heading">
-                                <a href="projects-detail.html" class="project-card-heading-img">
-                                    <img src="images/img.jpg">
-                                </a>
-                                <div class="project-card-meta-date">
-                                    <img src="images/ic-clock.svg">
-                                    <span> 13 سبتمبر 2018</span>
-                                </div>
-                            </div>
-                            <div class="project-card-body">
-                                <div class="project-card-body-top">
-                                    <div class="project-card-meta-location">
-                                        <img src="images/ic-pin.svg">
-                                        <span>مواقعنا</span>
-                                    </div>
-                                    <a href="projects-detail.html">شرح التبرع</a>
-                                    <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
-                                </div>
-                                <div class="project-card-body-bottom">
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="project-card">
-                            <div class="project-card-heading">
-                                <a href="projects-detail.html" class="project-card-heading-img">
-                                    <img src="images/img.jpg">
-                                </a>
-                                <div class="project-card-meta-date">
-                                    <img src="images/ic-clock.svg">
-                                    <span> 13 سبتمبر 2018</span>
-                                </div>
-                            </div>
-                            <div class="project-card-body">
-                                <div class="project-card-body-top">
-                                    <div class="project-card-meta-location">
-                                        <img src="images/ic-pin.svg">
-                                        <span>مواقعنا</span>
-                                    </div>
-                                    <a href="projects-detail.html">شرح التبرع</a>
-                                    <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
-                                </div>
-                                <div class="project-card-body-bottom">
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--end:current project-->
-
     <!--start:category-->
     <section id="category" class="category">
         <div class="container">
@@ -869,6 +796,102 @@
         </div>
     </section>
     <!--end:category-->
+
+    <!--start:current project-->
+    <section id="project-current" class="project-current g-pb-88 g-pt-88">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="project-heading g-d-flex g-items-center g-jus-between g-mb-41">
+                        <h3 class="g-ff-museo-700 g-fs-21 g-tt-upp g-cl-black g-mb-0">مشروع قائم</h3>
+                        <a href="#" class="g-ff-museo-300 g-fs-14 g-cl-black-08 g-d-flex g-items-center"><span>شاهد المزيد</span> <img src="images/ic-arrow-right-circlear.svg" class="g-mr-10"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="card project-card-2">
+                            <img src="images/img.jpg" class="card-img">
+                            <div class="card-img-overlay-date">
+                                <img src="images/ic-clock.svg">
+                                <span> 13 سبتمبر 2018</span>
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="card-img-overlay-tag">
+                                    <span>#construction</span>
+                                </div>
+                                <a href="projects-detail.html">شرح المشروع المستمر</a>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p>7 % عن مبلغ 350,000 دينار كويتي</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="project-card">
+                            <div class="project-card-heading">
+                                <a href="projects-detail.html" class="project-card-heading-img">
+                                    <img src="images/img.jpg">
+                                </a>
+                                <div class="project-card-meta-date">
+                                    <img src="images/ic-clock.svg">
+                                    <span> 13 سبتمبر 2018</span>
+                                </div>
+                            </div>
+                            <div class="project-card-body">
+                                <div class="project-card-body-top">
+                                    <div class="project-card-meta-location">
+                                        <img src="images/ic-pin.svg">
+                                        <span>مواقعنا</span>
+                                    </div>
+                                    <a href="projects-detail.html">شرح التبرع</a>
+                                    <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
+                                </div>
+                                <div class="project-card-body-bottom">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="project-card">
+                            <div class="project-card-heading">
+                                <a href="projects-detail.html" class="project-card-heading-img">
+                                    <img src="images/img.jpg">
+                                </a>
+                                <div class="project-card-meta-date">
+                                    <img src="images/ic-clock.svg">
+                                    <span> 13 سبتمبر 2018</span>
+                                </div>
+                            </div>
+                            <div class="project-card-body">
+                                <div class="project-card-body-top">
+                                    <div class="project-card-meta-location">
+                                        <img src="images/ic-pin.svg">
+                                        <span>مواقعنا</span>
+                                    </div>
+                                    <a href="projects-detail.html">شرح التبرع</a>
+                                    <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
+                                </div>
+                                <div class="project-card-body-bottom">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end:current project-->
 
     <!--start:completed project-->
     <section id="project-completed" class="project-completed g-pt-88">
@@ -2474,7 +2497,6 @@
     <!--end:footer-->
 
     <!--start:javascript-->
-    <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>

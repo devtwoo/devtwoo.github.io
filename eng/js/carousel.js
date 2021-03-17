@@ -49,3 +49,17 @@ $('.owl-project-carousel').owlCarousel({
         }
     }
 })
+
+/* temp carousel js*/
+$(".hero-slider").owlCarousel({
+    items: 3,
+    margin: 10,
+    lazyLoad: true,
+    loop: true,
+    autoplayTimeout: 6000,
+    singleItem: true,
+    autoWidth: true,
+    navigation: true,
+
+});
+/* end of temp carousel js*/

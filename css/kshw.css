@@ -101,15 +101,15 @@
 }
 
 .g-ff-museo-300 {
-    font-family: "MuseoSans-300", sans-serif
+    font-family: "DroidArabicKufi", sans-serif
 }
 
 .g-ff-museo-500 {
-    font-family: "MuseoSans-500", sans-serif
+    font-family: "DroidArabicKufi", sans-serif
 }
 
 .g-ff-museo-700 {
-    font-family: "MuseoSans-700", sans-serif
+    font-family: "TanseekModernProArabic-Bold", sans-serif
 }
 
 .g-ff-museo-900 {
@@ -239,7 +239,7 @@ body {
 }
 
 body {
-    font-family: "MuseoSans-300", sans-serif;
+    font-family: "DroidArabicKufi", sans-serif;
     overflow-x: hidden;
     padding-top: 135px
 }
@@ -265,15 +265,6 @@ a:hover {
     .form-row {
         margin-left: -10px;
         margin-right: -10px
-    }
-}
-
-@media (max-width: 575.98px) {
-    body {
-        padding-top: 5px
-    }
-    .mobile-hidden {
-        display: none
     }
 }
 
@@ -333,11 +324,11 @@ a:hover {
     margin-left: 0;
     padding-left: 0;
     margin-bottom: 0;
-    margin-right: 20px
+    margin-left: 20px
 }
 
 .header-top-left .header-sosmed li {
-    margin-right: 20px
+    margin-left: 20px
 }
 
 .header-top-left .dropdown-toggle:after {
@@ -351,7 +342,7 @@ a:hover {
 
 .header-top-left .dropdown-toggle img {
     height: 15px;
-    margin-right: 10px
+    margin-left: 10px
 }
 
 .header-top-left .dropdown-toggle span {
@@ -384,9 +375,9 @@ a:hover {
 }
 
 .header-top-right .cart-button {
-    padding-right: 35px;
-    border-right: 1px solid var(--metallic-blue);
-    margin-right: 30px
+    padding-left: 35px;
+    border-left: 1px solid var(--metallic-blue);
+    margin-left: 30px
 }
 
 .header-top-right .cart-button a img {
@@ -423,7 +414,7 @@ a:hover {
     border-left: 0;
     border-right: 0;
     vertical-align: unset;
-    margin-left: 10px;
+    margin-right: 10px;
     margin-top: -2px
 }
 
@@ -431,7 +422,7 @@ a:hover {
     width: 25px;
     height: 25px;
     border-radius: 100px;
-    margin-right: 8px
+    margin-left: 8px
 }
 
 .header-top-right .dropdown-toggle .img-people img {
@@ -476,7 +467,7 @@ a:hover {
 }
 
 .header-bottom .navbar-nav ul li {
-    margin-right: 30px
+    margin-left: 30px
 }
 
 .header-bottom .navbar-nav ul li:last-child {
@@ -488,7 +479,7 @@ a:hover {
 }
 
 .header-bottom .navbar-nav ul li a {
-    font-family: "MuseoSans-500", sans-serif;
+    font-family: "DroidArabicKufi", sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: var(--pale-sky-blue);
@@ -567,7 +558,7 @@ a:hover {
 }
 
 .navbar-mobile .cart-button {
-    margin-right: 20px
+    margin-left: 20px
 }
 
 .navbar-mobile .cart-button a img {
@@ -594,7 +585,7 @@ a:hover {
 }
 
 .navbar-mobile .dropdown-user {
-    margin-right: 20px
+    margin-left: 20px
 }
 
 .navbar-mobile .dropdown-user .dropdown-toggle {
@@ -685,7 +676,7 @@ a:hover {
 .navbar-mobile .input-group input {
     background-color: transparent;
     border: none;
-    font-family: "MuseoSans-300", sans-serif;
+    font-family: "DroidArabicKufi", sans-serif;
     font-weight: 300;
     font-size: 12px;
     padding-left: 0;
@@ -723,8 +714,8 @@ a:hover {
 }
 
 .navbar-mobile-bottom .dropdown-menu {
-    left: unset;
-    right: 0
+    left: 0;
+    right: unset;
 }
 
 @media (max-width: 575.98px) {
@@ -854,6 +845,9 @@ a:hover {
         padding-top: 50px;
         padding-bottom: 50px
     }
+    .footer-top:after {
+        content: none
+    }
     .footer-top .row>div>div {
         margin-bottom: 30px
     }
@@ -917,7 +911,7 @@ a:hover {
 }
 
 .form-group label {
-    font-family: "MuseoSans-300", sans-serif;
+    font-family: "DroidArabicKufi", sans-serif;
     font-size: 12px;
     color: rgba(23, 23, 23, 0.85);
     margin-bottom: 10px;
@@ -960,7 +954,7 @@ textarea {
 }
 
 .btn {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "DroidArabicKufi", sans-serif;
     font-size: 12px;
     line-height: calc(38px - 2px);
     border-radius: 100px;
@@ -1106,7 +1100,7 @@ textarea {
 }
 
 .project-card-heading .project-card-meta-date img {
-    margin-right: 5px
+    margin-left: 5px
 }
 
 .project-card-heading .project-card-meta-date span {
@@ -1133,12 +1127,12 @@ textarea {
 
 .project-card-body-top .project-card-meta-location img {
     height: 10px;
-    margin-right: 10px
+    margin-left: 10px
 }
 
 .project-card-body-top .project-card-meta-location span {
-    font-family: "MuseoSans-500", sans-serif;
-    font-weight: 500;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
     font-size: 10px;
     color: #6d7278
 }
@@ -1231,7 +1225,7 @@ textarea {
 
 .project-card-2 .card-img-overlay-date img {
     height: 20px;
-    margin-right: 14px
+    margin-left: 14px
 }
 
 .project-card-2 .card-img-overlay-date span {
@@ -1246,7 +1240,7 @@ textarea {
     padding: 7px 11px;
     border-radius: 100px;
     position: absolute;
-    left: 35px;
+    right: 35px;
     margin-top: -65px;
     font-family: "MuseoSans-500", sans-serif;
     font-weight: 500;
@@ -1325,7 +1319,7 @@ textarea {
 
 .project-card-3 .card-img-overlay-date img {
     height: 24px;
-    margin-right: 12px
+    margin-left: 12px
 }
 
 .project-card-3 .card-img-overlay-date span {
@@ -1376,16 +1370,16 @@ textarea {
 }
 
 .project-card-3 .card-img-overlay-center h4 {
-    font-family: "MuseoSans-500", sans-serif;
-    font-weight: 500;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
     font-size: 14px;
     color: var(--white);
     margin-bottom: 0
 }
 
 .project-card-3 .card-img-overlay a {
-    font-family: "MuseoSans-500", sans-serif;
-    font-weight: 500;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.85)
 }
@@ -1448,8 +1442,8 @@ textarea {
 }
 
 .project-card-4 .project-card-heading-overlay h4 {
-    font-family: "MuseoSans-500", sans-serif;
-    font-weight: 500;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
     font-size: 14px;
     color: var(--white);
     margin-bottom: 0
@@ -1481,7 +1475,7 @@ textarea {
 
 .project-card-4 .project-card-body .project-card-meta-date img {
     height: 15px;
-    margin-right: 9px
+    margin-left: 9px
 }
 
 .project-card-4 .project-card-body .project-card-meta-date span {
@@ -1493,9 +1487,9 @@ textarea {
 }
 
 .project-card-4 .project-card-body a {
-    font-family: "MuseoSans-500", sans-serif;
-    font-weight: 500;
-    font-size: 18px;
+    font-family: "DroidArabicKufi-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
     color: rgba(0, 0, 0, 0.85)
 }
 
@@ -1860,9 +1854,9 @@ textarea {
 }
 
 .modal-cart-login .modal-dialog .modal-content .modal-header h5 {
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
+    font-family: "DroidArabicKufi-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
     color: black;
     margin-bottom: 0
 }
@@ -1872,7 +1866,7 @@ textarea {
 }
 
 .modal-cart-login .modal-dialog .modal-content .modal-body .text-right a {
-    font-family: "MuseoSans-500", sans-serif;
+    font-family: "DroidArabicKufi", sans-serif;
     font-weight: 500;
     font-size: 12px;
     color: #525252
@@ -1883,8 +1877,8 @@ textarea {
 }
 
 .modal-cart-login .modal-dialog .modal-content .modal-body .form-check-label {
-    font-family: "MuseoSans-500", sans-serif;
-    font-weight: 500;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
     font-size: 12px;
     color: #525252
 }
@@ -1917,17 +1911,17 @@ textarea {
 }
 
 .modal-cart-login .modal-dialog .modal-content .modal-body form label {
-    font-family: "MuseoSans-700", sans-serif;
-    font-weight: 700;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
     font-size: 14px;
     color: #6d7278;
     margin-bottom: 10px
 }
 
 .modal-cart-login .modal-dialog .modal-content .modal-body .notes {
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
-    font-size: 12px;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
+    font-size: 10px;
     line-height: 18px;
     color: black;
     margin-top: 52px;
@@ -1977,15 +1971,15 @@ textarea {
 }
 
 .modal-login-header .modal-body-right h4 {
-    font-family: "MuseoSans-700", sans-serif;
-    font-weight: 700;
-    font-size: 21px;
+    font-family: "DroidArabicKufi-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
     color: rgba(0, 0, 0, 0.85);
     margin-bottom: 30px
 }
 
 .modal-login-header .modal-body-right .form-check {
-    padding-left: 32px
+    padding-left: 88px;
 }
 
 .modal-login-header .modal-body-right .form-check-label {
@@ -2007,8 +2001,8 @@ textarea {
 }
 
 .modal-login-header .modal-body-right form label {
-    font-family: "MuseoSans-700", sans-serif;
-    font-weight: bold;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
     font-size: 14px;
     color: #6d7278;
     margin-bottom: 10px
@@ -2154,38 +2148,38 @@ textarea {
 
 .hero-header .content {
     position: absolute;
-    width: 490px;
+    /* width: 490px; */
     margin-left: 16%;
     color: white
 }
 
 .hero-header .content h5 {
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
-    font-size: 28px;
+    font-family: "TanseekModernProArabic-Book", sans-serif;
+    font-weight: normal;
+    font-size: 45px;
     color: white;
     margin-bottom: 8px
 }
 
 .hero-header .content h4 {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 50px;
     color: white
 }
 
 .hero-header .content h2 {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 86px;
     color: white;
     margin-bottom: 13px
 }
 
 .hero-header .content p {
-    font-family: "MuseoSans-700", sans-serif;
-    font-weight: bold;
-    font-size: 17px;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
     color: white;
     margin-bottom: 30px
 }
@@ -2239,15 +2233,15 @@ textarea {
 }
 
 .quick-donation-left p {
-    font-family: "MuseoSans-500", sans-serif;
-    font-weight: 500;
+    font-family: "DroidArabicKufi-Bold", sans-serif;
+    font-weight: bold;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.85);
     margin-bottom: 22px
 }
 
 .quick-donation-left span {
-    font-family: "MuseoSans-300", sans-serif;
+    font-family: "DroidArabicKufi", sans-serif;
     font-weight: 300;
     font-size: 12px;
     color: rgba(0, 0, 0, 0.85)
@@ -2270,29 +2264,14 @@ textarea {
     align-items: center
 }
 
-.quick-donation-left form .btn-group .btn-standorder {
-    padding: 0 10px;
-    border-radius: 10px;
-    border: solid 1px #cfcfcf;
-    background-color: #ffffff;
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
-    color: rgba(0, 0, 0, 0.85);
-    padding: 0 15px;
-    text-align: left;
-    display: flex;
-    align-items: center
-}
-
 .quick-donation-left form .btn-group .btn input {
-    margin-right: 15px
+    margin-left: 15px
 }
 
 .quick-donation-left form .btn-group .btn.active {
     box-shadow: 0 0 4px 0 #85d0ff;
     border: solid 1px #85d0ff;
-    background-color: white;
-    color: black;
+    background-color: white
 }
 
 .quick-donation-left form .btn-primary,
@@ -2307,15 +2286,15 @@ textarea {
 }
 
 .quick-donation-right h5 {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: bold;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 42px;
+    line-height: 42px;
     color: rgba(0, 0, 0, 0.85)
 }
 
 .quick-donation-right p {
-    font-family: "MuseoSans-300", sans-serif;
+    font-family: "DroidArabicKufi", sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 27px;
@@ -2334,7 +2313,7 @@ textarea {
 }
 
 .quick-donation-right .meta span:first-child {
-    font-family: "MuseoSans-300", sans-serif;
+    font-family: "DroidArabicKufi", sans-serif;
     font-weight: 300;
     font-size: 12px;
     margin-bottom: -10px
@@ -2500,16 +2479,16 @@ textarea {
 }
 
 .slider-donation-left span {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "DroidArabicKufi-Bold", sans-serif;
     font-weight: bold;
     font-size: 14px;
     color: #696969
 }
 
 .slider-donation-left h4 {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 32px;
     color: #171717;
     margin-bottom: 58px;
     margin-top: 65px
@@ -2609,15 +2588,15 @@ textarea {
 }
 
 .zakat-heading h4 {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 32px;
     color: white;
     margin-bottom: 0
 }
 
 .zakat-left p {
-    font-family: "MuseoSans-300", sans-serif;
+    font-family: "DroidArabicKufi", sans-serif;
     font-weight: 300;
     font-size: 14px;
     letter-spacing: 1px;
@@ -2710,7 +2689,7 @@ textarea {
 .zakat-content-heading-wrap .close {
     position: absolute;
     right: 0;
-    margin-right: -15%
+    margin-right: 120%
 }
 
 .zakat-content-body {
@@ -3184,9 +3163,9 @@ textarea {
 }
 
 .project-gallery .gallery-description h4 {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 32px;
     color: #171717;
     margin-bottom: 20px
 }
@@ -3215,9 +3194,8 @@ textarea {
 }
 
 .project-gallery .gallery-description-bottom>a {
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
-    font-style: italic;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
     font-size: 18px;
     color: #171717
 }
@@ -3305,14 +3283,14 @@ textarea {
 }
 
 .country-map .heading h2 {
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
-    font-size: 36px;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
     color: rgba(0, 0, 0, 0.85)
 }
 
 .country-map .heading h2 strong {
-    font-family: "MuseoSans-900", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: 900
 }
 
@@ -3442,7 +3420,7 @@ textarea {
 }
 
 .country-map .content .country-detail-body ul li span {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: bold;
     font-size: 16px;
     color: #2f4d60
@@ -3476,18 +3454,18 @@ textarea {
 }
 
 .hero-about .content h1 {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 60px;
     line-height: normal;
     margin-bottom: 20px;
     color: #fff
 }
 
 .hero-about .content p {
-    font-family: "MuseoSans-500", sans-serif;
+    font-family: "DroidArabicKufi", sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 29px;
     color: #fff;
     margin-bottom: 60px
@@ -3553,17 +3531,17 @@ textarea {
 }
 
 .the-mission .heading h4 {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 32px;
     color: #171717;
     margin-bottom: 20px
 }
 
 .the-mission .heading p {
-    font-family: "MuseoSans-500", sans-serif;
+    font-family: "DroidArabicKufi", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
     color: #171717;
     margin-bottom: 0
@@ -3600,9 +3578,9 @@ textarea {
 
 .the-mission .content-left span,
 .the-mission .content-right span {
-    font-family: "MuseoSans-300", sans-serif;
+    font-family: "DroidArabicKufi", sans-serif;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 10px;
     color: black
 }
 
@@ -3639,7 +3617,7 @@ textarea {
 }
 
 .the-mission .content-left ul li .number {
-    margin-left: 21px
+    margin-right: 21px
 }
 
 .the-mission .content-middle {
@@ -3663,11 +3641,11 @@ textarea {
 }
 
 .the-mission .content-right ul li {
-    text-align: left
+    text-align: right
 }
 
 .the-mission .content-right ul li .number {
-    margin-right: 21px
+    margin-left: 21px
 }
 
 @media (max-width: 575.98px) {
@@ -3684,16 +3662,15 @@ textarea {
     .the-mission .content-left,
     .the-mission .content-right {
         width: 100%;
-        margin-right: 0;
         margin-left: 0
     }
     .the-mission .content-left ul li {
         flex-direction: row-reverse;
-        text-align: left
+        text-align: right
     }
     .the-mission .content-left ul li .number {
         margin-right: 22px;
-        margin-left: 0
+        margin-left: 22px;
     }
     .the-mission .content-middle {
         display: none
@@ -3750,9 +3727,9 @@ textarea {
 }
 
 .team .heading h4 {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 32px;
     color: #171717;
     margin-bottom: 0
 }
@@ -3818,7 +3795,7 @@ textarea {
 }
 
 .team .content .team-card-body .meta span {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
@@ -3899,7 +3876,7 @@ textarea {
     background-color: #fff;
     border-radius: 12px;
     padding: 64px 75px;
-    margin-left: 20vw
+    margin-right: 20vw
 }
 
 .map-card h4 {
@@ -3961,17 +3938,17 @@ textarea {
 }
 
 .join-us .content h2 {
-    font-family: "MuseoSans-300", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: 300;
-    font-size: 48px;
-    line-height: 48px;
+    font-size: 60px;
+    line-height: 60px;
     letter-spacing: 2px;
     margin-bottom: 20px;
     color: #171717
 }
 
 .join-us .content h5 {
-    font-family: "MuseoSans-300", sans-serif;
+    font-family: "DroidArabicKufi", sans-serif;
     font-weight: 300;
     font-size: 24px;
     line-height: 48px;
@@ -4071,11 +4048,11 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: 700;
     font-size: 14px;
     color: #95989c;
-    margin-right: 10px
+    margin-left: 10px
 }
 
 @media (max-width: 575.98px) {
@@ -4141,9 +4118,9 @@ textarea {
 }
 
 .cart-donation .title {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 32px;
     color: rgba(51, 51, 51, 0.85);
     margin-bottom: 61px
 }
@@ -4159,8 +4136,8 @@ textarea {
 }
 
 .cart-donation-list thead tr th {
-    font-family: "MuseoSans-700", sans-serif;
-    font-weight: 700;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
     font-size: 12px;
     color: black
 }
@@ -4185,36 +4162,7 @@ textarea {
     height: 70px;
     object-fit: cover;
     border-radius: 2px;
-    margin-right: 20px
-}
-
-.cart-donation-list tbody tr td a div h4 {
-    font-family: "MuseoSans-700", sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.85);
-    margin-bottom: 12px
-}
-
-.cart-donation-list tbody tr td a div p {
-    font-family: "MuseoSans-500", sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    color: #6d7278;
-    margin-bottom: 0
-}
-
-.cart-donation-list tbody tr td h4 {
-    font-family: "MuseoSans-500", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    color: black;
-    margin-bottom: 0
-}
-
-.cart-donation-list tbody tr td .close img {
-    width: 14px;
-    height: 14px
+    margin-left: 20px
 }
 
 .cart-donation-list .table .number {
@@ -4248,11 +4196,282 @@ textarea {
     border: 1px solid #ddd;
     display: inline-block;
     text-align: center;
+}
+
+.cart-donation-list tbody tr td a div h4 {
+    font-family: "DroidArabicKufi-Bold", sans-serif;
+    font-weight: 700;
     font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 12px
+}
+
+.cart-donation-list tbody tr td a div p {
+    font-family: "MuseoSans-500", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #6d7278;
+    margin-bottom: 0
+}
+
+.cart-donation-list tbody tr td h4 {
+    font-family: "MuseoSans-500", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 0
+}
+
+.cart-donation-list tbody tr td .close img {
+    width: 14px;
+    height: 14px
+}
+
+.cart-donation-summary {
+    box-shadow: 0 7px 16px -5px rgba(149, 152, 156, 0.41);
+    background-color: var(--white);
+    padding: 35px 33px 55px;
+    border-radius: 20px
+}
+
+.cart-donation-summary h4 {
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 20px
+}
+
+.cart-donation-summary p {
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #696969;
+    margin-bottom: 20px
+}
+
+.cart-donation-summary .hr {
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 32px
+}
+
+.cart-donation-summary .total-title {
+    font-family: "DroidArabicKufi-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 25px
+}
+
+.cart-donation-summary .total-price {
+    font-family: "MuseoSans-500", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.85);
+    margin-bottom: 60px
+}
+
+.cart-donation-summary .total-price span {
+    font-size: 24px
+}
+
+.cart-donation-summary .checklist {
+    display: flex;
+    align-items: flex-start
+}
+
+.cart-donation-summary .checklist img {
+    margin-left: 15px;
+    margin-top: 2px
+}
+
+.cart-donation-summary .checklist span {
+    font-family: "MuseoSans-300", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #696969
+}
+
+.cart-payment .cart-donation .title {
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #dedede
+}
+
+.cart-payment .cart-donation-list .nav-pills {
+    margin-bottom: 38px !important;
+    padding-right: 0px;
+}
+
+.cart-payment .cart-donation-list .nav-pills .nav-item {
+    margin-left: 20px
+}
+
+.cart-payment .cart-donation-list .nav-pills .nav-item:last-child {
+    margin-right: 0
+}
+
+.cart-payment .cart-donation-list .nav-pills .nav-item .nav-link {
+    width: 183px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: solid 1px #cfcfcf;
+    font-family: "MuseoSans-300", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.cart-payment .cart-donation-list .nav-pills .nav-item .nav-link>div {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 1px solid #95989c;
+    position: absolute;
+    margin-left: -28%
+}
+
+.cart-payment .cart-donation-list .nav-pills .nav-item .nav-link.active {
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
+    font-weight: bold;
+    box-shadow: 0 0 4px 0 #85d0ff;
+    border: solid 1px #85d0ff;
+    color: #2d8fce
+}
+
+.cart-payment .cart-donation-list .nav-pills .nav-item .nav-link.active>div {
+    border: 5px solid #38b3ff
+}
+
+.cart-payment .cart-donation-list .tab-content .tab-pane .tab-title {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #dedede;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px
+}
+
+.cart-payment .cart-donation-list .tab-content .tab-pane .tab-title p {
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 0
+}
+
+.cart-payment .cart-donation-list .tab-content .tab-pane .tab-title span {
+    font-family: "MuseoSans-300", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.cart-payment .cart-donation-list .tab-content .tab-pane form label {
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #2f4d60;
+    margin-bottom: 15px
+}
+
+.cart-payment .cart-donation-list .tab-content .tab-pane form p {
+    font-family: "MuseoSans-300", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+    display: flex;
+    align-items: center
+}
+
+.cart-payment .cart-donation-list .tab-content .tab-pane form p img {
+    margin-left: 10px
+}
+
+.cart-payment .cart-donation-summary .total-price {
+    margin-bottom: 32px
+}
+
+.cart-payment .cart-donation-summary .hr {
+    margin-bottom: 20px
+}
+
+.cart-payment .cart-donation-summary .btn-primary {
+    margin-bottom: 15px
+}
+
+.cart-confirmed {
+    background-image: url("../images/bg-confirmed.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 60px;
+    padding-bottom: 230px
+}
+
+.cart-confirmed .content img {
+    margin-bottom: 52px
+}
+
+.cart-confirmed .content h5 {
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 70px
+}
+
+@media (max-width: 575.98px) {
+    .cart-payment .cart-donation-list .nav-pills {
+        flex-direction: column
+    }
+    .cart-payment .cart-donation-list .nav-pills li {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px
+    }
+    .cart-payment .cart-donation-list .nav-pills li:last-child {
+        margin-bottom: 0
+    }
+    .cart-payment .cart-donation-list .nav-pills li a {
+        width: 100% !important;
+        margin-right: 0
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .cart-payment .cart-donation-list .nav-pills {
+        flex-direction: column
+    }
+    .cart-payment .cart-donation-list .nav-pills li {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px
+    }
+    .cart-payment .cart-donation-list .nav-pills li:last-child {
+        margin-bottom: 0
+    }
+    .cart-payment .cart-donation-list .nav-pills li a {
+        width: 100% !important;
+        margin-right: 0
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .cart-payment .cart-donation-list .nav-pills li a {
+        width: 250px !important
+    }
 }
 
 
-/* Cek */
+/* cek */
 
 .report-profile {
     margin-bottom: 120px
@@ -4302,7 +4521,7 @@ textarea {
     height: 70px;
     object-fit: cover;
     border-radius: 2px;
-    margin-right: 20px
+    margin-left: 20px
 }
 
 .report-profile-list tbody tr td a div h4 {
@@ -4337,7 +4556,7 @@ textarea {
 .report-profile-list span {
     margin: 10px 0 0;
     font-family: "MuseoSans-500", sans-serif;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 500;
     color: var(--dark-grey-blue);
 }
@@ -4352,7 +4571,7 @@ textarea {
 .report-profile-list .reports-pdf-ico img {
     width: 20px;
     height: 25px;
-    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .report-profile-list .reports-pdf-ico .caption {
@@ -4361,248 +4580,6 @@ textarea {
 
 
 /* end */
-
-.cart-donation-summary {
-    box-shadow: 0 7px 16px -5px rgba(149, 152, 156, 0.41);
-    background-color: var(--white);
-    padding: 35px 33px 55px;
-    border-radius: 20px
-}
-
-.cart-donation-summary h4 {
-    font-family: "MuseoSans-700", sans-serif;
-    font-weight: 700;
-    font-size: 21px;
-    color: rgba(0, 0, 0, 0.85);
-    margin-bottom: 20px
-}
-
-.cart-donation-summary p {
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 20px;
-    color: #696969;
-    margin-bottom: 20px
-}
-
-.cart-donation-summary .hr {
-    border-bottom: 1px solid #eaeaea;
-    margin-bottom: 32px
-}
-
-.cart-donation-summary .total-title {
-    font-family: "MuseoSans-700", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: rgba(0, 0, 0, 0.85);
-    margin-bottom: 25px
-}
-
-.cart-donation-summary .total-price {
-    font-family: "MuseoSans-500", sans-serif;
-    font-weight: 500;
-    font-size: 36px;
-    color: rgba(0, 0, 0, 0.85);
-    margin-bottom: 60px
-}
-
-.cart-donation-summary .total-price span {
-    font-size: 24px
-}
-
-.cart-donation-summary .checklist {
-    display: flex;
-    align-items: flex-start
-}
-
-.cart-donation-summary .checklist img {
-    margin-right: 15px;
-    margin-top: 2px
-}
-
-.cart-donation-summary .checklist span {
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 20px;
-    color: #696969
-}
-
-.cart-payment .cart-donation .title {
-    padding-bottom: 15px;
-    margin-bottom: 40px;
-    border-bottom: 1px solid #dedede
-}
-
-.cart-payment .cart-donation-list .nav-pills {
-    margin-bottom: 38px !important
-}
-
-.cart-payment .cart-donation-list .nav-pills .nav-item {
-    margin-right: 20px
-}
-
-.cart-payment .cart-donation-list .nav-pills .nav-item:last-child {
-    margin-right: 0
-}
-
-.cart-payment .cart-donation-list .nav-pills .nav-item .nav-link {
-    width: 183px;
-    border-radius: 10px;
-    background-color: #fff;
-    border: solid 1px #cfcfcf;
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.85);
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
-.cart-payment .cart-donation-list .nav-pills .nav-item .nav-link>div {
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-    border: 1px solid #95989c;
-    position: absolute;
-    margin-left: -28%
-}
-
-.cart-payment .cart-donation-list .nav-pills .nav-item .nav-link.active {
-    font-family: "MuseoSans-700", sans-serif;
-    font-weight: bold;
-    box-shadow: 0 0 4px 0 #85d0ff;
-    border: solid 1px #85d0ff;
-    color: #2d8fce
-}
-
-.cart-payment .cart-donation-list .nav-pills .nav-item .nav-link.active>div {
-    border: 5px solid #38b3ff
-}
-
-.cart-payment .cart-donation-list .tab-content .tab-pane .tab-title {
-    padding-bottom: 12px;
-    border-bottom: 1px solid #dedede;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px
-}
-
-.cart-payment .cart-donation-list .tab-content .tab-pane .tab-title p {
-    font-family: "MuseoSans-700", sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    color: black;
-    margin-bottom: 0
-}
-
-.cart-payment .cart-donation-list .tab-content .tab-pane .tab-title span {
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
-    font-size: 10px;
-    color: rgba(0, 0, 0, 0.5)
-}
-
-.cart-payment .cart-donation-list .tab-content .tab-pane form label {
-    font-family: "MuseoSans-700", sans-serif;
-    font-weight: bold;
-    font-size: 14px;
-    color: #2f4d60;
-    margin-bottom: 15px
-}
-
-.cart-payment .cart-donation-list .tab-content .tab-pane form p {
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 0;
-    display: flex;
-    align-items: center
-}
-
-.cart-payment .cart-donation-list .tab-content .tab-pane form p img {
-    margin-right: 10px
-}
-
-.cart-payment .cart-donation-summary .total-price {
-    margin-bottom: 32px
-}
-
-.cart-payment .cart-donation-summary .hr {
-    margin-bottom: 20px
-}
-
-.cart-payment .cart-donation-summary .btn-primary {
-    margin-bottom: 15px
-}
-
-.cart-confirmed {
-    background-image: url("../images/bg-confirmed.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    padding-top: 60px;
-    padding-bottom: 230px
-}
-
-.cart-confirmed .content img {
-    margin-bottom: 52px
-}
-
-.cart-confirmed .content h5 {
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 35px;
-    color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 70px
-}
-
-@media (max-width: 575.98px) {
-    .cart-payment .cart-donation-list .nav-pills {
-        flex-direction: column
-    }
-    .cart-payment .cart-donation-list .nav-pills li {
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 10px
-    }
-    .cart-payment .cart-donation-list .nav-pills li:last-child {
-        margin-bottom: 0
-    }
-    .cart-payment .cart-donation-list .nav-pills li a {
-        width: 100% !important;
-        margin-right: 0
-    }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .cart-payment .cart-donation-list .nav-pills {
-        flex-direction: column
-    }
-    .cart-payment .cart-donation-list .nav-pills li {
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 10px
-    }
-    .cart-payment .cart-donation-list .nav-pills li:last-child {
-        margin-bottom: 0
-    }
-    .cart-payment .cart-donation-list .nav-pills li a {
-        width: 100% !important;
-        margin-right: 0
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    .cart-payment .cart-donation-list .nav-pills li a {
-        width: 250px !important
-    }
-}
 
 .cart-security {
     border-top: 3px solid #85d0ff;
@@ -4619,7 +4596,7 @@ textarea {
 }
 
 .cart-security-list h4 {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: 700;
     font-size: 16px;
     color: #4a4a4a;
@@ -4711,7 +4688,7 @@ textarea {
 }
 
 .project-carousel-left .card-img-overlay .card-img-middle ul li {
-    margin-right: 18px
+    margin-left: 18px
 }
 
 .project-carousel-left .card-img-overlay .card-img-middle ul li:last-child {
@@ -4727,8 +4704,8 @@ textarea {
 }
 
 .project-carousel-left .card-img-overlay .card-img-middle .title {
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
+    font-family: "DroidArabicKufi-Bold", sans-serif;
+    font-weight: bold;
     font-size: 32px;
     color: white;
     margin-bottom: 100px
@@ -4748,13 +4725,14 @@ textarea {
 }
 
 .project-carousel-left .card-img-overlay .card-img-bottom p {
-    font-family: "MuseoSans-300", sans-serif;
+    position: absolute;
+    font-family: "DroidArabicKufi", sans-serif;
     font-size: 16px;
     color: #ccc918
 }
 
 .project-carousel-left .card-img-overlay .card-img-bottom p strong {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: 700
 }
 
@@ -4800,9 +4778,9 @@ textarea {
 }
 
 .project-carousel-right .card-img-overlay ul {
-    display: flex;
+    /*display: flex;*/
     align-items: center;
-    margin-bottom: 30px
+    padding-right: 0px;
 }
 
 .project-carousel-right .card-img-overlay ul li {
@@ -4822,8 +4800,8 @@ textarea {
 }
 
 .project-carousel-right .card-img-overlay .title {
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
+    font-family: "DroidArabicKufi-Bold", sans-serif;
+    font-weight: bold;
     font-size: 18px;
     color: white
 }
@@ -4833,7 +4811,7 @@ textarea {
     background-color: #e1e1e1;
     border-radius: 100px;
     margin-top: 25px;
-    margin-bottom: 25px
+    margin-bottom: 55px
 }
 
 .project-carousel-right .card-img-overlay .progress-bar {
@@ -4843,14 +4821,15 @@ textarea {
 }
 
 .project-carousel-right .card-img-overlay p {
-    font-family: "MuseoSans-300", sans-serif;
-    font-size: 16px;
+    position: absolute;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-size: 14px;
     color: #ccc918;
     margin-bottom: 0
 }
 
 .project-carousel-right .card-img-overlay p strong {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: 700
 }
 
@@ -4883,7 +4862,7 @@ textarea {
 
 .project-carousel .owl-nav {
     position: relative;
-    margin-top: -100px !important;
+    margin-top: -65px !important;
     margin-right: -220px
 }
 
@@ -4973,13 +4952,13 @@ textarea {
         padding: 20px
     }
     .owl-project-carousel .project-carousel-wrap .project-carousel-right .project-carousel-card .card-img-overlay ul {
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
     .owl-project-carousel .project-carousel-wrap .project-carousel-right .project-carousel-card .card-img-overlay ul li a {
         font-size: 12px
     }
     .owl-project-carousel .project-carousel-wrap .project-carousel-right .project-carousel-card .card-img-overlay .progress {
-        margin-bottom: 10px
+        margin-bottom: 25px
     }
     .owl-project-carousel .project-carousel-wrap .project-carousel-right .project-carousel-card .card-img-overlay p {
         font-size: 12px
@@ -5199,9 +5178,9 @@ textarea {
     text-transform: capitalize;
     padding-top: 0;
     padding-bottom: 0;
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
-    font-size: 21px;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
     color: rgba(23, 23, 23, 0.85)
 }
 
@@ -5335,8 +5314,8 @@ textarea {
 .category-list li:nth-of-type(5),
 .category-list li:nth-of-type(6),
 .category-list li:nth-of-type(7) {
-    /* width: calc(100%/ 5);*/
-    margin-bottom: 82px;
+    /*width: calc(100%/ 5);*/
+    margin-bottom: 82px
 }
 
 .category-list-icon {
@@ -5361,9 +5340,9 @@ textarea {
 }
 
 .category-list span {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     color: var(--dark-grey-blue)
 }
 
@@ -5495,9 +5474,9 @@ textarea {
 }
 
 .sponsorship-list span {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     color: var(--dark-grey-blue)
 }
 
@@ -5610,7 +5589,7 @@ textarea {
 }
 
 .single-content-heading .content .single-content-heading-left .single-total li:first-child {
-    margin-right: 20px
+    margin-left: 20px
 }
 
 .single-content-heading .content .single-content-heading-left .single-total li span {
@@ -5621,7 +5600,7 @@ textarea {
 }
 
 .single-content-heading .content .single-content-heading-left .single-total li h4 {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: 700;
     font-size: 32px;
     color: white;
@@ -5749,7 +5728,7 @@ textarea {
 
 .single-content-detail .single-content-bells {
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0
 }
 
@@ -5764,7 +5743,7 @@ textarea {
 .single-content-detail .single-content-meta li {
     display: flex;
     align-items: center;
-    margin-right: 68px
+    margin-left: 68px
 }
 
 .single-content-detail .single-content-meta li:last-child {
@@ -5772,12 +5751,12 @@ textarea {
 }
 
 .single-content-detail .single-content-meta li img {
-    margin-right: 11px
+    margin-left: 11px
 }
 
 .single-content-detail .single-content-meta li span {
-    font-family: "MuseoSans-500", sans-serif;
-    font-weight: 500;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
     font-size: 14px;
     color: #6d7278
 }
@@ -5795,7 +5774,7 @@ textarea {
 }
 
 .single-content-detail .cta .btn:last-child {
-    margin-left: 20px
+    margin-right: 20px
 }
 
 @media (max-width: 575.98px) {
@@ -5943,7 +5922,7 @@ textarea {
 }
 
 .hero-search-result {
-    background-image: url("../images/bg-heading-2eng.svg");
+    background-image: url("../images/bg-heading-2.svg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover
@@ -5954,7 +5933,7 @@ textarea {
     position: absolute;
     right: 0;
     margin-top: -245px;
-    margin-right: -80px
+    margin-right: 1080px
 }
 
 .hero-search-result .content .input-group-prepend {
@@ -5983,8 +5962,8 @@ textarea {
     line-height: calc(40px - 2px);
     padding-top: 0;
     padding-bottom: 0;
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
     font-size: 21px;
     color: rgba(23, 23, 23, 0.85)
 }
@@ -6023,8 +6002,8 @@ textarea {
 .contact-hero .content:before {
     content: url("../images/ill-contact-header.svg");
     position: absolute;
-    left: 0;
-    margin-left: -200px;
+    right: 0;
+    margin-right: -218px;
     margin-top: -90px
 }
 
@@ -6086,6 +6065,11 @@ textarea {
     }
 }
 
+.contact-wa {
+    padding-top: 88px;
+    padding-bottom: 88px
+}
+
 .contact-content {
     padding-top: 88px;
     padding-bottom: 88px
@@ -6135,7 +6119,7 @@ textarea {
         margin-bottom: 20px !important
     }
     .contact-content-left ul li img {
-        margin-right: 0 !important;
+        margin-left: 0 !important;
         margin-bottom: 20px
     }
     .contact-content-right .contact-form {
@@ -6267,6 +6251,7 @@ textarea {
     border-color: inherit;
     -webkit-box-shadow: none;
     box-shadow: none;
+    -moz-box-shadow: none;
 }
 
 .search-adv .input-group-prepend {
@@ -6278,13 +6263,13 @@ textarea {
 .close_icon {
     margin: auto;
     color: #8c8c96;
-    padding-right: 35px;
-    /*border-right: 1px solid #8c8c96;*/
-    margin-right: 30px;
+    padding-left: 35px;
+    /*border-left: 1px solid #8c8c96;*/
+    margin-left: 30px;
 }
 
 .search-adv .input-group-append {
-    margin-right: 19px;
+    margin-left: 19px;
 }
 
 .search-adv .input-group-append button {
@@ -6393,7 +6378,7 @@ textarea {
 
 .publication-section h4 {
     margin-bottom: 30px;
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "DroidArabicKufi-Bold", sans-serif;
     font-size: 24px;
     font-weight: 700;
     color: var(--dark-grey-blue);
@@ -6401,8 +6386,8 @@ textarea {
 
 .publication-section p {
     margin-bottom: 24px;
-    font-family: "MuseoSans-300", sans-serif;
-    font-size: 16px;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-size: 14px;
     font-weight: 300;
     color: var(--dark-grey-blue);
 }
@@ -6437,36 +6422,36 @@ textarea {
     left: 0;
     right: 0;
     padding-bottom: 200px;
-    margin-left: 16%;
+    margin-right: 16%;
 }
 
 .carousel-item h1 {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 86px;
     color: white;
     margin-bottom: 13px;
 }
 
 .carousel-item h3 {
-    font-family: "MuseoSans-700", sans-serif;
+    font-family: "TanseekModernProArabic-Bold", sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 50px;
     color: white;
 }
 
 .carousel-item h4 {
-    font-family: "MuseoSans-300", sans-serif;
-    font-weight: 300;
-    font-size: 28px;
+    font-family: "TanseekModernProArabic-Book", sans-serif;
+    font-weight: normal;
+    font-size: 45px;
     color: white;
     margin-bottom: 8px;
 }
 
 .carousel-item p {
-    font-family: "MuseoSans-700", sans-serif;
-    font-weight: bold;
-    font-size: 17px;
+    font-family: "DroidArabicKufi", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
     color: white;
     margin-bottom: 30px;
 }
@@ -6489,65 +6474,6 @@ textarea {
 
 
 /*end of tem slider css*/
-
-
-/*Bell Notify*/
-
-.single-content-detail .bell {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.single-content-detail .bell .subscribe-btn {
-    cursor: pointer;
-    display: inline-block;
-}
-
-.single-content-detail .bell .subscribe-btn input[type=checkbox] {
-    display: none;
-}
-
-.single-content-detail .bell .subscribe-btn img {
-    position: relative;
-    top: 35%;
-    right: 0;
-}
-
-.single-content-detail .bell .subscribe-btn label {
-    background: #8b8b8b;
-    width: 66px;
-    height: 68px;
-    display: inline-block;
-    border-radius: 0 30px 0 30px;
-    position: relative;
-    text-align: center;
-    transition: all .4s ease;
-    cursor: pointer;
-}
-
-.single-content-detail .bell .subscribe-btn input[type=checkbox]:checked+label span.off {
-    display: none;
-}
-
-.single-content-detail .bell .subscribe-btn input[type=checkbox]:checked+label span.on {
-    display: inline;
-}
-
-.single-content-detail .bell .subscribe-btn input[type=checkbox]+label span.on {
-    display: none;
-}
-
-.single-content-detail .bell .subscribe-btn input[type=checkbox]+label span.off {
-    display: inline;
-}
-
-.single-content-detail .bell .subscribe-btn input[type=checkbox]:checked+label {
-    background: #38b3ff;
-}
-
-
-/*end of bell notification*/
 
 
 /*start of subscribe popup*/

@@ -1,13 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html dir="rtl" lang="ar">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Search Result | KSHW</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/floating-wpp.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/alds-global.css">
     <link rel="stylesheet" href="css/kshw.css">
+    <link rel="stylesheet" href="css/floating-wpp.min.css">
 </head>
 
 <body>
@@ -38,11 +41,11 @@
                             <div class="dropdown">
                                 <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <img src="images/ic-globe.svg">
-                                    <span>English</span>
+                                    <span> العربيّة</span>
                                 </a>
 
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="../search.html">العربيّة</a>
+                                    <a class="dropdown-item" href="eng/search.html">English</a>
                                 </div>
                             </div>
                         </div>
@@ -66,8 +69,8 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownUser">
-                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLoginHeader">Login</a>
-                                    <a class="dropdown-item" href="MyProfile.html">My Profiles</a>
+                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLoginHeader">تسجيل الدخول</a>
+                                    <a class="dropdown-item" href="MyProfile.html">المعلومات الشخصية</a>
                                 </div>
                             </div>
                         </div>
@@ -81,16 +84,16 @@
                     <div class="navbar-nav">
                         <ul class="list-unstyled">
                             <li>
-                                <a href="index.html">HOME</a>
+                                <a href="index.html">الرئيسية</a>
                             </li>
                             <li>
-                                <a href="projects.html">PROJECTS</a>
+                                <a href="projects.html">المشاريع</a>
                             </li>
                             <li>
-                                <a href="about.html">ABOUT US</a>
+                                <a href="about.html">من نحن </a>
                             </li>
                             <li>
-                                <a href="contact.html">CONTACT</a>
+                                <a href="contact.html">تواصل معنا</a>
                             </li>
                         </ul>
                     </div>
@@ -102,10 +105,10 @@
                             <div class="input-group-prepend">
                                 <img src="images/ic-search.svg">
                             </div>
-                            <input type="text" class="form-control" placeholder="Search Project">
+                            <input type="text" class="form-control" placeholder="ابحث عن مشروع للتبرع">
                             <a href="#"><img src="images/ic-close-white.svg"></a>
                             <div class="input-group-append">
-                                <a href="search.html" class="btn btn-search">SEARCH</a>
+                                <a href="search.html" class="btn btn-search">بحث</a>
                             </div>
                         </div>
                     </div>
@@ -135,8 +138,8 @@
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownUser">
-                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLoginHeader">Login</a>
-                        <a class="dropdown-item" href="MyProfile.html">My Profiles</a>
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLoginHeader">تسجيل الدخول</a>
+                        <a class="dropdown-item" href="MyProfile.html">المعلومات الشخصية</a>
                     </div>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -148,24 +151,24 @@
                     <div class="input-group-prepend">
                         <img src="images/ic-search.svg">
                     </div>
-                    <input type="text" class="form-control" placeholder="Search Project">
+                    <input type="text" class="form-control" placeholder="ابحث عن مشروع للتبرع">
                     <a href="#"><img src="images/ic-close-white.svg"></a>
                     <div class="input-group-append">
-                        <a href="search.html" class="btn btn-search">SEARCH</a>
+                        <a href="search.html" class="btn btn-search">بحث</a>
                     </div>
                 </div>
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">الرئيسية</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="projects.html">PROJECTS</a>
+                        <a class="nav-link" href="projects.html">المشاريع</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">ABOUT US</a>
+                        <a class="nav-link" href="about.html">من نحن </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
+                        <a class="nav-link" href="contact.html">تواصل معنا</a>
                     </li>
                 </ul>
                 <div class="navbar-mobile-bottom d-flex justify-content-between">
@@ -189,11 +192,11 @@
                     <div class="dropdown">
                         <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <img src="images/ic-globe.svg">
-                            <span>English</span>
+                            <span>العربيّة</span>
                         </a>
 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="../search.html">العربيّة</a>
+                            <a class="dropdown-item" href="eng/search.html">English</a>
                         </div>
                     </div>
                 </div>
@@ -218,29 +221,29 @@
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
-                                <h4>Login To Your Account</h4>
+                                <h4>تسجيل الدخول - إنشاء حساب جديد</h4>
                                 <form action="">
                                     <div class="form-group">
-                                        <label for="emailLogin">Email Address</label>
+                                        <label for="emailLogin">البريد الإلكتروني</label>
                                         <input type="email" class="form-control" id="emailLogin">
                                     </div>
                                     <div class="form-group">
-                                        <label for="passwordLogin">Password</label>
+                                        <label for="passwordLogin">كلمة المرور</label>
                                         <input type="password" class="form-control" id="passwordLogin">
                                     </div>
                                     <div class="form-row">
                                         <div class="form-group col-6 form-check text-left">
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                                            <label class="form-check-label" for="exampleCheck1">تذكر بياناتي</label>
                                         </div>
                                         <div class="form-group col-6 text-right">
-                                            <a href="#">Lost your password?</a>
+                                            <a href="#">هل نسيت كلمة المرور؟</a>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <a href="#" class="btn btn-primary btn-block">LOG IN</a>
+                                        <a href="#" class="btn btn-primary btn-block">تسجيل الدخول</a>
                                     </div>
-                                    <a href="#" class="btn btn-outline-primary btn-block">REGISTER</a>
+                                    <a href="#" class="btn btn-outline-primary btn-block">سجّل</a>
                                 </form>
                             </div>
                         </div>
@@ -251,8 +254,28 @@
     </div>
     <!--end:modal login header-->
 
+    <!--start:Floating WA-->
+    <div id="WAButton"></div>
+
+    <script type="text/javascript">
+        $(function() {
+            $('#WAButton').floatingWhatsApp({
+                phone: '+96597222540', //WhatsApp Business phone number
+                headerTitle: 'تواصل معنا عن طريق واتس آب', //Popup Title
+                popupMessage: 'مرحبا ، كيف يمكننا مساعدتك ؟', //Popup Message
+                showPopup: true, //Enables popup display
+                buttonImage: '<img src="images/wa-ico.svg" />', //Button Image
+                //headerColor: 'crimson', //Custom header color
+                //backgroundColor: 'crimson', //Custom background button color
+                position: "right" //Position: left | right
+
+            });
+        });
+    </script>
+    <!--end:Floating WA-->
+
     <!--start:hero search result-->
-    <section id="hero-search-result" class="hero-search-result g-pt-50 g-pb-50">
+    <section id="hero-search-result" class="hero-search-result g-pt-88 g-pb-70">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12">
@@ -261,7 +284,7 @@
                             <div class="input-group-prepend">
                                 <img class="search_icon" src="images/search-adv.svg">
                             </div>
-                            <input type="text" class="form-control" name="" placeholder="Search...">
+                            <input type="text" class="form-control" name="" placeholder="ابحث عن مشروع للتبرع">
                             <a href="#" class="close_icon"><img src="images/x-adv.svg"></a>
                             <div class="input-group-append">
                                 <!--button class="dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All</button>
@@ -273,15 +296,15 @@
                         </div>
                     </div>
                     <div class="content text-center">
-                        <h1 class="g-ff-museo-700 g-fs-48 g-cl-white g-lh-normal g-mb-17">Water projects</h1>
-                        <p class="g-ff-museo-300 g-fw-300 g-fs-24 g-lh-30 g-cl-white g-mb-0">Discover 4200+ water projects on KSHW</p>
+                        <h1 class="g-ff-museo-700 g-fs-48 g-cl-white g-lh-normal g-mb-17">نتائج البحث عن “keyword”</h1>
+                        <p class="g-ff-museo-300 g-fw-300 g-fs-24 g-lh-30 g-cl-white g-mb-0">تم العثور على 4200 من النتائج
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--end:hero search result-->
-
     <!--start:search filters-->
     <section id="search-filter" class="search-filter g-pt-45">
         <div class="container">
@@ -289,20 +312,20 @@
                 <div class="col-lg-3 col-md-4 col-sm-12">
                     <div class="adv-filters">
                         <button class="btn btn-outline-dark" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            <a href="#" class="ico-filter"><img src="images/filters-ico.svg"></a>
-                         Advance Search
-                    </button>
+                        <a href="#" class="ico-filter"><img src="images/filters-ico.svg"></a>
+                        بحث متقدم
+                </button>
 
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-12">
                     <div class="sortby">
                         <select class="form-control" id="sort-bys">
-                        <option>Popular</option>
-                        <option>Recents</option>
-                        <option>Most Relevant</option>
-                         <option>Finished Projects</option>
-                    </select>
+                    <option>محبب</option>
+                    <option>المشاريع الجديدة</option>
+                    <option>الأكثر صلة</option>
+                     <option>مشاريع مكتملة</option>
+                </select>
                     </div>
                 </div>
             </div>
@@ -311,57 +334,57 @@
                     <form>
                         <div class="form-row">
                             <div class="col-md-3 mb-3">
-                                <label for="sortCategory">Category</label>
+                                <label for="sortCategory">الفئة</label>
                                 <select class="form-control" id="sortCategory">
-                                <option>Show All</option>
-                                <option>Zakat</option>
-                                <option>Charity(Sadaka)</option>
-                                <option>Ramadhan Projects</option>
-                                <option>Construction</option>
-                                <option>Sponsorship</option>
-                                <option>Medical Project</option>
-                                <option>Emergency & Relief</option>
-                                <option>Awqaf</option>
-                                <option>Quran</option>
-                                <option>Water Project</option>
-                                <option>Seasonal</option>
-                                <option>Small Business</option>
-                                <option>Food / Sacrifices</option>
-                                <option>Dakwah</option>
+                                <option>الجميع</option>
+                                <option>تبرعات الزكاة</option>
+                                <option>الصدقات</option>
+                                <option>مشاريع رمضان</option>
+                                <option>مشاريع إنشائية</option>
+                                <option>كفالة أيتام</option>
+                                <option>مشاريع طبية</option>
+                                <option>مشاريع إغاثية</option>
+                                <option>وقفيات</option>
+                                <option>مشاريع القرآن الكريم</option>
+                                <option>مشاريع سقيا الماء</option>
+                                <option>مشاؤيع موسمية</option>
+                                <option>مشاريع تنموية</option>
+                                <option>مشاريع إطعام - الذبائح</option>
+                                <option>مشاريع التعريف بالإسلام</option>
                                 </select>
                             </div>
                             <div class="col-md-3 mb-3">
-                                <label for="sortTime">Timeframe</label>
+                                <label for="sortTime">الإطار الزمني</label>
                                 <select class="form-control" id="sortTime">
-                                <option>All Project</option>
-                                <option>Last Week</option>
-                                <option>Last Month</option>
-                                <option>Last Year</option>
+                                <option>الجميع</option>
+                                <option>الأسبوع الماضي</option>
+                                <option>الشهر الماضي</option>
+                                <option>السنة الماضية</option>
                             </select>
                             </div>
                             <div class="col-md-3 mb-3">
-                                <label for="baseNisab">Location</label>
+                                <label for="baseNisab">الموقع</label>
                                 <select class="form-control" id="sortLocation">
-                                <option>Around The World</option>
-                                <option>Africa</option>
-                                <option>indonesia</option>
-                                <option>Kenya</option>
-                                <option>Kuwait</option>
-                                <option>Malaysia</option>
+                                <option>حول العالم</option>
+                                <option>أفريقيا</option>
+                                <option>إندونيسيا</option>
+                                <option>كينيا</option>
+                                <option>الكويت‎</option>
+                                <option>ماليزيا</option>
                                 <!--Fetch this list from available location on database-->
                                 <option>etc..</option>
                             </select>
                             </div>
                             <div class="col-md-3 mb-3">
-                                <label for="baseNisab">Project Status</label>
+                                <label for="baseNisab">حالة المشروع</label>
                                 <select class="form-control" id="sortStat">
-                                <option>All</option>
-                                <option>New Projects</option>
+                                <option>الجميع</option>
+                                <option>مشروع جديد</option>
                                 <!--Project raised stat 1% - 79% -->
-                                <option>On Progress</option>
+                                <option>قيد الإنشاء</option>
                                 <!-- Take from total project raised goal > 80% -->
-                                <option>Almost Finished</option>
-                                <option>Finished Projects</option>
+                                <option>يكتمل قريبا</option>
+                                <option>مشاريع مكتملة</option>
                             </select>
                             </div>
                         </div>
@@ -391,16 +414,16 @@
                             <div class="project-card-body-top">
                                 <div class="project-card-meta-location">
                                     <img src="images/ic-pin.svg">
-                                    <span>Location, of location</span>
+                                    <span>مواقعنا</span>
                                 </div>
-                                <a href="projects-detail.html">Donation Caption</a>
+                                <a href="projects-detail.html">شرح التبرع</a>
                                 <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
                             </div>
                             <div class="project-card-body-bottom">
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p><strong>7% raised</strong> of $350,000</p>
+                                <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
                             </div>
                         </div>
                     </div>
@@ -420,16 +443,16 @@
                             <div class="project-card-body-top">
                                 <div class="project-card-meta-location">
                                     <img src="images/ic-pin.svg">
-                                    <span>Location, of location</span>
+                                    <span>مواقعنا</span>
                                 </div>
-                                <a href="projects-detail.html">Donation Caption</a>
+                                <a href="projects-detail.html">شرح التبرع</a>
                                 <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
                             </div>
                             <div class="project-card-body-bottom">
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p><strong>7% raised</strong> of $350,000</p>
+                                <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
                             </div>
                         </div>
                     </div>
@@ -449,16 +472,16 @@
                             <div class="project-card-body-top">
                                 <div class="project-card-meta-location">
                                     <img src="images/ic-pin.svg">
-                                    <span>Location, of location</span>
+                                    <span>مواقعنا</span>
                                 </div>
-                                <a href="projects-detail.html">Donation Caption</a>
+                                <a href="projects-detail.html">شرح التبرع</a>
                                 <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
                             </div>
                             <div class="project-card-body-bottom">
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p><strong>7% raised</strong> of $350,000</p>
+                                <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
                             </div>
                         </div>
                     </div>
@@ -478,16 +501,16 @@
                             <div class="project-card-body-top">
                                 <div class="project-card-meta-location">
                                     <img src="images/ic-pin.svg">
-                                    <span>Location, of location</span>
+                                    <span>مواقعنا</span>
                                 </div>
-                                <a href="projects-detail.html">Donation Caption</a>
+                                <a href="projects-detail.html">شرح التبرع</a>
                                 <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
                             </div>
                             <div class="project-card-body-bottom">
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p><strong>7% raised</strong> of $350,000</p>
+                                <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
                             </div>
                         </div>
                     </div>
@@ -507,16 +530,16 @@
                             <div class="project-card-body-top">
                                 <div class="project-card-meta-location">
                                     <img src="images/ic-pin.svg">
-                                    <span>Location, of location</span>
+                                    <span>مواقعنا</span>
                                 </div>
-                                <a href="projects-detail.html">Donation Caption</a>
+                                <a href="projects-detail.html">شرح التبرع</a>
                                 <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
                             </div>
                             <div class="project-card-body-bottom">
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p><strong>7% raised</strong> of $350,000</p>
+                                <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
                             </div>
                         </div>
                     </div>
@@ -536,16 +559,16 @@
                             <div class="project-card-body-top">
                                 <div class="project-card-meta-location">
                                     <img src="images/ic-pin.svg">
-                                    <span>Location, of location</span>
+                                    <span>مواقعنا</span>
                                 </div>
-                                <a href="projects-detail.html">Donation Caption</a>
+                                <a href="projects-detail.html">شرح التبرع</a>
                                 <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
                             </div>
                             <div class="project-card-body-bottom">
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p><strong>7% raised</strong> of $350,000</p>
+                                <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
                             </div>
                         </div>
                     </div>
@@ -565,16 +588,16 @@
                             <div class="project-card-body-top">
                                 <div class="project-card-meta-location">
                                     <img src="images/ic-pin.svg">
-                                    <span>Location, of location</span>
+                                    <span>مواقعنا</span>
                                 </div>
-                                <a href="projects-detail.html">Donation Caption</a>
+                                <a href="projects-detail.html">شرح التبرع</a>
                                 <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
                             </div>
                             <div class="project-card-body-bottom">
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p><strong>7% raised</strong> of $350,000</p>
+                                <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
                             </div>
                         </div>
                     </div>
@@ -594,16 +617,16 @@
                             <div class="project-card-body-top">
                                 <div class="project-card-meta-location">
                                     <img src="images/ic-pin.svg">
-                                    <span>Location, of location</span>
+                                    <span>مواقعنا</span>
                                 </div>
-                                <a href="projects-detail.html">Donation Caption</a>
+                                <a href="projects-detail.html">شرح التبرع</a>
                                 <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
                             </div>
                             <div class="project-card-body-bottom">
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p><strong>7% raised</strong> of $350,000</p>
+                                <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
                             </div>
                         </div>
                     </div>
@@ -623,16 +646,16 @@
                             <div class="project-card-body-top">
                                 <div class="project-card-meta-location">
                                     <img src="images/ic-pin.svg">
-                                    <span>Location, of location</span>
+                                    <span>مواقعنا</span>
                                 </div>
-                                <a href="projects-detail.html">Donation Caption</a>
+                                <a href="projects-detail.html">شرح التبرع</a>
                                 <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
                             </div>
                             <div class="project-card-body-bottom">
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p><strong>7% raised</strong> of $350,000</p>
+                                <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
                             </div>
                         </div>
                     </div>
@@ -652,16 +675,16 @@
                             <div class="project-card-body-top">
                                 <div class="project-card-meta-location">
                                     <img src="images/ic-pin.svg">
-                                    <span>Location, of location</span>
+                                    <span>مواقعنا</span>
                                 </div>
-                                <a href="projects-detail.html">Donation Caption</a>
+                                <a href="projects-detail.html">شرح التبرع</a>
                                 <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
                             </div>
                             <div class="project-card-body-bottom">
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p><strong>7% raised</strong> of $350,000</p>
+                                <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
                             </div>
                         </div>
                     </div>
@@ -681,16 +704,16 @@
                             <div class="project-card-body-top">
                                 <div class="project-card-meta-location">
                                     <img src="images/ic-pin.svg">
-                                    <span>Location, of location</span>
+                                    <span>مواقعنا</span>
                                 </div>
-                                <a href="projects-detail.html">Donation Caption</a>
+                                <a href="projects-detail.html">شرح التبرع</a>
                                 <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
                             </div>
                             <div class="project-card-body-bottom">
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p><strong>7% raised</strong> of $350,000</p>
+                                <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
                             </div>
                         </div>
                     </div>
@@ -710,16 +733,16 @@
                             <div class="project-card-body-top">
                                 <div class="project-card-meta-location">
                                     <img src="images/ic-pin.svg">
-                                    <span>Location, of location</span>
+                                    <span>مواقعنا</span>
                                 </div>
-                                <a href="projects-detail.html">Donation Caption</a>
+                                <a href="projects-detail.html">شرح التبرع</a>
                                 <p>Cras aliquet convallis venenatis. Cras malesuada magna arcu, eget tincidunt velit dignissim sed.</p>
                             </div>
                             <div class="project-card-body-bottom">
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
-                                <p><strong>7% raised</strong> of $350,000</p>
+                                <p><strong>7 % عن مبلغ</strong> 350,000 دينار كويتي</p>
                             </div>
                         </div>
                     </div>
@@ -736,46 +759,46 @@
                 <div class="row">
                     <div class="col-lg-5 col-md-6 col-sm-12">
                         <div>
-                            <h4 class="g-ff-museo-700 g-fs-20 g-mb-30 g-cl-white">KUWAIT SOCIETY FOR HUMANITARIAN WORK</h4>
-                            <p class="g-ff-museo-500 g-fs-12 g-lh-27 g-cl-text-gray g-mb-0">The Kuwaiti Humanitarian Society was declared by Ministerial Decree No. (72 / A) of 2016 and in accordance with the provisions of Law No. 24 of 1962 of the Ministry of Social Affairs and Labor.</p>
+                            <h4 class="g-ff-museo-700 g-fs-20 g-mb-30 g-cl-white">الجمعية الكويتية للعمل الإنساني</h4>
+                            <p class="g-ff-museo-500 g-fs-12 g-lh-27 g-cl-text-gray g-mb-0">تم إشهار الجمعية الكويتية للعمل الانساني بموجب قرار وزاري رقم (72/أ) لسنة 2016 ووفقا لأحكام القانون رقم 24 لسنة 1962 لوزارة الشئون الاجتماعية والعمل. </p>
                         </div>
                     </div>
-                    <div class="col-lg-2 offset-lg-1 col-md-6 col-sm-12">
+                    <div class="col-lg-2 offset-rg-1 col-md-6 col-sm-12">
                         <div>
-                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">CONTACT US</h4>
+                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">تواصل معنا</h4>
                             <ul class="list-unstyled g-pl-0 g-mb-0 g-ml-0">
                                 <li class="g-mb-21">
                                     <a href="#" class="g-ff-museo-500 g-fs-14 g-cl-text-gray">Info@kshw.org.kw</a>
                                 </li>
                                 <li>
                                     <address class="g-ff-museo-500 g-fs-14 g-lh-36 g-cl-text-gray g-mb-21">
-                                        Kuwait - shamiyah<br>
-                                        block 4 <br>
-                                        near Altabtabaey mosque
-                                </address>
+                                        ‏الكويت الشامية <br>
+                                        قطعة 4 <br>
+                                        بجانب مسجد الطبطبائي
+                            </address>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12">
                         <div>
-                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">GET STARTED</h4>
+                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">ابدأ الآن</h4>
                             <ul class="list-unstyled g-pl-0 g-ml-0 g-pl-0">
                                 <li class="g-mb-20">
-                                    <a href="#" class="g-ff-museo-700 g-fs-14 g-cl-text-gray-light g-tt-upp">PROJECTS</a>
+                                    <a href="#" class="g-ff-museo-500 g-fs-14 g-cl-text-gray-light g-tt-upp">المشاريع</a>
                                 </li>
                                 <li class="g-mb-20">
-                                    <a href="#" class="g-ff-museo-700 g-fs-14 g-cl-text-gray-light g-tt-upp">About Us</a>
+                                    <a href="#" class="g-ff-museo-500 g-fs-14 g-cl-text-gray-light g-tt-upp">من نحن </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="g-ff-museo-700 g-fs-14 g-cl-text-gray-light g-tt-upp">CONTACT</a>
+                                    <a href="#" class="g-ff-museo-500 g-fs-14 g-cl-text-gray-light g-tt-upp">تواصل معنا</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12">
                         <div class="g-pl-40">
-                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">FOLLOW US</h4>
+                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">منصات التواصل</h4>
                             <ul class="list-unstyled g-ml-0 g-pl-0 g-mb-0">
                                 <li class="g-mb-25">
                                     <a href="#"><img class="g-w-25 g-mr-24" src="images/ic-facebook.svg"> <span class="g-ff-museo-500 g-fs-14 g-cl-text-gray">Facebook</span></a>
@@ -802,7 +825,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="g-h-100p g-d-flex g-jus-end g-items-end">
-                            <p class="g-ff-museo-500 g-fs-12 g-cl-text-gray g-mb-0">Kuwait Society for Humanitarian ©2019, All Right Reserved</p>
+                            <p class="g-ff-museo-500 g-fs-12 g-cl-text-gray g-mb-0">الجمعية الكويتية للعمل الإنساني. جميع الحقوق محفوظة</p>
                         </div>
                     </div>
                 </div>
@@ -812,7 +835,6 @@
     <!--end:footer-->
 
     <!--start:javascript-->
-    <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/kshw.js"></script>

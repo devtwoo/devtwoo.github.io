@@ -1,13 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html dir="rtl" lang="ar">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>MyProfile | KSHW</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/floating-wpp.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/alds-global.css">
     <link rel="stylesheet" href="css/kshw.css">
+    <link rel="stylesheet" href="css/floating-wpp.min.css">
 </head>
 
 <body>
@@ -38,11 +41,11 @@
                             <div class="dropdown">
                                 <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <img src="images/ic-globe.svg">
-                                    <span>English</span>
+                                    <span> العربيّة</span>
                                 </a>
 
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="../MyProfile.html">العربيّة</a>
+                                    <a class="dropdown-item" href="eng/MyProfile.html">English</a>
                                 </div>
                             </div>
                         </div>
@@ -66,8 +69,8 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownUser">
-                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLoginHeader">Login</a>
-                                    <a class="dropdown-item" href="MyProfile.html">My Profiles</a>
+                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLoginHeader">تسجيل الدخول</a>
+                                    <a class="dropdown-item" href="MyProfile.html">المعلومات الشخصية</a>
                                 </div>
                             </div>
                         </div>
@@ -81,16 +84,16 @@
                     <div class="navbar-nav">
                         <ul class="list-unstyled">
                             <li>
-                                <a href="index.html">HOME</a>
+                                <a href="index.html">الرئيسية</a>
                             </li>
                             <li>
-                                <a href="projects.html">PROJECTS</a>
+                                <a href="projects.html">المشاريع</a>
                             </li>
                             <li>
-                                <a href="about.html">ABOUT US</a>
+                                <a href="about.html">من نحن </a>
                             </li>
-                            <li>
-                                <a href="contact.html">CONTACT</a>
+                            <li class="active">
+                                <a href="contact.html">تواصل معنا</a>
                             </li>
                         </ul>
                     </div>
@@ -102,10 +105,10 @@
                             <div class="input-group-prepend">
                                 <img src="images/ic-search.svg">
                             </div>
-                            <input type="text" class="form-control" placeholder="Search Project">
+                            <input type="text" class="form-control" placeholder="ابحث عن مشروع للتبرع">
                             <a href="#"><img src="images/ic-close-white.svg"></a>
                             <div class="input-group-append">
-                                <a href="search.html" class="btn btn-search">SEARCH</a>
+                                <a href="search.html" class="btn btn-search">بحث</a>
                             </div>
                         </div>
                     </div>
@@ -135,8 +138,8 @@
                     </a>
 
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownUser">
-                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLoginHeader">Login</a>
-                        <a class="dropdown-item" href="MyProfile.html">My Profiles</a>
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalLoginHeader">تسجيل الدخول</a>
+                        <a class="dropdown-item" href="MyProfile.html">المعلومات الشخصية</a>
                     </div>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -148,24 +151,24 @@
                     <div class="input-group-prepend">
                         <img src="images/ic-search.svg">
                     </div>
-                    <input type="text" class="form-control" placeholder="Search Project">
+                    <input type="text" class="form-control" placeholder="ابحث عن مشروع للتبرع">
                     <a href="#"><img src="images/ic-close-white.svg"></a>
                     <div class="input-group-append">
-                        <a href="search.html" class="btn btn-search">SEARCH</a>
+                        <a href="search.html" class="btn btn-search">بحث</a>
                     </div>
                 </div>
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">HOME</a>
+                        <a class="nav-link" href="index.html">الرئيسية</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="projects.html">PROJECTS</a>
+                        <a class="nav-link" href="projects.html">المشاريع</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">ABOUT US</a>
+                        <a class="nav-link" href="about.html">من نحن </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
+                        <a class="nav-link" href="contact.html">تواصل معنا</a>
                     </li>
                 </ul>
                 <div class="navbar-mobile-bottom d-flex justify-content-between">
@@ -189,11 +192,11 @@
                     <div class="dropdown">
                         <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <img src="images/ic-globe.svg">
-                            <span>English</span>
+                            <span>العربيّة</span>
                         </a>
 
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item" href="../MyProfile.html">العربيّة</a>
+                            <a class="dropdown-item" href="eng/MyProfile.html">English</a>
                         </div>
                     </div>
                 </div>
@@ -218,29 +221,29 @@
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
-                                <h4>Login To Your Account</h4>
+                                <h4>تسجيل الدخول - إنشاء حساب جديد</h4>
                                 <form action="">
                                     <div class="form-group">
-                                        <label for="emailLogin">Email Address</label>
+                                        <label for="emailLogin">البريد الإلكتروني</label>
                                         <input type="email" class="form-control" id="emailLogin">
                                     </div>
                                     <div class="form-group">
-                                        <label for="passwordLogin">Password</label>
+                                        <label for="passwordLogin">كلمة المرور</label>
                                         <input type="password" class="form-control" id="passwordLogin">
                                     </div>
                                     <div class="form-row">
                                         <div class="form-group col-6 form-check text-left">
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                            <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                                            <label class="form-check-label" for="exampleCheck1">تذكر بياناتي</label>
                                         </div>
                                         <div class="form-group col-6 text-right">
-                                            <a href="#">Lost your password?</a>
+                                            <a href="#">هل نسيت كلمة المرور؟</a>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <a href="#" class="btn btn-primary btn-block">LOG IN</a>
+                                        <a href="#" class="btn btn-primary btn-block">تسجيل الدخول</a>
                                     </div>
-                                    <a href="#" class="btn btn-outline-primary btn-block">REGISTER</a>
+                                    <a href="#" class="btn btn-outline-primary btn-block">سجّل</a>
                                 </form>
                             </div>
                         </div>
@@ -250,6 +253,26 @@
         </div>
     </div>
     <!--end:modal login header-->
+
+    <!--start:Floating WA-->
+    <div id="WAButton"></div>
+
+    <script type="text/javascript">
+        $(function() {
+            $('#WAButton').floatingWhatsApp({
+                phone: '+96597222540', //WhatsApp Business phone number
+                headerTitle: 'تواصل معنا عن طريق واتس آب', //Popup Title
+                popupMessage: 'مرحبا ، كيف يمكننا مساعدتك ؟', //Popup Message
+                showPopup: true, //Enables popup display
+                buttonImage: '<img src="images/wa-ico.svg" />', //Button Image
+                //headerColor: 'crimson', //Custom header color
+                //backgroundColor: 'crimson', //Custom background button color
+                position: "right" //Position: left | right
+
+            });
+        });
+    </script>
+    <!--end:Floating WA-->
 
     <!--start: myProfile -->
     <section id="myProfile" class="myProfile">
@@ -261,55 +284,55 @@
                             <img class="pp" src="images/pp.png">
                             <h4>John Doel</h4>
                             <div class="ln"></div>
-                            <a href="#" class="g-ff-museo-700 g-fs-16 g-cl-gray-myproac g-d-flex g-items-center click">
+                            <a href="#" class="g-ff-museo-300 g-fs-16 g-cl-gray-myproac g-d-flex g-items-center click">
                                 <img src="images/personal-icon-act.svg">
-                                <span class="g-ml-15">Personal Information</span>
+                                <span class="g-mr-15">المعلومات الشخصية</span>
                             </a>
-                            <a href="MyProfile-history.html" class="g-ff-museo-700 g-fs-16 g-cl-gray-myproin g-d-flex g-items-center click">
+                            <a href="MyProfile-history.html" class="g-ff-museo-300 g-fs-16 g-cl-gray-myproin g-d-flex g-items-center click">
                                 <img src="images/bill-icon-in.svg">
-                                <span class="g-ml-15">My Charity History</span>
+                                <span class="g-mr-15">تاريخ الجمعية الخيري</span>
                             </a>
-                            <a href="MyProfile-Reports.html" class="g-ff-museo-700 g-fs-16 g-cl-gray-myproin g-d-flex g-items-center click">
+                            <a href="MyProfile-Reports.html" class="g-ff-museo-300 g-fs-16 g-cl-gray-myproin g-d-flex g-items-center click">
                                 <img src="images/comp-reports-icon.svg">
-                                <span class="g-ml-15">Project Reports</span>
+                                <span class="g-mr-15">التقرير المشروع</span>
                             </a>
                             <div class="ln"></div>
-                            <a href="#" class="g-ff-museo-700 g-fs-16 g-cl-gray-myproin g-d-flex g-items-center click">
+                            <a href="#" class="g-ff-museo-300 g-fs-16 g-cl-gray-myproin g-d-flex g-items-center click">
                                 <img src="images/signout.svg">
-                                <span class="g-ml-15">Sign Out</span>
+                                <span class="g-mr-15">تسجيل الخروج</span>
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-8 offset-lg-1 col-md-12 col-sm-12">
+                    <div class="col-lg-8 offset-rg-1 col-md-12 col-sm-12">
                         <div class="cart-donation-list">
-                            <div class="heading text-left g-mb-70">
-                                <h4>Personal Information</h4>
-                                <p>Here you can change your name, email or password.</p>
+                            <div class="heading text-right g-mb-70">
+                                <h4>المعلومات الشخصية</h4>
+                                <p>هنا يمكنك تغيير اسمك وبريدك الإلكتروني أو كلمة المرور.</p>
                             </div>
                             <form action="">
                                 <div class="form-row">
                                     <div class="form-group col-md-6 col-sm-12 g-mb-25">
-                                        <label for="firstName">First Name</label>
+                                        <label for="firstName">الاسم الأول</label>
                                         <input type="text" class="form-control" id="firstName">
                                     </div>
                                     <div class="form-group col-md-6 col-sm-12 g-mb-25">
-                                        <label for="lastName">Last Name</label>
+                                        <label for="lastName">الاسم الأخير</label>
                                         <input type="text" class="form-control" id="lastName">
                                     </div>
                                     <div class="form-group col-md-6 col-sm-12 g-mb-25">
-                                        <label for="emailLogin">Email Address</label>
+                                        <label for="emailLogin">البريد الإلكتروني</label>
                                         <input type="email" class="form-control" id="emailLogin">
                                     </div>
                                     <div class="form-group col-md-4 col-sm-12 g-mt-30">
-                                        <a href="#" class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#cartLogin">Change Password</a>
+                                        <a href="#" class="btn btn-outline-primary btn-block" data-toggle="modal" data-target="#cartLogin">تغيير كلمة المرور</a>
                                     </div>
                                 </div>
                                 <div class="form-row g-mt-50">
                                     <div class="col-md-3 col-sm-12">
-                                        <a href="#" class="btn btn-secondary btn-block g-mb-25">Update</a>
+                                        <a href="#" class="btn btn-secondary btn-block g-mb-25">تحديث</a>
                                     </div>
                                     <div class="col-md-3 col-sm-12">
-                                        <a href="#" class="btn btn-gray btn-block">cancel</a>
+                                        <a href="#" class="btn btn-gray btn-block">إلغاء</a>
                                     </div>
 
                                 </div>
@@ -370,46 +393,46 @@
                 <div class="row">
                     <div class="col-lg-5 col-md-6 col-sm-12">
                         <div>
-                            <h4 class="g-ff-museo-700 g-fs-20 g-mb-30 g-cl-white">KUWAIT SOCIETY FOR HUMANITARIAN WORK</h4>
-                            <p class="g-ff-museo-500 g-fs-12 g-lh-27 g-cl-text-gray g-mb-0">The Kuwaiti Humanitarian Society was declared by Ministerial Decree No. (72 / A) of 2016 and in accordance with the provisions of Law No. 24 of 1962 of the Ministry of Social Affairs and Labor.</p>
+                            <h4 class="g-ff-museo-700 g-fs-20 g-mb-30 g-cl-white">الجمعية الكويتية للعمل الإنساني</h4>
+                            <p class="g-ff-museo-500 g-fs-12 g-lh-27 g-cl-text-gray g-mb-0">تم إشهار الجمعية الكويتية للعمل الانساني بموجب قرار وزاري رقم (72/أ) لسنة 2016 ووفقا لأحكام القانون رقم 24 لسنة 1962 لوزارة الشئون الاجتماعية والعمل. </p>
                         </div>
                     </div>
-                    <div class="col-lg-2 offset-lg-1 col-md-6 col-sm-12">
+                    <div class="col-lg-2 offset-rg-1 col-md-6 col-sm-12">
                         <div>
-                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">CONTACT US</h4>
+                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">تواصل معنا</h4>
                             <ul class="list-unstyled g-pl-0 g-mb-0 g-ml-0">
                                 <li class="g-mb-21">
                                     <a href="#" class="g-ff-museo-500 g-fs-14 g-cl-text-gray">Info@kshw.org.kw</a>
                                 </li>
                                 <li>
                                     <address class="g-ff-museo-500 g-fs-14 g-lh-36 g-cl-text-gray g-mb-21">
-                                        Kuwait - shamiyah<br>
-                                        block 4 <br>
-                                        near Altabtabaey mosque
-                                </address>
+                                        ‏الكويت الشامية <br>
+                                        قطعة 4 <br>
+                                        بجانب مسجد الطبطبائي
+                            </address>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12">
                         <div>
-                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">GET STARTED</h4>
+                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">ابدأ الآن</h4>
                             <ul class="list-unstyled g-pl-0 g-ml-0 g-pl-0">
                                 <li class="g-mb-20">
-                                    <a href="#" class="g-ff-museo-700 g-fs-14 g-cl-text-gray-light g-tt-upp">PROJECTS</a>
+                                    <a href="#" class="g-ff-museo-500 g-fs-14 g-cl-text-gray-light g-tt-upp">المشاريع</a>
                                 </li>
                                 <li class="g-mb-20">
-                                    <a href="#" class="g-ff-museo-700 g-fs-14 g-cl-text-gray-light g-tt-upp">About Us</a>
+                                    <a href="#" class="g-ff-museo-500 g-fs-14 g-cl-text-gray-light g-tt-upp">من نحن </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="g-ff-museo-700 g-fs-14 g-cl-text-gray-light g-tt-upp">CONTACT</a>
+                                    <a href="#" class="g-ff-museo-500 g-fs-14 g-cl-text-gray-light g-tt-upp">تواصل معنا</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-12">
                         <div class="g-pl-40">
-                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">FOLLOW US</h4>
+                            <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">منصات التواصل</h4>
                             <ul class="list-unstyled g-ml-0 g-pl-0 g-mb-0">
                                 <li class="g-mb-25">
                                     <a href="#"><img class="g-w-25 g-mr-24" src="images/ic-facebook.svg"> <span class="g-ff-museo-500 g-fs-14 g-cl-text-gray">Facebook</span></a>
@@ -436,7 +459,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="g-h-100p g-d-flex g-jus-end g-items-end">
-                            <p class="g-ff-museo-500 g-fs-12 g-cl-text-gray g-mb-0">Kuwait Society for Humanitarian ©2019, All Right Reserved</p>
+                            <p class="g-ff-museo-500 g-fs-12 g-cl-text-gray g-mb-0">الجمعية الكويتية للعمل الإنساني. جميع الحقوق محفوظة</p>
                         </div>
                     </div>
                 </div>
@@ -446,7 +469,6 @@
     <!--end:footer-->
 
     <!--start:javascript-->
-    <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/kshw.js"></script>

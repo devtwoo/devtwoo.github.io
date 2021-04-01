@@ -365,8 +365,17 @@
         </div>
         <div class="container">
             <div class="single-content-detail g-mb-83">
+                <!--div class="bell">
+                    <div class="subscribe-btn">
+                        <input type="checkbox" name="" id="checkbox-sub" class="toggle">
+                        <label for="checkbox-sub">
+                            <span class="on"><img src="images/bell.svg" alt=""></span>
+                            <span class="off"><img src="images/bell.svg" alt=""></span>
+                        </label>
+                    </div>
+                </div-->
                 <div class="single-content-bells">
-                    <img src="images/notify-on.svg">
+                    <img src="images/notify-on.svg" data-toggle="modal" data-target="#modalSubscribe">
                 </div>
                 <ul class="list-unstyled single-content-meta">
                     <li>
@@ -628,6 +637,21 @@
             </div>
         </div>
     </div>
+
+    <div class="modal modal-subscribe fade" id="modalSubscribe" tabindex="-1" aria-labelledby="modalSubscribeLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">SUBSRIBE TO "THIS" PROJECT</h5>
+                </div>
+                <div class="modal-body">
+                    <h5 class="body-caption">We will keep you updated!</h5>
+                    <p>We will send you project report and keep you up to date through your email user@emailaddress.com</p>
+                    <a href="#" class="btn btn-primary btn-block">UNSUBSRIBE</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--end:modal-->
 
     <!--start:project Similiar-->
@@ -780,13 +804,13 @@
                             <h4 class="g-ff-museo-700 g-fs-20 g-cl-white g-mb-38">CONTACT US</h4>
                             <ul class="list-unstyled g-pl-0 g-mb-0 g-ml-0">
                                 <li class="g-mb-21">
-                                    <a href="#" class="g-ff-museo-500 g-fs-14 g-cl-text-gray">hello@kshw.com</a>
+                                    <a href="#" class="g-ff-museo-500 g-fs-14 g-cl-text-gray">Info@kshw.org.kw</a>
                                 </li>
                                 <li>
                                     <address class="g-ff-museo-500 g-fs-14 g-lh-36 g-cl-text-gray g-mb-21">
-                                    121 n 9th st <br>
-                                    Boise, ID 84702 <br>
-                                    Kuwait
+                                        Kuwait - shamiyah<br>
+                                        block 4 <br>
+                                        near Altabtabaey mosque
                                 </address>
                                 </li>
                             </ul>

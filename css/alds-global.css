@@ -9243,7 +9243,7 @@
 }
 
 .g-mr-23 {
-    margin-left: 23px !important
+    margin-right: 23px !important
 }
 
 .g-mr-min-23 {
@@ -9303,7 +9303,7 @@
 }
 
 .g-mr-24 {
-    margin-left: 24px !important
+    margin-right: 24px !important
 }
 
 .g-mr-min-24 {
@@ -10743,7 +10743,7 @@
 }
 
 .g-mr-48 {
-    margin-left: 48px !important
+    margin-right: 48px !important
 }
 
 .g-mr-min-48 {
@@ -12543,7 +12543,7 @@
 }
 
 .g-mr-78 {
-    margin-left: 78px !important
+    margin-right: 78px !important
 }
 
 .g-mr-min-78 {
@@ -82549,7 +82549,7 @@
 }
 
 .g-pl-40 {
-    padding-right: 40px !important
+    padding-left: 40px !important
 }
 
 .g-px-40 {
@@ -84341,7 +84341,7 @@
 }
 
 .g-pr-100 {
-    padding-right: 45px !important
+    padding-right: 100px !important
 }
 
 .g-pb-100 {
@@ -110206,7 +110206,7 @@
 }
 
 .g-invisible {
-    visibility: !important
+    visibility: hidden!important
 }
 
 .g-ws-normal {
@@ -110933,7 +110933,7 @@
 }
 
 .g-fs-20 {
-    font-size: 32px !important
+    font-size: 20px !important
 }
 
 .g-fs-24 {
@@ -112754,16 +112754,16 @@
     color: #183B56 !important
 }
 
+.g-cl-gray {
+    color: #5A7184 !important
+}
+
 .g-cl-gray-myproin {
     color: rgb(160, 160, 160) !important
 }
 
 .g-cl-gray-myproac {
     color: rgb(47, 77, 96) !important
-}
-
-.g-cl-gray {
-    color: #5A7184 !important
 }
 
 .g-cl-gray-01 {

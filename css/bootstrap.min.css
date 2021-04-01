@@ -69,7 +69,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    text-align: right;
+    text-align: left;
     background-color: #fff
 }
 
@@ -464,7 +464,7 @@ mark {
 }
 
 .list-unstyled {
-    padding-right: 0;
+    padding-left: 0;
     list-style: none
 }
 
@@ -1564,17 +1564,11 @@ pre code {
     .offset-lg-1 {
         margin-left: 8.333333%
     }
-    .offset-rg-1 {
-        margin-right: 8.333333%
-    }
-    .offset-rg-2 {
-        margin-left: 16.666667%;
-    }
     .offset-lg-2 {
-        margin-right: 16.666667%
+        margin-left: 16.666667%
     }
     .offset-lg-3 {
-        margin-right: 25%
+        margin-left: 25%
     }
     .offset-lg-4 {
         margin-left: 33.333333%
@@ -2332,13 +2326,13 @@ textarea.form-control {
 .form-check {
     position: relative;
     display: block;
-    padding-right: 1.25rem
+    padding-left: 1.25rem
 }
 
 .form-check-input {
     position: absolute;
     margin-top: .3rem;
-    margin-right: -1.25rem
+    margin-left: -1.25rem
 }
 
 .form-check-input:disabled~.form-check-label,
@@ -3432,7 +3426,7 @@ input[type=submit].btn-block {
 
 .dropdown-toggle::after {
     display: inline-block;
-    margin-right: .255em;
+    margin-left: .255em;
     vertical-align: .255em;
     content: "";
     border-top: .3em solid;
@@ -3451,7 +3445,7 @@ input[type=submit].btn-block {
     left: 0;
     z-index: 1000;
     display: none;
-    float: right;
+    float: left;
     min-width: 10rem;
     padding: .5rem 0;
     margin: .125rem 0 0;
@@ -3471,8 +3465,8 @@ input[type=submit].btn-block {
 }
 
 .dropdown-menu-right {
-    right: auto;
-    left: 0;
+    right: 0;
+    left: auto
 }
 
 @media (min-width:576px) {
@@ -3915,7 +3909,7 @@ input[type=submit].btn-block {
 }
 
 .input-group-append {
-    margin-right: 10px
+    margin-left: -1px
 }
 
 .input-group-text {
@@ -4614,7 +4608,7 @@ input[type=submit].btn-block {
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding-right: 0;
+    padding-left: 0;
     margin-bottom: 0;
     list-style: none
 }
@@ -8625,7 +8619,7 @@ button.bg-dark:hover {
 
 .mr-5,
 .mx-5 {
-    margin-left: 3rem!important
+    margin-right: 3rem!important
 }
 
 .mb-5,

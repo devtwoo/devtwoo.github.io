@@ -3617,7 +3617,7 @@ textarea {
 }
 
 .the-mission .content-left ul li .number {
-    margin-right: 21px
+    margin-left: 21px
 }
 
 .the-mission .content-middle {
@@ -3641,11 +3641,13 @@ textarea {
 }
 
 .the-mission .content-right ul li {
-    text-align: right
+    text-align: left;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .the-mission .content-right ul li .number {
-    margin-left: 21px
+    margin-right: 21px
 }
 
 @media (max-width: 575.98px) {
